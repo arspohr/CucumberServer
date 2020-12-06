@@ -1,0 +1,65 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6EpicEnchants&8]'
+command:
+  book:
+
+    # Command Messages
+    received: '&7Dir wurde ein &6{enchant}&r &7Buch gegeben.'
+    gave: '&7Du hast dem Spieler &6{player} &7ein &6{enchant}&r &7Buch gegeben.'
+    maxlevel: '&cDie maximale Stufe für &4{enchant}&r &cist &4{max_level}&c.'
+    minlevel: '&cDie niedrigste Stufe für &4{enchant}&r &cist &41&c.'
+  randombook:
+    received: '&7Dir wurde ein zufälliges Buch gegeben.'
+    gave: '&7Du hast dem Spieler &6{player} &7ein zufälliges Buch gegeben.'
+  whitescroll:
+    received: '&7Du hast eine weiße Schriftrolle erhalten.'
+    gave: '&7Du hast &6{player} &7eine weiße Schriftrolle gegeben.'
+  apply:
+    invaliditem: '&cDu kannst die Verzauberung &4{enchant}&r &cnicht auf diesen Gegenstand anwenden.'
+  reload: '&7Konfigurationsdateien wurden neu geladen.'
+  giveunknown: '&cUnbekannter Gegenstand zu geben &4{unknown}&c.'
+  dust:
+    gave: '&7Gab &6{group} STAUB &7an &6{player}&7.'
+    received: '&7Du hast &6{group} STAUB &7erhalten.'
+blackscroll:
+
+  # Event Messages
+  success: '&6{group_color}{enchant}&r&6 {level}&7 erfolgreich entfernt.'
+  noenchants: '&cEs gibt keine Verzauberungen zum Entfernen.'
+whitescroll:
+  alreadyapplied: '&cDieser Gegenstand ist bereits geschützt!'
+  applied: '&7Dieser Gegenstand ist jetzt geschützt!'
+enchanter:
+  cannotafford: '&cDu kannst dir diesen Kauf nicht leisten.'
+  success: '&6{group_color}{group_name} &7Buch für &6{exp_cost} Erfahrung &7gekauft.'
+tinkerer:
+  open: '&7Handle mit dem Bastler.'
+  cancelled: '&cAbgebrochen.'
+  accepted: '&7Akzeptiert.'
+  noitems: '&cDer Bastler ist an deinen Gegenständen nicht interessiert...'
+  depositedall: '&7{amount} Gegenstände hinterlegt.'
+alchemist:
+  maxtwoitems: '&cDu darfst nur &42 &cGegenstände auf einmal kombinieren...'
+  notinterested: '&cDer Alchemist ist an ihren Gegenständen nicht interessiert...'
+  maxlevelbook: '&cDer Alchemist kann Bücher mit der maximaler Stufe nicht kombinieren...'
+  maxpercentagedust: '&cDer Alchemist kann kein Staub mit 100% Wahrscheinlichkeit kombinieren...'
+  highestgroupdust: '&cDer Alchemist akzeptiert kein Staub der höchsten Stufe.'
+  differentenchantment: '&cDer Alchemist kann nur Bücher mit den gleichen Verzauberungen kombinieren...'
+  differentlevels: '&cDer Alchemist kann nur Bücher der gleichen Stufe kombinieren...'
+  differentgroups: '&cDer Alchemist kann nur Staub der gleichen Gruppe kombinieren...'
+  cannotafford: '&cDu kannst dir diesen Handel nicht leisten...'
+  success: '&7Ausgetauscht für &6{exp_cost} &7Erfahrung.'
+enchants:
+  invalidmaterial: '&cDu kannst die Verzauberung &4{enchant}&r &cauf diesen Gegenstand nicht anwenden...'
+  failure: '&cDie Verzauberung &4{enchant}&r &cist beim Anwendungsversuch fehlgeschlagen...'
+  brokenfailure: '&cDie Verzauberung &4{enchant}&r &cist beim Anwendungsversuch fehlgeschlagen und zerstörte deinen Gegenstand...'
+  conflict: '&cDu kannst diese Verzauberung nicht anwenden, da sie mit einer anderen Verzauberung in Konflikt steht...'
+  maxedout: '&cDu hast schon die höchste Stufe dieser Verzauberung auf deinem Gegenstand...'
+  alreadyapplied: '&cDu hast schon diese Verzauberung auf deinem Gegenstand.'
+  protected: '&7Dieses Buch hätte deinen Gegenstand zerstört, glücklicherweise wurde er geschützt!'
+  success: '&7Du hast die Verzauberung &6{enchant}&r &7erfolgreich angewendet.'
+book:
+  discover: '&7Du untersuchst das Verzauberungsbuch der &6{group_color}{group_name}, und entdeckst &6{enchant_format}&7!'

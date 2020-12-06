@@ -1,0 +1,10 @@
+loja:
+  Location: world;4955.1;72.0;4970.8;223.22;-1.2
+  ShowWithNoPerm: true
+  Creator: 8edc9157-418f-342b-9eb1-38df10bf8234
+  Item:
+    v: 2584
+    type: GOLD_INGOT
+spawn:
+  Location: world;-12.25;68.0;-48.93;2.69;0.14
+  Creator: db951439-4ea6-3caf-b329-52673f399661

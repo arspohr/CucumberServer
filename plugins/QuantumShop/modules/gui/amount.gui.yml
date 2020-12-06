@@ -1,0 +1,209 @@
+BUY:
+  title: '&0Buying'
+  size: 54
+  item-slot: 22
+  buttons:
+    accept:
+      material: EMERALD
+      name: '&a&lAccept'
+      lore:
+      - '&aSelected Quantity: &f%amount-total% &7(&f%stacks%x%amount%&7)'
+      - '&eFinal Price: &6%price%%currency%'
+      - '&eBalance: &6%balance%%currency%'
+      slots: 43
+      type: ACCEPT
+    cancel:
+      material: BARRIER
+      name: '&c&lCancel'
+      lore: []
+      slots: 37
+      type: CANCEL
+    add-1:
+      material: LIME_STAINED_GLASS_PANE
+      name: '&a[Add] &2+1'
+      lore: []
+      amount: 1
+      slots: 24
+      type: ADD
+    add-16:
+      material: LIME_STAINED_GLASS_PANE
+      name: '&a[Add] &2+16'
+      lore: []
+      amount: 16
+      slots: 25
+      type: ADD
+    add-32:
+      material: LIME_STAINED_GLASS_PANE
+      name: '&a[Add] &2+32'
+      lore: []
+      amount: 32
+      slots: 26
+      type: ADD
+    take-1:
+      material: RED_STAINED_GLASS_PANE
+      name: '&c[Deduct] &4-1'
+      lore: []
+      amount: 1
+      slots: 18
+      type: TAKE
+    take-16:
+      material: RED_STAINED_GLASS_PANE
+      name: '&c[Deduct] &4-16'
+      lore: []
+      amount: 16
+      slots: 19
+      type: TAKE
+    take-32:
+      material: RED_STAINED_GLASS_PANE
+      name: '&c[Deduct] &4-32'
+      lore: []
+      amount: 32
+      slots: 20
+      type: TAKE
+    set-1:
+      material: CYAN_STAINED_GLASS_PANE
+      name: '&b[Set] &31'
+      lore: []
+      amount: 1
+      slots: 3
+      type: SET
+    set-32:
+      material: CYAN_STAINED_GLASS_PANE
+      name: '&b[Set] &332'
+      lore: []
+      amount: 32
+      slots: 4
+      type: SET
+    set-64:
+      material: CYAN_STAINED_GLASS_PANE
+      name: '&b[Set] &364'
+      lore: []
+      amount: 64
+      slots: 5
+      type: SET
+    stack-1:
+      material: CHEST
+      name: '&6[Stack] &e1 stack'
+      lore: []
+      amount: 1
+      slots: 39
+      type: STACK
+    stack-3:
+      material: CHEST
+      name: '&6[Stack] &e3 stacks'
+      lore: []
+      amount: 3
+      slots: 40
+      type: STACK
+    stack-5:
+      material: CHEST
+      name: '&6[Stack] &e5 stacks'
+      lore: []
+      amount: 5
+      slots: 41
+      type: STACK
+
+SELL:
+  title: '&0Selling'
+  size: 54
+  item-slot: 22
+  buttons:
+    accept:
+      material: EMERALD
+      name: '&a&lAccept'
+      lore:
+      - '&aSelected Quantity: &f%amount-total% &7(&f%stacks%x%amount%&7)'
+      - '&eFinal Price: &6%price%%currency%'
+      - '&eBalance: &6%balance%%currency%'
+      slots: 43
+      type: ACCEPT
+    cancel:
+      material: BARRIER
+      name: '&c&lCancel'
+      lore: []
+      slots: 37
+      type: CANCEL
+    add-1:
+      material: LIME_STAINED_GLASS_PANE
+      name: '&a[Add] &2+1'
+      lore: []
+      amount: 1
+      slots: 24
+      type: ADD
+    add-16:
+      material: LIME_STAINED_GLASS_PANE
+      name: '&a[Add] &2+16'
+      lore: []
+      amount: 16
+      slots: 25
+      type: ADD
+    add-32:
+      material: LIME_STAINED_GLASS_PANE
+      name: '&a[Add] &2+32'
+      lore: []
+      amount: 32
+      slots: 26
+      type: ADD
+    take-1:
+      material: RED_STAINED_GLASS_PANE
+      name: '&c[Deduct] &4-1'
+      lore: []
+      amount: 1
+      slots: 18
+      type: TAKE
+    take-16:
+      material: RED_STAINED_GLASS_PANE
+      name: '&c[Deduct] &4-16'
+      lore: []
+      amount: 16
+      slots: 19
+      type: TAKE
+    take-32:
+      material: RED_STAINED_GLASS_PANE
+      name: '&c[Deduct] &4-32'
+      lore: []
+      amount: 32
+      slots: 20
+      type: TAKE
+    set-1:
+      material: CYAN_STAINED_GLASS_PANE
+      name: '&b[Set] &31'
+      lore: []
+      amount: 1
+      slots: 3
+      type: SET
+    set-32:
+      material: CYAN_STAINED_GLASS_PANE
+      name: '&b[Set] &332'
+      lore: []
+      amount: 32
+      slots: 4
+      type: SET
+    set-64:
+      material: CYAN_STAINED_GLASS_PANE
+      name: '&b[Set] &364'
+      lore: []
+      amount: 64
+      slots: 5
+      type: SET
+    stack-1:
+      material: CHEST
+      name: '&6[Stack] &e1 stack'
+      lore: []
+      amount: 1
+      slots: 39
+      type: STACK
+    stack-3:
+      material: CHEST
+      name: '&6[Stack] &e3 stacks'
+      lore: []
+      amount: 3
+      slots: 40
+      type: STACK
+    stack-5:
+      material: CHEST
+      name: '&6[Stack] &e5 stacks'
+      lore: []
+      amount: 5
+      slots: 41
+      type: STACK

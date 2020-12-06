@@ -1,0 +1,31 @@
+panels:
+  panel-1:
+    perm: default
+    rows: 3
+    title: '&8Generated panel-1'
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '10':
+        material: WOODEN_SWORD
+        stack: 1
+        name: ''
+      '11':
+        material: STONE_SHOVEL
+        stack: 1
+        name: ''
+      '12':
+        material: STONE_AXE
+        stack: 1
+        name: ''
+      '13':
+        material: STONE_HOE
+        stack: 1
+        name: ''
+      '14':
+        material: BREAD
+        stack: 3
+        name: ''
+      '15':
+        material: LEATHER_HELMET
+        stack: 1
+        name: ''

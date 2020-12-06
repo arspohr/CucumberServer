@@ -1,0 +1,64 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6EpicEnchants&8]'
+# Command Messages
+command:
+  book:
+    received: '&7Você recebeu um &6{enchant}&r &7livro.'
+    gave: '&7Você deu ao &6{player} &7a &6{enchant}&r &7livro.'
+    maxlevel: '&cO nível máximo para &4{enchant}&r &cis &4{max_level}&c.'
+    minlevel: '&cO nível mínimo para &4{enchant}&r &cis &41&c.'
+  randombook:
+    received: '&7Você recebeu um livro aleatório.'
+    gave: '&7Você recebeu &6{player} &7um livro aleatório.'
+  whitescroll:
+    received: '&7Você recebeu um pergaminho branco.'
+    gave: '&7Você deu ao &6{player} &7um pergaminho branco.'
+  apply:
+    invaliditem: '&cVocê não pode aplicar o &4{enchant}&r &ca este item.'
+  reload: '&7Arquivos de configuração recarregados.'
+  giveunknown: '&cItem desconhecido para dar &4{unknown}&c.'
+  dust:
+    gave: '&7Foi dado &6{group} &7poeira para &6{player}&7.'
+    received: '&7Você recebeu &6{group} &7poeira.'
+# Event Messages
+blackscroll:
+  success: '&7Pergaminho negro efetuado com sucesso. &6{group_color}{enchant}&r&6 {level}&7.'
+  noenchants: '&cNenhum encantamento para o Pergaminho Negro.'
+whitescroll:
+  alreadyapplied: '&cEste item já está protegido!'
+  applied: '&7Este item agora está protegido!'
+enchanter:
+  cannotafford: '&cVocê não pode pagar por isso.'
+  success: '&7Livro &6{group_color}{group_name} &7comprado por &6{exp_cost} experiência&7.'
+tinkerer:
+  open: '&7Trocando com o funileiro.'
+  cancelled: '&cCancelado.'
+  accepted: '&7Aceito.'
+  noitems: '&cO funileiro não está interessado em nenhum de seus itens...'
+  depositedall: '&7Itens depositados {amount} .'
+alchemist:
+  maxtwoitems: '&cVocê só pode combinar &42 &citens de uma vez...'
+  notinterested: '&cO alquimista não está interessado em nenhum de seus itens...'
+  maxlevelbook: '&cO alquimista não pode combinar livros de níveis máximos...'
+  maxpercentagedust: '&cO alquimista não pode combinar com 100% de taxa de sucesso a poeira...'
+  highestgroupdust: '&cO alquimista não pode aceitar poeira do nível mais alto.'
+  differentenchantment: '&cO alquimista só pode combinar livros de mesmo encantamento...'
+  differentlevels: '&cO alquimista só pode combinar livros de mesmo nível...'
+  differentgroups: '&cO alquimista só pode combinar poeira de mesmo grupo...'
+  cannotafford: '&cVocê não pode pagar por essa troca...'
+  success: '&7Trocado por &6{exp_cost} &7experiência.'
+enchants:
+  invalidmaterial: '&cVocê não pode aplicar o &4{enchant}&r &c para esse item...'
+  failure: '&4{enchant}&r &cfalhou ao aplicar...'
+  brokenfailure: '&4{enchant}&r &cfalhou ao aplicar e seu item foi quebrado...'
+  conflict: '&cVocê não pode aplicar esse encantamento porque existe conflito com outro...'
+  maxedout: '&cVocê já tem o encantamento máximo para este item...'
+  alreadyapplied: '&cVocê já tem este encantamento aplicado no item.'
+  protected: '&7Este livro teria quebrado seu item, por sorte ele foi protegido!'
+  success: '&7Você aplicou com sucesso o &6{enchant}&r&7.'
+  maxallowed: '&cVocê não pode aplicar mais de &4{max_enchants} &cencantamentos!'
+book:
+  discover: '&7Você examinou o &6{group_color}{group_name} &7livro de encantamentos, e descobriu &6{enchant_format}&7!'

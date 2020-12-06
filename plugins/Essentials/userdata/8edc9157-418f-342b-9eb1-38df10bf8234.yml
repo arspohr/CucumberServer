@@ -1,0 +1,24 @@
+lastlocation:
+  world: world
+  x: 4954.650178436084
+  y: 95.7374674642751
+  z: 4956.326450409359
+  yaw: 259.219
+  pitch: 35.250034
+timestamps:
+  logout: 1607203188586
+  login: 1607201414743
+  kits:
+    firework: 1607137773353
+    nb: 1607201418145
+  lastteleport: 1607189007791
+lastAccountName: Arthop
+ipAddress: 127.0.0.1
+money: '3940.0'
+logoutlocation:
+  world: world
+  x: 4965.3849791652065
+  y: 89.99612561400392
+  z: 4968.773124779873
+  yaw: -180.12744
+  pitch: 32.54999

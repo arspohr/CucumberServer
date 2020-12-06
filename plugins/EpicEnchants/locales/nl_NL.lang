@@ -1,0 +1,64 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6EpicEnchants&8]'
+# Command Messages
+command:
+  book:
+    received: '&7Je hebt een &6{enchant}&r &7boek ontvangen.'
+    gave: '&7YJe hebt &6{player} &7een &6{enchant}&r &7boek gegeven.'
+    maxlevel: '&cHet maximale level voor &4{enchant}&r &cis &4{max_level}&c.'
+    minlevel: '&cHet minimale level voor &4{enchant}&r &cis &41&c.'
+  randombook:
+    received: '&7Je hebt een willekeurig boek gekregen.'
+    gave: '&7Je hebt &6{player} &7een willekeurig boek gegeven.'
+  whitescroll:
+    received: '&7Je hebt een whitescroll gekregen.'
+    gave: '&7Je hebt &6{player} &7een whitescroll gegeven.'
+  apply:
+    invaliditem: '&cJe kunt &4{enchant}&r &cniet op dit item zetten.'
+  reload: '&7Configuratie herladen.'
+  giveunknown: '&cOnbekend item &4{unknown}&c.'
+  dust:
+    gave: '&7&6{group} DUST &7aan &6{player}&7 gegeven.'
+    received: '&7Je hebt &6{group} DUST&7 ontvangen.'
+# Event Messages
+blackscroll:
+  success: '&7Successvol &6{group_color}{enchant}&r&6 {level}&7 geblackscrolled.'
+  noenchants: '&cGeen enchants om te blackscrollen.'
+whitescroll:
+  alreadyapplied: '&cDit item is al beschermd!'
+  applied: '&7Dit item is nu beschermd!'
+enchanter:
+  cannotafford: '&cJe kunt dit niet betalen.'
+  success: '&7&6{group_color}{group_name} &7boek gekocht voor &6{exp_cost} xp&7.'
+tinkerer:
+  open: '&7Ruilen met de tinkerer.'
+  cancelled: '&cGecancelt.'
+  accepted: '&7Geaccepteerd.'
+  noitems: '&cDe tinkerer is niet geïnteresseerd in je items...'
+  depositedall: '&7{amount} items gestort.'
+alchemist:
+  maxtwoitems: '&cJe kunt maximaal &42 &citems per keer combineren...'
+  notinterested: '&cDe alchemist is niet geïnteresseerd in je items...'
+  maxlevelbook: '&cDe alchemist kan geen boeken combineren die het maximale level hebben...'
+  maxpercentagedust: '&cDe alchemist kan geen dust combineren met 100% kans...'
+  highestgroupdust: '&cDe alchemist kan geen dust van het hoogste niveau accepteren.'
+  differentenchantment: '&cDe alchemist kan alleen boeken met dezelfde enchantments combineren...'
+  differentlevels: '&cDe alchemist kan alleen boeken van hetzelfde level combineren...'
+  differentgroups: '&cDe alchemist kan alleen dust van dezelfde groep combineren...'
+  cannotafford: '&cJe kunt dit niet betalen...'
+  success: '&7Uitgewisseld voor &6{exp_cost} &7xp.'
+enchants:
+  invalidmaterial: '&cJe kunt &4{enchant}&r &cniet op dit item zetten...'
+  failure: '&cHet is niet gelukt om &4{enchant}&r &ctoe te passen...'
+  brokenfailure: '&cHet is niet gelukt om &4{enchant}&r &ctoe te passen en het heeft je item gebroken...'
+  conflict: '&cJe kunt deze enchant niet toevoegen omdat deze conflicteert met een andere enchant...'
+  maxedout: '&cJe hebt het maximale level van deze enchant al bereikt op dit item...'
+  alreadyapplied: '&cDeze enchant is al toegevoegd op dit item.'
+  protected: '&7Dit boek zou je item hebben gebroken, gelukkig was het beschermd!'
+  success: '&7Je hebt &6{enchant}&r&7 successvol toegevoegd.'
+  maxallowed: '&cJe kunt niet meer dan &4{max_enchants} &cenchants toevoegen!'
+book:
+  discover: '&7Je onderzoekt het &6{group_color}{group_name} &7enchant boek, en ontdekt &6{enchant_format}&7!'

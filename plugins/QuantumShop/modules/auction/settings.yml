@@ -1,0 +1,42 @@
+command-aliases: auction,auc,ah
+
+settings:
+  date-format: 'MM/dd/yyyy HH:mm:ss'
+  listing-announce: false
+  disabled-worlds:
+  - world1
+  - world_name
+  disabled-gamemodes:
+  - CREATIVE
+  - SPECTATOR
+  price:
+    min: 1.0
+    max: 1000000.0
+    tax: 10.0
+  listings-per-rank:
+    default: 10
+    vip: 15
+    admins: -1
+  storage:
+    expire-in: 604800
+    delete-expired: 604800
+    sales-history: 604800
+    import-from: 'none'
+  items:
+    disabled-materials:
+    - BARRIER
+    - BEDROCK
+    disabled-names:
+    - 'item name'
+    - 'some word'
+    disabled-lores:
+    - 'lore text'
+    - 'some word'
+
+logs:
+  output:
+    file: true
+    console: true
+  format:
+    date: MM/dd/yyyy HH:mm:ss
+    buy: '%player% bought x%amount% %item% for %price%%currency% from %shop%'

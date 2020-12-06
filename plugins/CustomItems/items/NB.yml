@@ -1,0 +1,19 @@
+name: Kit Nb
+item:
+  material: WOODEN_SWORD
+  displayName: Kit Nb
+  lore:
+  - 1x Espada de Madeira
+  - 1x Picareta de Pedra
+  - 1x Pá de Pedra
+  - 1x Machado de Pedra
+  - 1x Enxada de Pedra
+  - 3x Semente de Trigo
+  - 3x Pão
+  - 1x Capacete Toppen
+  nbt: '{Damage:0}'
+canBeUsedGenerically: true
+canBePlaced: false
+enchantable: true
+glows: false
+consumable: false

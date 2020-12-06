@@ -1,0 +1,297 @@
+title: '&9&lMinerals Shop'
+size: 54
+pages: 1
+need-permission: false
+allow-sell: true
+allow-buy: true
+currency: vault
+icon: DIAMOND
+citizens:
+  npc-ids: ''
+
+happy-hours:
+  use-global: true
+  internal:
+    sample:
+      discount: 10.0
+      days:
+      - Monday
+      times:
+      - 12:00-14:00
+      - 16:00-18:00
+    sunday:
+      discount: 20.0
+      days:
+      - Sunday
+      times:
+      - 10:00-15:00
+
+custom-items:
+  next-page:
+    material: ENDER_EYE
+    name: '&dNext Page »'
+    lore: []
+    skull-hash: ''
+    slots: 53
+    type: NEXT
+  prev-page:
+    material: ENDER_EYE
+    name: '&d« Previous Page'
+    lore: []
+    skull-hash: ''
+    slots: 45
+    type: BACK
+  return:
+    material: REDSTONE
+    name: '&cReturn/Exit'
+    lore: []
+    skull-hash: ''
+    slots: '49'
+    type: RETURN
+
+items:
+  '0':
+    item: 2g0004000j9cg01crb9dpim6sj1cpq3kr31e1kn6nrcc5t7ar390400agrfeln78080
+    preview: 2g0004000j9cg01crb9dpim6sj1cpq3kr31e1kn6nrcc5t7ar390400agrfeln78080
+    cmds: []
+    perms: []
+    slot: 4
+    page: 1
+    buy-price: 10.0
+    sell-price: 1.0
+    happy-hours:
+      affect: true
+    limits:
+      BUY:
+        min-amount: -1
+        max-amount: -1
+        expire-time: 0
+      SELL:
+        min-amount: -1
+        max-amount: -1
+        expire-time: 0
+    random-pricing:
+      enabled: false
+      buy-price:
+        min: 10.0
+        max: 20.0
+      sell-price:
+        min: 10.0
+        max: 20.0
+      update-times:
+        days:
+        - Monday
+        - Tuesday
+        times:
+        - '12:00'
+        - '18:00'
+  '1':
+    item: k00010004qb40096qqbeclhn4ob6egt74pb4edq6urj50400agrfeln78080
+    preview: k00010004qb40096qqbeclhn4ob6egt74pb4edq6urj50400agrfeln78080
+    cmds: []
+    perms: []
+    slot: 3
+    page: 1
+    buy-price: 10.0
+    sell-price: 1.0
+    happy-hours:
+      affect: true
+    limits:
+      BUY:
+        min-amount: -1
+        max-amount: -1
+        expire-time: 0
+      SELL:
+        min-amount: -1
+        max-amount: -1
+        expire-time: 0
+    random-pricing:
+      enabled: false
+      buy-price:
+        min: 10.0
+        max: 20.0
+      sell-price:
+        min: 10.0
+        max: 20.0
+      update-times:
+        days:
+        - Monday
+        - Tuesday
+        times:
+        - '12:00'
+        - '18:00'
+  '2':
+    item: 1800020009km800kdlkmspb3e9gmct1qctnmop2vd5n6errk0400agrfeln78080
+    preview: 1800020009km800kdlkmspb3e9gmct1qctnmop2vd5n6errk0400agrfeln78080
+    cmds: []
+    perms: []
+    slot: 2
+    page: 1
+    buy-price: 10.0
+    sell-price: 1.0
+    happy-hours:
+      affect: true
+    limits:
+      BUY:
+        min-amount: -1
+        max-amount: -1
+        expire-time: 0
+      SELL:
+        min-amount: -1
+        max-amount: -1
+        expire-time: 0
+    random-pricing:
+      enabled: false
+      buy-price:
+        min: 10.0
+        max: 20.0
+      sell-price:
+        min: 10.0
+        max: 20.0
+      update-times:
+        days:
+        - Monday
+        - Tuesday
+        times:
+        - '12:00'
+        - '18:00'
+  '4':
+    item: 5000080016ip001pmmirj5cdp62pjk79hmuobc0400agrfeln78080
+    preview: 5000080016ip001pmmirj5cdp62pjk79hmuobc0400agrfeln78080
+    cmds: []
+    perms: []
+    slot: 0
+    page: 1
+    buy-price: 10.0
+    sell-price: 1.0
+    happy-hours:
+      affect: true
+    limits:
+      BUY:
+        min-amount: -1
+        max-amount: -1
+        expire-time: 0
+      SELL:
+        min-amount: -1
+        max-amount: -1
+        expire-time: 0
+    random-pricing:
+      enabled: false
+      buy-price:
+        min: 10.0
+        max: 20.0
+      sell-price:
+        min: 10.0
+        max: 20.0
+      update-times:
+        days:
+        - Monday
+        - Tuesday
+        times:
+        - '12:00'
+        - '18:00'
+  '5':
+    item: 1800020009km800kdlkmspb3e9gmct1qd5p6urivd5n6errk0400agrfeln78080
+    preview: 1800020009km800kdlkmspb3e9gmct1qd5p6urivd5n6errk0400agrfeln78080
+    cmds: []
+    perms: []
+    slot: 1
+    page: 1
+    buy-price: 10.0
+    sell-price: 1.0
+    happy-hours:
+      affect: true
+    limits:
+      BUY:
+        min-amount: -1
+        max-amount: -1
+        expire-time: 0
+      SELL:
+        min-amount: -1
+        max-amount: -1
+        expire-time: 0
+    random-pricing:
+      enabled: false
+      buy-price:
+        min: 10.0
+        max: 20.0
+      sell-price:
+        min: 10.0
+        max: 20.0
+      update-times:
+        days:
+        - Monday
+        - Tuesday
+        times:
+        - '12:00'
+        - '18:00'
+  '6':
+    item: 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78080
+    preview: 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78080
+    cmds: []
+    perms: []
+    slot: 5
+    page: 1
+    buy-price: 10.0
+    sell-price: 1.0
+    happy-hours:
+      affect: true
+    limits:
+      BUY:
+        min-amount: -1
+        max-amount: -1
+        expire-time: 0
+      SELL:
+        min-amount: -1
+        max-amount: -1
+        expire-time: 0
+    random-pricing:
+      enabled: false
+      buy-price:
+        min: 10.0
+        max: 20.0
+      sell-price:
+        min: 10.0
+        max: 20.0
+      update-times:
+        days:
+        - Monday
+        - Tuesday
+        times:
+        - '12:00'
+        - '18:00'
+  784f8853-6330-4ddf-8a5e-33ab8b964e69:
+    item: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78080
+    preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78080
+    cmds: []
+    perms: []
+    slot: 6
+    page: 1
+    buy-price: 10.0
+    sell-price: 1.0
+    happy-hours:
+      affect: true
+    limits:
+      BUY:
+        min-amount: -1
+        max-amount: -1
+        expire-time: 0
+      SELL:
+        min-amount: -1
+        max-amount: -1
+        expire-time: 0
+    random-pricing:
+      enabled: false
+      buy-price:
+        min: 10.0
+        max: 20.0
+      sell-price:
+        min: 10.0
+        max: 20.0
+      update-times:
+        days:
+        - Monday
+        - Tuesday
+        times:
+        - '12:00'
+        - '18:00'

@@ -1,0 +1,65 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6EpicEnchants&8]'
+command:
+  book:
+
+    # Command Messages
+    received: '&7Vous venez de recevoir un livre &6{enchant}&r&7.'
+    gave: '&7Vous avez donné à &6{player} &7un livre &6{enchant}&r&7.'
+    maxlevel: '&cLe niveau maximal pour &4{enchant}&r &cest de &4{max_level}&c.'
+    minlevel: '&cLe niveau minimum pour &4{enchant}&r &cest de &41&c.'
+  randombook:
+    received: '&7Vous venez de recevoir un livre aléatoire.'
+    gave: '&7Vous avez donné à &6{player} &7un livre aléatoire.'
+  whitescroll:
+    received: '&7Vous venez de recevoir un whitescroll.'
+    gave: '&7Vous avez donné à &6{player} &7un whitescroll.'
+  apply:
+    invaliditem: '&cTu ne peux pas mettre l''enchantement &4{enchant}&r &csur cet objet.'
+  reload: '&7Les fichiers de configuration ont été rechargés.'
+  giveunknown: '&cItem donné à l''inconnu &4{unknown}&c.'
+  dust:
+    gave: '&7Donné: &6{group} POUDRES &7à &6{player}&7.'
+    received: '&7Tu as reçu &6{group} POUDRES&7.'
+blackscroll:
+
+  # Event Messages
+  success: '&6{group_color}{enchant}&r&6 {level}&7 blackscrollé avec succès.'
+  noenchants: '&cPas d''enchantement à blackscroller.'
+whitescroll:
+  alreadyapplied: '&cCet objet est déjà protégé!'
+  applied: '&7Cet objet est maintenant protégé!'
+enchanter:
+  cannotafford: '&cVous ne pouvez pas vous permettre d''acheter ceci.'
+  success: '&7Vous avez acheté un livre &6{group_color}{group_name} &7pour &6{exp_cost} points d''expérience&7.'
+tinkerer:
+  open: '&7Échange avec le forgeron.'
+  cancelled: '&cAnnulé.'
+  accepted: '&7Accepté.'
+  noitems: '&cAucun de vos objet n''intéresse le forgeron...'
+  depositedall: '&7Vous avez déposé {amount} items.'
+alchemist:
+  maxtwoitems: '&cVous ne pouvez combiner que &42 &cobjets à la fois...'
+  notinterested: '&cAucun de vos objet n''intéresse l''alchimiste...'
+  maxlevelbook: '&cL''alchimiste ne peut pas combiner de livres de niveau maximal...'
+  maxpercentagedust: '&cL''alchimiste ne peut pas combiner de poussières ayant 100% de taux de réussite...'
+  highestgroupdust: '&cL''alchimiste n''accepte pas les poussières du niveau maximal.'
+  differentenchantment: '&cL''alchimiste ne peut combiner que les livres de même enchantement...'
+  differentlevels: '&cL''alchimiste ne peut combiner que les livres de même niveau...'
+  differentgroups: '&cL''alchimiste ne peut combiner que les poussières de même groupe...'
+  cannotafford: '&cVous ne pouvez pas vous permettre cet échange...'
+  success: '&7Échangé pour &6{exp_cost} &7points d''expérience.'
+enchants:
+  invalidmaterial: '&cVous ne pouvez pas appliquer l''enchantement &4{enchant}&r &csur cet objet...'
+  failure: '&4{enchant}&r &céchec de l''application...'
+  brokenfailure: '&4{enchant}&r &céchec de l''application et destruction de votre objet...'
+  conflict: '&cVous ne pouvez pas appliquer cet enchantement car il entre en conflit avec un autre enchantement....'
+  maxedout: '&cVous avez déjà cet enchantement au niveau maximal sur cet objet...'
+  alreadyapplied: '&cVous avez déjà cet enchantement sur cet objet.'
+  protected: '&7Ce livre a failli casser votre objet mais hereusement, il a été protégé!'
+  success: '&7Vous avez appliqué avec succès &6{enchant}&r&7.'
+book:
+  discover: '&7Vous examinez le livre enchanté &6{group_color}{group_name} &7, et vous découvrez &6{enchant_format}&7!'

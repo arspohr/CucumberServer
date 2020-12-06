@@ -1,0 +1,64 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6EpicEnchants&8]'
+# Command Messages
+command:
+  book:
+    received: '&7Shoma booke &6{enchant}&r &7ra gereftid.'
+    gave: '&7Shoma be &6{player} &7book enchante &6{enchant}&r &7ra dadid.'
+    maxlevel: '&cAkharin level baraye enchante &4{enchant}&r &4{max_level}&c ast.'
+    minlevel: '&cThe min level for &4{enchant}&r &cis &41&c.'
+  randombook:
+    received: '&7Shoma yek book enchant tasadofi gereftid.'
+    gave: '&7Shoma be &6{player} &7yek book random dadid.'
+  whitescroll:
+    received: '&7Shoma yek whitescroll gereftid.'
+    gave: '&7Shoma be &6{player} &7yek whitescroll dadid.'
+  apply:
+    invaliditem: '&cShoma nmitavanid enchante &4{enchant}&r &cra be in item bezanid.'
+  reload: '&7File config reload shod.'
+  giveunknown: '&cItem nashenakhte &4{unknown}&c.'
+  dust:
+    gave: '&7Dadane &6{group} DUST &7be &6{player}&7.'
+    received: '&7Shoma &6{group} DUST&7 ra gereftid.'
+# Event Messages
+blackscroll:
+  success: '&7Ba movafaqiat &6{group_color}{enchant}&r&6 {level}&7 blackscroll shod.'
+  noenchants: '&cHich enchanti baraye blackscroll peyda nashod.'
+whitescroll:
+  alreadyapplied: '&cIn atem dar hal hazer protect shode ast!'
+  applied: '&7In item protect shod!'
+enchanter:
+  cannotafford: '&cShoma nmitavanid in enchant ra begirid.'
+  success: '&7Shoma enchante &6{group_color}{group_name} &7ra baraye &6{exp_cost} experience&7 gereftid.'
+tinkerer:
+  open: '&7Dar hal mobadele ba tinkerer.'
+  cancelled: '&cLaqv shod.'
+  accepted: '&7Anjam shod.'
+  noitems: '&cTinkerer az hich kodam az item haye shoma khoshash nayamad'
+  depositedall: '&7mobadeleye {amount} item anjam shod.'
+alchemist:
+  maxtwoitems: '&cShoma mitavanad &42 &cra ba ham combine konid'
+  notinterested: '&cAlchemist az hick kodam az item haye shoma khoshash nayamad'
+  maxlevelbook: '&cAlchemist nmitavanad enchant haye max level ra combine konad'
+  maxpercentagedust: '&cAlchemist nmitavanad enchant haye daraye 100% shans anjam ra, ba ham combine konad'
+  highestgroupdust: '&cAlchemist nmitavanad dust haye male tier akhar ra combine konad'
+  differentenchantment: '&cAlchemist nmitavanad enchant haye mesl ham ra ba ham combine konad'
+  differentlevels: '&cAlchemist tanha mitavanad book haye ham level ra ba ham combine konad'
+  differentgroups: '&cAlchemist tanha mitavanad dust haye ham group ra ba ham combine konad'
+  cannotafford: '&cShoma in tabadol ra nmitavanid anjam dahid'
+  success: '&7Tabadol shod baraye &6{exp_cost} &7experience.'
+enchants:
+  invalidmaterial: '&cShoma nmitavanid &4{enchant}&r &cra be in item bezanid'
+  failure: '&4{enchant}&r &canjam nashod'
+  brokenfailure: '&4{enchant}&r &canjam nashod va item shomara shekast'
+  conflict: '&cShoma nmitavanid in enchant ra bezanid chon ba enchant haye digar tadakhol darad'
+  maxedout: '&cShoma dar hal hazer in enchant ra ba akharin level darid'
+  alreadyapplied: '&cShoma dar hal hazer in enchant ra dar in item darid'
+  protected: '&7In book momken ast item shomara beshkanad pas shans khubi dashte bashid!'
+  success: '&7Ba movafaqiat enchante &6{enchant}&r&7 anjam gereft.'
+  maxallowed: '&cShoma nmitavanid bishtar az &4{max_enchants} &cenchant ezafe konid!'
+book:
+  discover: '&7Shoma &6{group_color}{group_name} &7ra moayene kardid ba &6{enchant_format}&7 ra be dast avardid!'

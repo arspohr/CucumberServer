@@ -1,0 +1,17 @@
+admins:
+  Leader: 8edc9157-418f-342b-9eb1-38df10bf8234|Arthop
+  Locked: true
+  Level: 9
+  Xp: 2283
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 8edc9157-418f-342b-9eb1-38df10bf8234|Arthop
+  - db951439-4ea6-3caf-b329-52673f399661|JonasBroder

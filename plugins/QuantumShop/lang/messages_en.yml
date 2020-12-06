@@ -1,0 +1,186 @@
+Module:
+  Cmd:
+    Reload: Module &a%module% &7reloaded!
+Auction:
+  Command:
+    Open:
+      Desc: Open auction.
+    Sell:
+      Desc: Add item on auction.
+      Usage: <price>
+    Expired:
+      Desc: List of expired items.
+    History:
+      Desc: List of sold items.
+  Listing:
+    Add:
+      Success:
+        Info: '&7You added &ax%amount% %item%&7 on auction for &a$%price%&7.'
+        Tax: '&7You paid &c%tax-percent%% &7tax &4($%tax-amount%) &7to add item on
+          auction.'
+        Announce: '&a%player% &7just put &ax%amount% %item% &7on auction for &e$%price%&7!'
+      Error:
+        BadItem: '&e%item% &ccould not be added on auction!'
+        Limit: '&cYou can not add more than &e%amount% &cactive bids on auction!'
+        Price:
+          Tax: '&cYou''re unable to pay &e%tax-percent%% &cprice tax: &e$%tax-amount%&c!'
+          Min: '&cItem price can not be smaller than &e$%min%&c!'
+          Max: '&cItem price can not be greater than &e$%max%&c!'
+          Negative: '&cItem price can not be negative!'
+    Buy:
+      Success:
+        Info: '&7You bought &ax%amount% %item% &7from &f%seller% &7for &a$%price%&7!'
+      Error:
+        NoMoney: '&cYou don''t have enought money! You have: &e$%balance%&c, need:
+          &6$%price%&c.'
+    Sell:
+      Success:
+        Info: '&7You sold &ax%amount% %item% &7to &f%buyer% &7for &a$%price%&7!'
+    Expired:
+      Notify: '&eYou have &6%amount% &eexpired auction bids! Take them at &6/auc expired
+        &ebefore they removed!'
+  Error:
+    DisabledWorld: '&cAuction is disabled in this world!'
+    DisabledGameMode: '&cYou can''t add items in this game mode!'
+    Confirm:
+      Invalid: '&cIt seems that this item already has been bought by someone else!'
+GUI:
+  Command:
+    Open:
+      Desc: Opens specified shop.
+      Usage: '[shop]'
+  Editor:
+    Enter:
+      ID: '&7Enter a shop id...'
+      Currency: '&7Enter currency id...'
+      NPC: '&7Enter a NPC ID...'
+      Title: '&7Enter a new title...'
+      Command: '&7Enter a new command...'
+      Permission: '&7Enter a new permission...'
+    Tip:
+      Price: '&7Enter new price...'
+      Amount: '&7Enter new amount...'
+      TimeSec: '&7Enter new time &cin seconds&7...'
+      Day: '&7Enter day name &cin English&7...'
+      Time: '&7Enter time like &c18:00&7...'
+      Commands:
+      - '&7'
+      - '&b&lCommand Tips:'
+      - '&7'
+      - '&2• &a[CONSOLE] <command> &2- Execute from Console.'
+      - '&2• &a[OP] <command> &2- Execute as an Operator.'
+      - '&2• &a<command> &2- Execute from a Player.'
+      - '&2• &a%player% &2- Player name placeholder.'
+      - '&7'
+  Shop:
+    Error:
+      FullInventory: '&cYou can''t buy items while your inventory is full!'
+      NoMainMenu: '&cMain shop menu is disabled!'
+      OnlyNPC: '&cYou have to interact with NPC to use this shop!'
+      BadWorld: '&cShop is disabled in this world!'
+      BadGamemode: '&cYou can''t use shop while in &e%mode% &cgamemode!'
+      BadShop: '&cNo such shop!'
+  Product:
+    Purchase:
+      Sell:
+      - '[TITLES] &a&lSuccessful! '
+      - ' &7You sold &ax%amount% %item% &7for &a%price%%currency%&7!'
+      SellAll:
+      - '[TITLES] &a&lSuccessful! '
+      - ' &7You sold all &a%item% &7for &a%price%%currency%'
+      Buy:
+      - '[TITLES] &a&lSuccessful Purchase! '
+      - ' &7You bought &ax%amount% %item% &7for &a%price%%currency%&7!'
+    Error:
+      Unbuyable: '&cYou can not buy this item.'
+      Unsellable: '&cYou can not sell this item!'
+      OutOfStock: '&cThis product is out of stock!'
+      TooExpensive:
+      - '[TITLES] &c&lToo Expensive! '
+      - ' &7You need: &c%price%%currency%&7!'
+      NotEnoughtItems:
+      - '[TITLES] &c&lNot Enought Items! '
+      - ' &7You need: &cx%amount% %item%&7!'
+ChestShop:
+  Command:
+    List:
+      Desc: List of your shops.
+    Create:
+      Desc: Creates a shop in the chest that you're looking at.
+      Usage: <buy price> <sell price> [admin(true/false)]
+      Done: Shop created!
+    Search:
+      Desc: Search for shops with specified item.
+      Usage: <material>
+    Remove:
+      Desc: Removes the shop from the chest that you're looking at.
+      Done: Shop removed.
+  Error:
+    Shop:
+      Already: This block is already shop!
+      NotAShop: This block is not a shop!
+      NotAChest: This block is not a chest!
+      OutOfMoney: This shop is out of money!
+      OutOfItems: This shop is out of items!
+      OutOfSpace: This shop is fully filled!
+      NoBuy: This shop does not allow to buy items!
+      NoSell: This shop does not allow to sell items!
+      BadLocation: You can't create shop here!
+      BadItem: This item can not be traded!
+      BadContent: Please remove all the items from the chest that are different from
+        the product you want to sell.
+    Player:
+      Limit: You have reached the limit of shops! You can't create more.
+      NotOwner: You're not the owner of this shop!
+      BadArea: You can create shops only inside your plot or region!
+      EmptyHand: You must hold an item!
+      NoMoney: You don't have enought funds!
+      NoItems: You don't have enought items!
+      NoSpace: You don't have enought space in inventory!
+  Info:
+    Buy:
+      User: You bought &ax%amount% %item% &7for &a$%price% &7from &a%owner%&7's shop.
+      Owner: '%player% just bought &ax%amount% %item% &7for &a$%price% &7from your
+        shop.'
+    Sell:
+      User: You sold &ax%amount% %item% &7for &a$%price% &7to &a%owner%&7's shop.
+      Owner: '%player% just sold &ax%amount% %item% &7for &a$%price% &7to your shop.'
+  Shop:
+    Info:
+    - '&6&m                 &6&l[ &e&lShop Info &6&l]&6&m                 '
+    - '&6Shop Owner: &e%owner%'
+    - '&6Product:&e %item% &c(Hover for details)'
+    - '&6Buy Price: &c%buy% &7| &6Sell Price: &a%sell%'
+    - '&7'
+    - '&e&lINTERACTION:'
+    - '&6Left Click: &eSell Item'
+    - '&6Right Click: &eBuy Item / Open Chest'
+    - '&6Shift+Left: &eView shop info'
+    - '&6Shift+Right: &eOpen editor'
+    - '&6&m                                                     &7'
+  Editor:
+    Creation:
+      Tip: '&7Enter &aBuy &7and &aSell &7prices to create a shop. Example: &a''20
+        10'''
+    Error:
+      Negative: '&7Number must be positive!'
+    Amount:
+      Tip: '&7Enter a new amount...'
+    Price:
+      Tip: '&7Enter a new price...'
+Other:
+  Never: Never
+  Infinity: Infinity
+GameMode:
+  CREATIVE: Creative
+  SURVIVAL: Survival
+  ADVENTURE: Adventure
+  SPECTATOR: Spectator
+AuctionSortType:
+  NAME: Name
+  MATERIAL: Material
+  SELLER: Seller
+  NEWEST: Newest
+  OLDEST: Oldest
+  MOST_EXPENSIVE: Most Expensive
+  LEAST_EXPENSIVE: Least Expensive

@@ -1,0 +1,94 @@
+# Player should have appropriate permission node to use particular kit: cmi.kit.[kitName]
+# cmi.kit.newbie will allow to use newbie kit
+# Possible custom variables: {USERNAME} {DISPLAYNAME} {WORLDNAME} {KITNAME} {RANDOMPLAYER}
+# Edit kits ingame with /cmi kiteditor to avoid formating issues
+# Commands support specialized command format
+Advanced:
+  CommandName: Advanced
+  Delay: 36000
+  Items:
+    '1':
+      v: 2584
+      type: STONE
+Ad2:
+  CommandName: Ad
+  Weight: 2
+  Delay: 36060
+  Group: resources
+  Items:
+    '1':
+      v: 2584
+      type: OAK_PLANKS
+      amount: 10
+Ad1:
+  CommandName: Ad
+  Weight: 1
+  Delay: 36000
+  Group: resources
+  Items:
+    '1':
+      v: 2584
+      type: STONE
+      amount: 10
+Ad3:
+  CommandName: Ad3
+  Delay: 36001
+  Group: resources
+  Items:
+    '1':
+      v: 2584
+      type: DIRT
+      amount: 10
+nb:
+  Description:
+  - Kit iniciante
+  CommandName: nb
+  Delay: 600
+  Commands:
+  - asConsole! msg! [playerName] Kit Nb recebido!
+  Conditions:
+  - cmi.kit.get
+  - cmi.command.fly
+  Group: groupName
+  Items:
+    '28':
+      v: 2584
+      type: WOODEN_SWORD
+    '29':
+      v: 2584
+      type: STONE_PICKAXE
+    '30':
+      v: 2584
+      type: STONE_AXE
+    '31':
+      v: 2584
+      type: STONE_SHOVEL
+    '32':
+      v: 2584
+      type: STONE_HOE
+    '33':
+      v: 2584
+      type: WHEAT_SEEDS
+      amount: 3
+    '34':
+      v: 2584
+      type: BREAD
+      amount: 3
+    Helmet:
+      v: 2584
+      type: GOLDEN_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fCapacete Topper
+        attribute-modifiers:
+          GENERIC_FOLLOW_RANGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 22.0
+            name: generic.follow_range
+            slot: HEAD
+            uuid: 2be1ea17-1ab2-4cfb-93ba-822190130f9f
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        Damage: 56

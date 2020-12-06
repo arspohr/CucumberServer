@@ -1,0 +1,3124 @@
+Entities:
+  Elder Guardian:
+    uuid: 6946
+    entities:
+    - ELDER_GUARDIAN
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: WATER
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Elder Guardian
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Wither Skeleton:
+    uuid: 3140
+    entities:
+    - WITHER_SKELETON
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Wither Skeleton
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Stray:
+    uuid: 7500
+    entities:
+    - STRAY
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Stray
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Husk:
+    uuid: 3863
+    entities:
+    - HUSK
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Husk
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Zombie Villager:
+    uuid: 1303
+    entities:
+    - ZOMBIE_VILLAGER
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Zombie Villager
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Skeleton Horse:
+    uuid: 9901
+    entities:
+    - SKELETON_HORSE
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Skeleton Horse
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Zombie Horse:
+    uuid: 1038
+    entities:
+    - ZOMBIE_HORSE
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Zombie Horse
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Donkey:
+    uuid: 2470
+    entities:
+    - DONKEY
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Donkey
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Mule:
+    uuid: 5794
+    entities:
+    - MULE
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Mule
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Evoker:
+    uuid: 5380
+    entities:
+    - EVOKER
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Evoker
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Vex:
+    uuid: 5642
+    entities:
+    - VEX
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Vex
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Vindicator:
+    uuid: 7835
+    entities:
+    - VINDICATOR
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Vindicator
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Illusioner:
+    uuid: 8345
+    entities:
+    - ILLUSIONER
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Illusioner
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Creeper:
+    uuid: 4569
+    entities:
+    - CREEPER
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Creeper
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Skeleton:
+    uuid: 5724
+    entities:
+    - SKELETON
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Skeleton
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Spider:
+    uuid: 2185
+    entities:
+    - SPIDER
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Spider
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Giant:
+    uuid: 783
+    entities:
+    - GIANT
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Giant
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Zombie:
+    uuid: 4809
+    entities:
+    - ZOMBIE
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Zombie
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Slime:
+    uuid: 6390
+    entities:
+    - SLIME
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Slime
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Ghast:
+    uuid: 2834
+    entities:
+    - GHAST
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Ghast
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Zombified Piglin:
+    uuid: 9449
+    entities:
+    - ZOMBIFIED_PIGLIN
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Zombified Piglin
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Enderman:
+    uuid: 2935
+    entities:
+    - ENDERMAN
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Enderman
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Cave Spider:
+    uuid: 2432
+    entities:
+    - CAVE_SPIDER
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Cave Spider
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Silverfish:
+    uuid: 6539
+    entities:
+    - SILVERFISH
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Silverfish
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Blaze:
+    uuid: 1725
+    entities:
+    - BLAZE
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Blaze
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Magma Cube:
+    uuid: 2996
+    entities:
+    - MAGMA_CUBE
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Magma Cube
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Ender Dragon:
+    uuid: 569
+    entities:
+    - ENDER_DRAGON
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Ender Dragon
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Wither:
+    uuid: 4670
+    entities:
+    - WITHER
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Wither
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Bat:
+    uuid: 3359
+    entities:
+    - BAT
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Bat
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Witch:
+    uuid: 6915
+    entities:
+    - WITCH
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Witch
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Endermite:
+    uuid: 4012
+    entities:
+    - ENDERMITE
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Endermite
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Guardian:
+    uuid: 9481
+    entities:
+    - GUARDIAN
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Guardian
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Shulker:
+    uuid: 7095
+    entities:
+    - SHULKER
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Shulker
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Pig:
+    uuid: 7838
+    entities:
+    - PIG
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: GRASS_BLOCK
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Pig
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Sheep:
+    uuid: 8843
+    entities:
+    - SHEEP
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: GRASS_BLOCK
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Sheep
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Cow:
+    uuid: 4607
+    entities:
+    - COW
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: GRASS_BLOCK
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Cow
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Chicken:
+    uuid: 6646
+    entities:
+    - CHICKEN
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: GRASS_BLOCK
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Chicken
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Squid:
+    uuid: 2499
+    entities:
+    - SQUID
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: WATER
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Squid
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Wolf:
+    uuid: 210
+    entities:
+    - WOLF
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Wolf
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Mushroom Cow:
+    uuid: 6057
+    entities:
+    - MUSHROOM_COW
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: MYCELIUM
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Mushroom Cow
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Snowman:
+    uuid: 1994
+    entities:
+    - SNOWMAN
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Snowman
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Ocelot:
+    uuid: 9553
+    entities:
+    - OCELOT
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: GRASS_BLOCK, JUNGLE_LEAVES, ACACIA_LEAVES, BIRCH_LEAVES, DARK_OAK_LEAVES, OAK_LEAVES, SPRUCE_LEAVES
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Ocelot
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Iron Golem:
+    uuid: 1907
+    entities:
+    - IRON_GOLEM
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Iron Golem
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Horse:
+    uuid: 2347
+    entities:
+    - HORSE
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: GRASS_BLOCK
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Horse
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Rabbit:
+    uuid: 9083
+    entities:
+    - RABBIT
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: GRASS_BLOCK
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Rabbit
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Polar Bear:
+    uuid: 5553
+    entities:
+    - POLAR_BEAR
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Polar Bear
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Llama:
+    uuid: 3603
+    entities:
+    - LLAMA
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: GRASS_BLOCK
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Llama
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Parrot:
+    uuid: 2397
+    entities:
+    - PARROT
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Parrot
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Villager:
+    uuid: 2838
+    entities:
+    - VILLAGER
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Villager
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Turtle:
+    uuid: 7976
+    entities:
+    - TURTLE
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Turtle
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Phantom:
+    uuid: 4386
+    entities:
+    - PHANTOM
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Phantom
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Cod:
+    uuid: 2420
+    entities:
+    - COD
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: WATER
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Cod
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Salmon:
+    uuid: 9727
+    entities:
+    - SALMON
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: WATER
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Salmon
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Pufferfish:
+    uuid: 1202
+    entities:
+    - PUFFERFISH
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: WATER
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Pufferfish
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Tropical Fish:
+    uuid: 4334
+    entities:
+    - TROPICAL_FISH
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: WATER
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Tropical Fish
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Drowned:
+    uuid: 7341
+    entities:
+    - DROWNED
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Drowned
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Dolphin:
+    uuid: 3621
+    entities:
+    - DOLPHIN
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Dolphin
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Cat:
+    uuid: 6905
+    entities:
+    - CAT
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: GRASS_BLOCK
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Cat
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Panda:
+    uuid: 4614
+    entities:
+    - PANDA
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Panda
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Pillager:
+    uuid: 8369
+    entities:
+    - PILLAGER
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Pillager
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Ravager:
+    uuid: 5203
+    entities:
+    - RAVAGER
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Ravager
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Trader Llama:
+    uuid: 4302
+    entities:
+    - TRADER_LLAMA
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Trader Llama
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Wandering Trader:
+    uuid: 2787
+    entities:
+    - WANDERING_TRADER
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Wandering Trader
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Fox:
+    uuid: 5733
+    entities:
+    - FOX
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Fox
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Bee:
+    uuid: 3079
+    entities:
+    - BEE
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Bee
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Hoglin:
+    uuid: 2856
+    entities:
+    - HOGLIN
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Hoglin
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Piglin:
+    uuid: 318
+    entities:
+    - PIGLIN
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Piglin
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Strider:
+    uuid: 3039
+    entities:
+    - STRIDER
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Strider
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Zoglin:
+    uuid: 7780
+    entities:
+    - ZOGLIN
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Zoglin
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Piglin Brute:
+    uuid: 5936
+    entities:
+    - PIGLIN_BRUTE
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Piglin Brute
+    blocks: []
+    items: []
+    command: []
+    Display-Item: AIR
+  Omni:
+    uuid: 8528
+    Pickup-Cost: 0.0
+    custom: false
+    Spawn-Block: AIR
+    Allowed: true
+    Spawn-On-Fire: false
+    Upgradable: true
+    Convertible: true
+    Convert-Ratio: 45%
+    In-Shop: true
+    Shop-Order: 0
+    Shop-Price: 1000.0
+    CustomGoal: 0
+    Custom-ECO-Cost: 0.0
+    Custom-XP-Cost: 0
+    Spawn-Limit: -1
+    Pick-Damage: 1
+    Tick-Rate: 800:200
+    Spawn-Effect: NONE
+    Spawn-Effect-Particle: REDSTONE
+    Entity-Spawn-Particle: SMOKE
+    Spawner-Spawn-Particle: FIRE
+    Particle-Amount: NORMAL
+    Particle-Effect-Boosted-Only: true
+    Craftable: false
+    Recipe-Layout: AAAABAAAA
+    Recipe-Ingredients:
+    - A, IRON_BARS
+    - B, SPAWN_EGG
+    Conditions:
+      Biomes: ALL
+      Height: 0:256
+      Light: BOTH
+      Storm Only: false
+      Max Entities Around Spawner: 6
+      Required Player Distance And Amount: '16:1'
+    Display-Name: Omni
+    blocks: []
+    entities: []
+    items: []
+    command: []
+    Display-Item: AIR

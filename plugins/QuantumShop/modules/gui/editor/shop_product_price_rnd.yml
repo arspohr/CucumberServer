@@ -1,0 +1,86 @@
+title: Product Price Randomizer Editor
+size: 36
+content:
+  return:
+    material: BARRIER
+    name: '&cReturn'
+    lore: []
+    type: RETURN
+    slots: 31
+
+editor:
+  rnd-toggle:
+    material: GRAY_DYE
+    animation:
+      auto-play: false
+    animation-frames:
+      '0':
+        material: GRAY_DYE
+        name: '&eEnable/Disable'
+        lore:
+        - '&bEnabled: &a%enabled%'
+        - '&7'
+        - '&7Enable/Disable price randomize'
+        - '&7feature for this product.'
+        - '&7'
+        - '&6Left-Click: &eToggle'
+      '1':
+        material: LIME_DYE
+        name: '&eEnable/Disable'
+        lore:
+        - '&bEnabled: &a%enabled%'
+        - '&7'
+        - '&7Enable/Disable price randomize'
+        - '&7feature for this product.'
+        - '&7'
+        - '&6Left-Click: &eToggle'
+    type: PRODUCT_CHANGE_PRICE_RND_TOGGLE
+    slots: 4
+
+  buy-price:
+    material: IRON_INGOT
+    name: '&eBuy Price Randomizer'
+    lore:
+    - '&bMinimum: &a%buy-min%'
+    - '&bMaximum: &a%buy-max%'
+    - '&7'
+    - '&7Defines the random bounds'
+    - '&7for product buy price.'
+    - '&7'
+    - '&6Left-Click: &eChange Min'
+    - '&6Right-Click: &eChange Max'
+    type: PRODUCT_CHANGE_PRICE_RND_BUY
+    slots: 10
+
+
+  sell-price:
+    material: GOLD_INGOT
+    name: '&eSell Price Randomizer'
+    lore:
+    - '&bMinimum: &a%sell-min%'
+    - '&bMaximum: &a%sell-max%'
+    - '&7'
+    - '&7Defines the random bounds'
+    - '&7for product sell price.'
+    - '&7'
+    - '&6Left-Click: &eChange Min'
+    - '&6Right-Click: &eChange Max'
+    type: PRODUCT_CHANGE_PRICE_RND_SELL
+    slots: 13
+
+  times:
+    material: CLOCK
+    name: '&ePrice Update Times'
+    lore:
+    - '&bBuy and Sell price will be'
+    - '&brandomized every:'
+    - '&a- %days%'
+    - '&7'
+    - '&bin:'
+    - '&a- %times%'
+    - '&7'
+    - '&6Left-Click: &eAdd Day'
+    - '&6Right-Click: &eAdd Time'
+    - '&6Middle-Click: &eReset All'
+    type: PRODUCT_CHANGE_PRICE_RND_TIME
+    slots: 16

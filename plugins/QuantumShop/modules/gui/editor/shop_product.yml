@@ -1,0 +1,107 @@
+title: Product Editor
+size: 54
+content:
+  return:
+    material: BARRIER
+    name: '&cReturn'
+    lore: []
+    type: RETURN
+    slots: 49
+
+editor:
+  preview:
+    material: ITEM_FRAME
+    name: '&eItem Preview'
+    lore:
+    - '&bCurrent: &a%preview%'
+    - '&7'
+    - '&7This item will be showed'
+    - '&7in shop GUI.'
+    - '&7You can also edit it in config.'
+    - '&7'
+    - '&6Drag and Drop: &eReplace'
+    - '&6Middle-Click: &eGet Item'
+    type: PRODUCT_CHANGE_PREVIEW
+    slots: 10
+
+  item:
+    material: EMERALD
+    name: '&eTrade Item'
+    lore:
+    - '&bCurrent: &a%item%'
+    - '&7'
+    - '&7This is the main trade item.'
+    - '&7Players can buy and sell it.'
+    - '&aYou can disable/remove it.'
+    - '&7'
+    - '&6Drag and Drop: &eReplace'
+    - '&6Middle-Click: &eGet Item'
+    - '&6Right-Click: &eRemove'
+    type: PRODUCT_CHANGE_ITEM
+    slots: 12
+
+  commands:
+    material: COMMAND_BLOCK
+    name: '&eCommands'
+    lore:
+    - '&bThe following commands will'
+    - '&bbe executed when player buys'
+    - '&bthis product:'
+    - '&a- %commands%'
+    - '&7'
+    - '&6Left-Click: &eAdd Command'
+    - '&6Right-Click: &eClear List'
+    type: PRODUCT_CHANGE_COMMANDS
+    slots: 14
+
+  perms:
+    material: REDSTONE
+    name: '&ePermissions'
+    lore:
+    - '&bThe following permissions will'
+    - '&bbe &cpermanently &bgiven to'
+    - '&ba player, who bought this product:'
+    - '&a- %permissions%'
+    - '&7'
+    - '&6Left-Click: &eAdd Permission'
+    - '&6Right-Click: &eClear List'
+    type: PRODUCT_CHANGE_PERMISSIONS
+    slots: 16
+
+  prices:
+    material: GOLD_INGOT
+    name: '&ePrice Manager'
+    lore:
+    - '&bBuy Price: &a%buy-price%'
+    - '&bSell Price: &a%sell-price%'
+    - '&bAffected by Hours: &a%hours-affected%'
+    - '&7'
+    - '&7Define product prices here.'
+    - '&7'
+    - '&6Left-Click: &eChange Buy Price'
+    - '&6Right-Click: &eChange Sell Price'
+    - '&6Middle-Click: &eToggle Hours Affect'
+    type: PRODUCT_CHANGE_PRICE
+    slots: 29
+
+  price-rnd:
+    material: COMPARATOR
+    name: '&ePrice Randomizer'
+    lore:
+    - '&7Generate random price for this'
+    - '&7product automatically at specified time.'
+    - '&7'
+    - '&6Left-Click: &eNavigate'
+    type: PRODUCT_CHANGE_PRICE_RND
+    slots: 31
+
+  limits:
+    material: HOPPER
+    name: '&eLimit Manager'
+    lore:
+    - '&7Define how many of the product'
+    - '&7player can buy at once and in total.'
+    - '&7'
+    - '&6Left-Click: &eNavigate'
+    type: PRODUCT_CHANGE_LIMITS
+    slots: 33

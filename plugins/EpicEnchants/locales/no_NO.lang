@@ -1,0 +1,65 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6EpicEnchants&8]'
+command:
+  book:
+
+    # Command Messages
+    received: '&7Du har fått en &6{enchant}&r &7bok i gave.'
+    gave: '&7Du gav &6{player} &7en &6{enchant}&r &7bok.'
+    maxlevel: '&cMaksnivået for &4{enchant}&r &cer &4{max_level}&c.'
+    minlevel: '&cLaveste nivået for &4{enchant}&r &cer &41&c.'
+  randombook:
+    received: '&7Du har fått en tilfeldig bok i gave.'
+    gave: '&7Du gav &6{player} &7en tilfeldig &7bok.'
+  whitescroll:
+    received: '&7Du har fått en whitescroll i gave.'
+    gave: '&7Du gav &6{player} &7en hvitrulle.'
+  apply:
+    invaliditem: '&cDu kan ikke søke om &4{enchant}&r &ctil denne vaten.'
+  reload: '&7konfigurasjonsfiler er oppdatert.'
+  giveunknown: '&cUkjent vare å gi &4{unknown}&c.'
+  dust:
+    gave: '&7Ga &6{group} STØV &7til &6{player}&7.'
+    received: '&7Du har fått have&6{group} STØV&7.'
+blackscroll:
+
+  # Event Messages
+  success: '&7Vellykket svartrullet &6{group_color}{enchant}&r&6 {level}&7.'
+  noenchants: '&cIngen enchants for svartrulle.'
+whitescroll:
+  alreadyapplied: '&cDenne varen er allerede beskyttet!'
+  applied: '&7Denne varen er nå beskyttet!'
+enchanter:
+  cannotafford: '&cDu har ikke råd til dette kjøpet.'
+  success: '&7Kjøpt &6{group_color}{group_name} &7bok for &6{exp_cost} exp&7.'
+tinkerer:
+  open: '&7Handel med tinkerer.'
+  cancelled: '&cAvbrutt.'
+  accepted: '&7Akseptert.'
+  noitems: '&cTinkereren er ikke interessert i noen av varene dine...'
+  depositedall: '&7Deponerte {amount} varer.'
+alchemist:
+  maxtwoitems: '&cDu kan bare kombinere &42 &cvarer på en gang...'
+  notinterested: '&cAlkymisten er ikke interessert i noen av varene dine...'
+  maxlevelbook: '&cAlkymisten kan ikke kombinere maks levlet bøker...'
+  maxpercentagedust: '&cAlkymisten kan ikke kombinere støv i 100% suksessrate...'
+  highestgroupdust: '&cAlkymisten kan ikke godta støv fra det høyeste nivået.'
+  differentenchantment: '&cAlkemisten kan bare kombinere bøker med de samme fortryllelsene...'
+  differentlevels: '&cAlkemisten kan bare kombinere bøker på samme nivå...'
+  differentgroups: '&cAlkymisten kan bare kombinere støv fra samme gruppe...'
+  cannotafford: '&cDu har ikke råd til denne utvekslingen...'
+  success: '&7Utvekslet for &6{exp_cost} &7exp.'
+enchants:
+  invalidmaterial: '&cDu kan ikke søke &4{enchant}&r &ctil den varen...'
+  failure: '&4{enchant}&r &cmislyktes i å søke...'
+  brokenfailure: '&4{enchant}&r &cklarte ikke å søke og brøt varen din...'
+  conflict: '&cDu kan ikke bruke denne enchanten, da den er i konflikt med en annen enchant...'
+  maxedout: '&cDu har allerede enchantet denne enchanten på dette elementet...'
+  alreadyapplied: '&cDu har allerede brukt den enchanten på dette elementet.'
+  protected: '&7Denne boken ville ha ødelagt varen din, heldigvis var den beskyttet!'
+  success: '&7Du har søkt &6{enchant}&r&7.'
+book:
+  discover: '&7Du undersøker &6{group_color}{group_name} &7Fortryllelsesbok, og oppdaget &6{enchant_format}&7!'

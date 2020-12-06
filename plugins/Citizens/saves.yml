@@ -1,0 +1,241 @@
+# Citizens NPC Storage
+
+
+
+
+
+
+
+
+last-created-npc-id: 4
+npc:
+  '0':
+    metadata:
+      cached-skin-uuid-name: velorio
+      cached-skin-uuid: 0bab6c91-020f-4c7b-8d2d-5f7fe1fa877f
+    name: Coveiro
+    uuid: c36bdb14-8435-41bb-b8d7-dc61aef81544
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: regras
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: iron_shovel
+          amount: 1
+          durability: 0
+          mdata: 0
+      spawned: true
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: iron_shovel
+          amount: 1
+          durability: 0
+          mdata: 0
+      location:
+        bodyYaw: 31.455116
+        world: world
+        x: '-2.7'
+        y: '68.0'
+        z: '-50.2927'
+        yaw: '31.4551'
+        pitch: '-12.0839'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: xG7qmc/CJ4rZzI4gcIcyzy918I3+OYk91nL6k5JoDQDFYHmJeeFvWEhP83iOONJdqY7Bb+nvRI44idCWcnLm/fXcsOofS78bemB3PGoMl0m6y6E0f6iphm6POqmg/WTTyAQTSMDvdMfZ/NeweSEtIYkuF9gAt8ODCVVJXufQC3KKNQQUk4BPr0+1F6kIOlAWjbWTL+ajzH+5ci1HEaRrU/dsYKEq/77sUpJHFhljCMJF+NnNi1xPLMdyAWbc6Em4FR8u6322Cz+JUx6bdWW6+/+GWoz4kB/pcw7WplKgC+WytIH9ijYS01p4QCUFAkdZIu4PFxk48hkT66PNpvcnF0E2Sng68UjfbX1uWkNCsaBdAQ6RZS8qyLxwImHnh9W20sHSZWZ/+5Ac4YGE4DzKERQHGqK6nF8juqkHExI2xo/NN/eOGalU8sFt8SFcL6AmfQmUv5798RPqM3E0z7JZIQ1HsPhSngg6uYHc26tuy8i7GzqYgpdqEbzU9hutwvH5W15/cnIa9cGxahEH75hl59ZI+pJi/sfzVHvqJvYIQ8MDobKU+NOaniXm/sNKteMMO2VHx2eUVGBXKriVqA+TgNlI38Jly2C/lo0ctwSGc9kmbVUF1sbJsea3+Dckzr+mSw150Xl0RPUoFuE+wXYIRIUldc9m04Ug4iScP5a6GmQ=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwNzIyOTUwMDMzMCwKICAicHJvZmlsZUlkIiA6ICIwYmFiNmM5MTAyMGY0YzdiOGQyZDVmN2ZlMWZhODc3ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ2ZWxvcmlvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI4OGU0ZmI2MGQ4NWI2MmZhMDEzZGViNjJkMWI3ZWQ4YWRmMzY4NTNiYjRkZDJlZGVmNThkMzYzMDliMzc4ZDUiCiAgICB9CiAgfQp9
+        updateSkins: true
+        skinName: velorio
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      speech: chat
+      owner:
+        owner: JonasBroder
+        uuid: db951439-4ea6-3caf-b329-52673f399661
+    traitnames: lookclose,equipment,scoreboardtrait,speech,mounttrait,owner,commandtrait,spawned,type,location,skintrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      cached-skin-uuid-name: 6434c618-ae98-45fe-a28d-9fde4e6144f4
+      cached-skin-uuid: ef7975ac-ec3f-43b8-b3b8-c2223621f344
+    name: Pescador
+    uuid: 1361a8be-fad6-4d58-94e9-3c0eefffea9a
+    traits:
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: fishing_rod
+          amount: 1
+          durability: 0
+          mdata: 0
+      type: PLAYER
+      spawned: true
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: fishing_rod
+          amount: 1
+          durability: 0
+          mdata: 0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: IQ869VNRXzuoboGH23sd+u9HDjmXGCCNdX3hZm+icU6NGkjrAXsoIO50B4y1FqBv4c8zjJLi9PWNIhRlXIxdgqsqambhOTMaREkD9T1DJ7i06eejznRxk5MfxvJvJaSQFPItHGGBbY9bxyeN1ouirFn7/i9tk6RQqGo83jhOBn9WRSJKeV8qtv4TeZIP6584KQ9x7lsHcGF7Jp1a+qKY1cz4SRMpiN3OFkjBKU751WNAqBQlbDGX1V1GT5WhMrYxaAk2B4NRpxzxCRPsHbXOB9FyiqNDCBnTveu+Lm3Aj5nLJynAIlbyLOSskIIDwQ2EsqRopCjTwvCSsbW+7+f4S8/AzeMA6gFzFdChiG+yqQLV6nW1jUxic+aAEtUlTP+cBTqQkBbKy/i5xEOL5L+5W4uH/jAIt7ZCI3saZ5ms2UCXqawu0CQ15KHBwj6oKqDSSn1ZSrVWixMlV+z9s0+zlh8K0jkbFCYk5rwM3u4YR7PSXh1wbTQmu/XAewrIIX5RHjIu1FtCCcDSwxPrXjAPsV+MLBh7Z5NpBt4t+fKHAv4QJ7D+0Cl5rtoT1DFQ9DzmKq/ZFVFuRbnqs3VVIVwHs22UwOw/6+hZoH/mabsI9O25f2DJfzKgeSoV19F2Uoj2jhEKtb1kRm3rKl8jGVG/BulsQ/u/w6tv9+0DwJCpC5g=
+        skinName: 6434c618-ae98-45fe-a28d-9fde4e6144f4
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1NjU0MjU4MzYxOTIsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM3YjRkOTA2ZDhiNTZlYzdjZDkxM2JiOTQ0NTFiMzVkYTAyNzU3NDRjMjE0YjFjMTZkODJlMzdlNGU0NzU0MzUifX19
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+      location:
+        bodyYaw: -30.606949
+        world: world
+        x: '4961.3'
+        y: '73.0'
+        z: '4947.4508'
+        yaw: '-30.6069'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: JonasBroder
+        uuid: db951439-4ea6-3caf-b329-52673f399661
+    traitnames: lookclose,equipment,scoreboardtrait,mounttrait,owner,spawned,commandtrait,type,location,skintrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid-name: 253df218-4d8b-4501-9ef2-f3fdabdb1b1d
+    name: Mortinho da Silva
+    uuid: e1774266-672b-4242-82d5-8a13191facc3
+    traits:
+      type: PLAYER
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: DEgxYcBcrl3Dw+xzXxzVUx5YYGlr7VxM3x7NsFMsxPTpKtQO7VQHEtHg1t1c3S+QwDwB29OIwgLpArvg9cl6vMURO/5KXOjDSU6IVw5zY141a5/hucsOmZDx2ojL1x/wG2Tk/Ckf/pG5F11PFRPaM6/i/9j0QtttS7WDT14r9ZaJv5j2mhiiJIataSsuaj1AX7DGKVPcvf8iZF/wjQ1X8xrpIVgKhiCxsG5pxjXoYJMhbQekKFgttPRbTPRnBu7Y3p60H2UOmVZCR2VnKmT8OQjvqMRoiGgmXEp1FOSAD3SH7zI/crQQeHcIguWGi4DyljL0T6hW6SclsnAfIDWl8qBnUyxNfzj7GW0CR/tPznC1AUhARWz7nbBdPUnfkZl2vdHlwDSqFjxNTROQ5Zz8u357gtfvNR6kPqrHGLly77fe/m2znXK7UESvtNqpamh7UWP4iYdbndzNeDxT0VIRESGRLacFW8g4P4CvnCYfJvKZFON9PZxtkH8Ba1RwNvTYDPLAujZBB4+fqEkYOmw56ky8pGL5ZNg9Mx40Am8IIJVAiamdHvwLBHfzK2D7bMgenT5nO3+TobYL2VZBzKriTtof/vRJBCygPOCJl8C48vwLHB1Zx83AEL8b+euUpFTFYN37Av9RTd7sEOb85j7YU7bunRqLyj92iC6SIcBuRng=
+        skinName: 253df218-4d8b-4501-9ef2-f3fdabdb1b1d
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1NjYyNTczNDgwMDEsInByb2ZpbGVJZCI6IjJjMTA2NGZjZDkxNzQyODI4NGUzYmY3ZmFhN2UzZTFhIiwicHJvZmlsZU5hbWUiOiJOYWVtZSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDYxMjZhNmY5OTJhZTg4YjYwMzNiYzIxMmNhMTEyZmYzZGQzZjcyN2VhYTdlZDkxYzc1NGU2OTU1YjAxY2I1MCJ9fX0=
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: kit
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      location:
+        bodyYaw: 20.309158
+        world: world
+        x: '-12.5174'
+        y: '68.0'
+        z: '-43.4479'
+        yaw: '20.3092'
+        pitch: '-7.7737'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: JonasBroder
+        uuid: db951439-4ea6-3caf-b329-52673f399661
+    traitnames: lookclose,equipment,scoreboardtrait,mounttrait,owner,commandtrait,spawned,type,hologramtrait,skintrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    metadata:
+      cached-skin-uuid-name: af2570a2-b6d8-4302-b330-bc8e0149b95c
+      cached-skin-uuid: 2ae173bf-e397-4221-b356-2c6816058c02
+    name: Cenoulinha
+    uuid: b472ce7a-5add-4dba-a4bf-9541c1648dc1
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+        realisticlooking: false
+      owner:
+        owner: JonasBroder
+        uuid: db951439-4ea6-3caf-b329-52673f399661
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: 16.206894
+        world: world
+        x: '4968.7'
+        y: '73.0'
+        z: '4965.3605'
+        yaw: '16.2069'
+        pitch: '-45.3298'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: O6i2UslLpxN94ulyGEvHW6+GvpiGjcECSq5rTpg2w01qFz/y8HF7/yTK4V6BDgqxRJ06ThDciaXcMhk6Vj1tAOfTEBOyqN7X5zlKsTNd53/xaQOjJqBLwBIg8LxL0KBJQdH+jkXwdjgTT/PtOO9E1xuJCaG3MSH2JLRO7NTLa+OzzhFreuIitsk/+oGxhgDEgn/QVN4AtlAFjYe5u7COlVYHe9v+fPZV8THfRys+ztDGjIpTdL8MoTPsJ1QF02vvPUlz1/dFwSgxdPzhm7en7CFO7BLY5OUNSoxjX8BBuPgfmPyJOAKjs3E5vi/iMT+uGZ3HetWV1dpBTYXPiygc19laLwFSASWm5YuyOxuqlhvzLeWYkwBjitA/wsApwM0PEtWsiisgHhuDDkzKGMMhWgvg+EcQKwrQLAzPLwaiWgNb8unuY7zRSvYGjd3qauPNZHLuE698n/8IxdohEPQkusBrgE2bGcx2PWnT5q6dtvupgQr4pXEpObmb3q9NdBmcmLTG9l/O3kN1sSIMKj7kH5OK0EJtfq4A4srkzMNQf5QXZL37QIGE6rT+dUuSZCNV6+NhwUHFPG5Audvs8LVGSREoOUYlHslUqn9xLe66bvBPEt9yVwAuHHU8wXOi/OXXgOCd6x9HE0TTPSKAACorU1yDtlnDbdNF1LTarVe7p/I=
+        skinName: af2570a2-b6d8-4302-b330-bc8e0149b95c
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwNzIzMDQzODU4OSwKICAicHJvZmlsZUlkIiA6ICI2ZmU4OTUxZDVhY2M0NDc3OWI2ZmYxMmU3YzFlOTQ2MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJlcGhlbXJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFkYzhmNjg2N2JiNjZkYzNkNWI2ODczNzM2MTc0NzhjZmY5MDI1N2IyMmFjNjRiMjQyOTljOWRjNDZiOWFlMTEiCiAgICB9CiAgfQp9
+        updateSkins: false
+    traitnames: lookclose,equipment,scoreboardtrait,mounttrait,owner,spawned,type,location,skintrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

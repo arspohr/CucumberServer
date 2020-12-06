@@ -1,0 +1,27 @@
+logoutlocation:
+  world: world
+  x: -25.348248939612947
+  y: 68.0
+  z: -59.17845112417579
+  yaw: 122.30908
+  pitch: 28.349852
+timestamps:
+  logout: 1607203188587
+  login: 1607201427799
+  kits:
+    firework: 1607137915205
+    nb: 1607202115775
+    notch: 1607137897980
+    dtools: 1607137959615
+    tools: 1607137890019
+  lastteleport: 1607202253753
+lastAccountName: JonasBroder
+ipAddress: 0:0:0:0:0:0:0:1
+money: '1063.0'
+lastlocation:
+  world: world
+  x: 4960.10945139909
+  y: 79.0
+  z: 4957.675888575225
+  yaw: 351.77502
+  pitch: 16.349949

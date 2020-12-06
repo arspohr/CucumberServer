@@ -1,0 +1,42 @@
+core:
+  command-aliases: qshop
+  lang: en
+  prefix: Shop
+data:
+  auto-save: 15
+  storage:
+    type: sqlite
+    username: none
+    password: none
+    host: none
+    database: none
+  purge:
+    enabled: false
+    days: 60
+  instant-save: false
+currency:
+  exp:
+    name: Exp
+  vault:
+    name: $
+  custom-item:
+    emeralds:
+      name: '&aEmerald(s)'
+      item:
+        material: EMERALD
+    custom-gold:
+      name: '&eGold'
+      item:
+        material: GOLD_INGOT
+        name: '&e&lGOLD INGOT'
+        enchanted: true
+modules:
+  gui:
+    enabled: true
+    name: Gui
+  chest_shop:
+    enabled: true
+    name: Chest Shop
+  auction:
+    enabled: true
+    name: Auction

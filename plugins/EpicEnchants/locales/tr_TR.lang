@@ -1,0 +1,65 @@
+# Genel Mesajlar
+
+general:
+  nametag:
+    prefix: '&8[&6EpicEnchants&8]'
+command:
+  book:
+
+    # Komut Mesajları
+    received: '&7&6{enchant}&r &7kitabı alındı.'
+    gave: '&6{player} &7adlı oyuncuya &6{enchant}&r &7kitabı verildi.'
+    maxlevel: '&cBu &4{enchant}&r &ckitabı için maksimum seviye &4{max_level}&c.'
+    minlevel: '&cBu &4{enchant}&r &ckitabı için minimum seviye &41&c.'
+  randombook:
+    received: '&7Bir rastgele kitap alındı.'
+    gave: '&6{player} &7adlı oyuncuya rastgele kitap verildi.'
+  whitescroll:
+    received: '&7Bir parşömen alındı.'
+    gave: '&6{player} &7 adlı oyuncuya parşömen verildi.'
+  apply:
+    invaliditem: '&cBu eşyaya &4{enchant}&r &4büyüsünü kullanamazsın.'
+  reload: '&7Dosyalar yenilendi.'
+  giveunknown: '&4{unknown}&c adlı eşya bulunamadı.'
+  dust:
+    gave: '&6{group} Toz&7''u &6{player}&7 adlı oyuncuya verildi.'
+    received: '&6{group} Toz&7''u alındı.'
+blackscroll:
+
+  # Etkinlik Mesajları
+  success: '&6{group_color}{enchant}&r&6 {level}&7 Büyüsü başarıyla çıkartıldı.'
+  noenchants: '&cÇıkartılacak büyü bulunamadı.'
+whitescroll:
+  alreadyapplied: '&cBu eşya zaten korunuyor!'
+  applied: '&7Bu eşya artık korunuyor!'
+enchanter:
+  cannotafford: '&cBu satın alma işlemini karşılayamazsın.'
+  success: '&6{group_color}{group_name} &7Kitabını&6{exp_cost} tecrübe&7 karşılığında başarıyla büyüledin.'
+tinkerer:
+  open: '&7Tamirci ile takas.'
+  cancelled: '&cİptal edildi.'
+  accepted: '&7Onaylandı.'
+  noitems: '&cTamirci, eşyalarından hiçbirisi ile ilgilenmiyor...'
+  depositedall: '&7{amount} eşya yatırıldı.'
+alchemist:
+  maxtwoitems: '&cBir seferde en fazla &42&c eşya birleştirebilirsin...'
+  notinterested: '&cSimyacı eşyalarının hiçbirisi ile ilgilenmiyor...'
+  maxlevelbook: '&cSimyacı son seviye kitapları birleştiremez...'
+  maxpercentagedust: '&cSimyacı %100 başarı oranı olan tozları birleştiremez...'
+  highestgroupdust: '&cSimyacı en yüksek seviyedeki tozları kabul etmiyor.'
+  differentenchantment: '&cSimyacı sadece aynı büyüdeki kitapları birleştirebilir...'
+  differentlevels: '&cSimyacı sadece aynı seviye kitapları birleştirebilir...'
+  differentgroups: '&cSimyacı sadece aynı grup tozlarını birleştirebilir...'
+  cannotafford: '&cBu takası karşılayamazsın...'
+  success: '&6{exp_cost} &7kadar tecrübe karşılığında takas ettin.'
+enchants:
+  invalidmaterial: '&4{enchant}&r &cbüyüsünü bu eşyaya ekleyemezsin...'
+  failure: '&4{enchant}&r &cbüyüsü başarısız oldu...'
+  brokenfailure: '&4{enchant}&r &cbüyüsü başarısız oldu ve eşyan kırıldı...'
+  conflict: '&cBir başka büyü ile çakıştığı için bu büyüyü yapamazsın...'
+  maxedout: '&cBu büyüyü zaten son seviyeye geliştirmişsin...'
+  alreadyapplied: '&cEşyan zaten bu büyüye sahip.'
+  protected: '&7Bu büyü eşya''nı kırabilirdi, şanslısın ki eşyan korunuyordu!'
+  success: '&6{enchant}&r&7 büyüsü başarıyla geçti.'
+book:
+  discover: '&6{group_color}{group_name} &7Büyü kitabını inceledin ve &6{enchant_format}&7 keşfettin!'

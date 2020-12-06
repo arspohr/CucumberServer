@@ -1,0 +1,643 @@
+[02:38:12] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:38:12] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[02:38:13] [Worker-Main-2/INFO]: Loaded 7 recipes
+[02:38:13] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[02:38:13] [Server thread/INFO]: Loading properties
+[02:38:13] [Server thread/INFO]: This server is running Paper version git-Paper-299 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[02:38:13] [Server thread/INFO]: Debug logging is disabled
+[02:38:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:38:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:38:13] [Server thread/INFO]: Default game type: SURVIVAL
+[02:38:13] [Server thread/INFO]: Generating keypair
+[02:38:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:38:13] [Server thread/INFO]: Using default channel type
+[02:38:14] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[02:38:16] [Server thread/WARN]: Legacy plugin Votifier v1.9 does not specify an api-version.
+[02:38:16] [Server thread/ERROR]: Could not load 'plugins\ProVotes-1.7.9-Cracked.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.VerifyError: Bad local variable type
+Exception Details:
+  Location:
+    com/culleystudios/provotes/ProVotes.handleReload()V @84: aload_1
+  Reason:
+    Type top (current frame, locals[1]) is not assignable to reference type
+  Current Frame:
+    bci: @84
+    flags: { }
+    locals: { 'com/culleystudios/provotes/ProVotes' }
+    stack: { 'org/bukkit/plugin/PluginManager' }
+  Bytecode:
+    0x0000000: 2ab6 0159 2ab6 015c 2ab7 00df b800 a999
+    0x0000010: 0015 2abb 0119 59b7 011a b501 1c2a b401
+    0x0000020: 1cb6 011f 2abb 0101 59b7 0102 b501 042a
+    0x0000030: b401 04b6 0107 2abb 0109 592a b701 0ab5
+    0x0000040: 010c 2a2a b601 10b5 0112 2ab4 0112 b601
+    0x0000050: 17b8 0162 2bb9 0168 0200 b1            
+  Stackmap Table:
+    same_frame(@36)
+
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:141) ~[patched_1.16.4.jar:git-Paper-299]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:397) ~[patched_1.16.4.jar:git-Paper-299]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:305) ~[patched_1.16.4.jar:git-Paper-299]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:389) ~[patched_1.16.4.jar:git-Paper-299]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:206) ~[patched_1.16.4.jar:git-Paper-299]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[patched_1.16.4.jar:git-Paper-299]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.4.jar:git-Paper-299]
+	at net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3055/905550128.run(Unknown Source) ~[?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_51]
+Caused by: java.lang.VerifyError: Bad local variable type
+Exception Details:
+  Location:
+    com/culleystudios/provotes/ProVotes.handleReload()V @84: aload_1
+  Reason:
+    Type top (current frame, locals[1]) is not assignable to reference type
+  Current Frame:
+    bci: @84
+    flags: { }
+    locals: { 'com/culleystudios/provotes/ProVotes' }
+    stack: { 'org/bukkit/plugin/PluginManager' }
+  Bytecode:
+    0x0000000: 2ab6 0159 2ab6 015c 2ab7 00df b800 a999
+    0x0000010: 0015 2abb 0119 59b7 011a b501 1c2a b401
+    0x0000020: 1cb6 011f 2abb 0101 59b7 0102 b501 042a
+    0x0000030: b401 04b6 0107 2abb 0109 592a b701 0ab5
+    0x0000040: 010c 2a2a b601 10b5 0112 2ab4 0112 b601
+    0x0000050: 17b8 0162 2bb9 0168 0200 b1            
+  Stackmap Table:
+    same_frame(@36)
+
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_51]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_51]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:68) ~[patched_1.16.4.jar:git-Paper-299]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:137) ~[patched_1.16.4.jar:git-Paper-299]
+	... 8 more
+[02:38:17] [Server thread/WARN]: Legacy plugin CMIEInjector v1.0.2.3 does not specify an api-version.
+[02:38:17] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.9
+[02:38:17] [Server thread/INFO]: [BkShop] Loading BkShop v2.4
+[02:38:17] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[02:38:17] [Server thread/INFO]: [MySkin] Loading MySkin v3.3
+[02:38:17] [Server thread/INFO]: [Votifier] [Votifier] Loading Votifier v1.9
+[02:38:17] [Server thread/INFO]: [MinecraftServerManager] Loading MinecraftServerManager v1.0.3
+[02:38:17] [Server thread/INFO]: [LagAssist] Loading LagAssist v2.23.0
+[02:38:17] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.27-SNAPSHOT (build 2184)
+[02:38:17] [Server thread/INFO]: [EpicEnchants] Loading EpicEnchants v1.1.9
+[02:38:17] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.0+a51fa43
+[02:38:17] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@c144144]
+[02:38:17] [Server thread/INFO]: [Towny] Loading Towny v0.96.5.0
+[02:38:17] [Server thread/INFO]: [CommandPanels] Loading CommandPanels v3.14.1.3
+[02:38:17] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.4+f7ff984
+[02:38:17] [Server thread/INFO]: [TownyChat] Loading TownyChat v0.83
+[02:38:17] [Server thread/INFO]: [CustomItems] Loading CustomItems v3.7.18
+[02:38:17] [Server thread/INFO]: [TownyNameUpdater] Loading TownyNameUpdater v5.0
+[02:38:17] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.158
+[02:38:17] [Server thread/INFO]: [mcMMO] Registered WG flags successfully!
+[02:38:17] [Server thread/INFO]: [NexEngine] Loading NexEngine v2.0.2
+[02:38:17] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.16.0
+[02:38:17] [Server thread/INFO]: [CMI] Loading CMI v8.7.11.2
+[02:38:17] [Server thread/INFO]: [QuantumShop] Loading QuantumShop v3.10.1
+[02:38:17] [Server thread/INFO]: [CMIEInjector] Loading CMIEInjector v1.0.2.3
+[02:38:17] [Server thread/INFO]: [EpicSpawners] Loading EpicSpawners v6.4.10
+[02:38:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:38:17] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[02:38:17] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:38:17] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[02:38:17] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.0+a51fa43
+[02:38:17] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:38:17] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[02:38:18] [Server thread/INFO]: [NexEngine] Enabling NexEngine v2.0.2
+[02:38:18] [Server thread/WARN]: [NexEngine] ============== DISCLAIMER ==============
+[02:38:18] [Server thread/WARN]: [NexEngine] > You're running an unknown Spigot fork.
+[02:38:18] [Server thread/WARN]: [NexEngine] > This plugin is designed to work on Spigot (spigotmc.org) only!
+[02:38:18] [Server thread/WARN]: [NexEngine] > You won't get any support for any issues unless they persist on regular Spigot.
+[02:38:18] [Server thread/WARN]: [NexEngine] ========================================
+[02:38:18] [Server thread/INFO]: [NexEngine] Loaded NMS version: V1_16_R3
+[02:38:18] [Server thread/INFO]: [NexEngine] Successfully hooked with SuperPerms permissions
+[02:38:18] [Server thread/INFO]: [NexEngine] [Hook] Vault: Success!
+[02:38:18] [Server thread/INFO]: [NexEngine] Plugin loaded in 92 ms!
+[02:38:18] [Server thread/INFO]: [CMIEInjector] Enabling CMIEInjector v1.0.2.3*
+[02:38:18] [Server thread/INFO]: [CMIEInjector] Injecting CMI Economy
+[02:38:18] [Server thread/INFO]: [NexEngine] Successfully hooked with CMIEconomy economy
+[02:38:18] [Server thread/INFO]: [CMIEInjector] [Economy] CMI Economy found: Waiting
+[02:38:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:38:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:38:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:38:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:38:18] [Server thread/INFO]: Preparing level "world"
+[02:38:18] [Server thread/INFO]: -------- World Settings For [world] --------
+[02:38:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:38:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Potato Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:38:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:38:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:38:18] [Server thread/INFO]: Max TNT Explosions: 100
+[02:38:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:38:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:38:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:38:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:38:18] [Server thread/INFO]: View Distance: 10
+[02:38:18] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:38:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:38:18] [Server thread/INFO]: Mob Spawn Range: 8
+[02:38:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[02:38:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:38:18] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:38:18] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[02:38:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:38:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Potato Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:38:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:38:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:38:18] [Server thread/INFO]: Max TNT Explosions: 100
+[02:38:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:38:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:38:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:38:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:38:18] [Server thread/INFO]: View Distance: 10
+[02:38:18] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:38:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:38:18] [Server thread/INFO]: Mob Spawn Range: 8
+[02:38:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[02:38:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:38:18] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[02:38:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:38:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Potato Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[02:38:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:38:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:38:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:38:18] [Server thread/INFO]: Max TNT Explosions: 100
+[02:38:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:38:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:38:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:38:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:38:18] [Server thread/INFO]: View Distance: 10
+[02:38:18] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:38:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:38:18] [Server thread/INFO]: Mob Spawn Range: 8
+[02:38:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[02:38:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:38:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:38:19] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[02:38:19] [Server thread/INFO]: Preparing spawn area: 0%
+[02:38:19] [Server thread/INFO]: Time elapsed: 457 ms
+[02:38:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:38:19] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[02:38:19] [Server thread/INFO]: Time elapsed: 39 ms
+[02:38:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:38:19] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[02:38:19] [Server thread/INFO]: Time elapsed: 34 ms
+[02:38:19] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.9
+[02:38:19] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[02:38:19] [Server thread/INFO]: [BkShop] Enabling BkShop v2.4
+[02:38:19] [Server thread/INFO]: [MySkin] Enabling MySkin v3.3
+[02:38:19] [Server thread/INFO]: [MySkin] Running on server version v1_16_R3
+[02:38:19] [Server thread/INFO]: [Votifier] [Votifier] Enabling Votifier v1.9*
+[02:38:19] [Server thread/INFO]: [Votifier] [Votifier] Votifier enabled.
+[02:38:19] [Server thread/INFO]: [MinecraftServerManager] Enabling MinecraftServerManager v1.0.3
+[02:38:19] [Server thread/INFO]: [LagAssist] Enabling LagAssist v2.23.0
+[02:38:19] [Server thread/INFO]: LagAssist » Enabling Systems:
+[02:38:19] [Server thread/INFO]:     [?] Economy manager
+[02:38:19] [Server thread/INFO]:     [?] Smart Mob Tools.
+[02:38:19] [Server thread/INFO]:     [?] MicroFeatures.
+[02:38:19] [Server thread/INFO]:     [?] Hopper Manager.
+[02:38:19] [Server thread/INFO]:     [?] Redstone Culler.
+[02:38:19] [Server thread/INFO]:     [?] Physics-Tweaker.
+[02:38:19] [Server thread/INFO]:     [?] Lag Monitor.
+[02:38:19] [Server thread/INFO]:     [?] MapVisualizer.
+[02:38:19] [Server thread/INFO]:     [?] Chunk Analyser.
+[02:38:19] [Server thread/INFO]:     [?] Chunk Limiter.
+[02:38:19] [Server thread/INFO]:     [?] StatsAnalyse.
+[02:38:19] [Server thread/INFO]:     [?] LogCleaner System.
+[02:38:19] [Server thread/INFO]:     [?] Spawner Manager.
+[02:38:19] [Server thread/INFO]:     [?] GUI.
+[02:38:19] [Server thread/INFO]:     [?] Injecting PacketListener.
+[02:38:19] [Server thread/INFO]:     [?] API Tools.
+[02:38:19] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.27-SNAPSHOT (build 2184)
+[02:38:19] [Server thread/ERROR]: [Citizens] Missing translation for system language (pt_BR): defaulting to English
+[02:38:19] [Server thread/WARN]: [NexEngine] Loaded class net.citizensnpcs.api.trait.TraitInfo from Citizens v2.0.27-SNAPSHOT (build 2184) which is not a depend, softdepend or loadbefore of this plugin.
+[02:38:19] [Server thread/INFO]: [NexEngine] [Hook] Citizens: Success!
+[02:38:19] [Server thread/INFO]: [EpicEnchants] Enabling EpicEnchants v1.1.9
+[02:38:19] [Server thread/INFO]:  
+[02:38:19] [Server thread/INFO]: =============================
+[02:38:19] [Server thread/INFO]: EpicEnchants 1.1.9 by Songoda <3!
+[02:38:19] [Server thread/INFO]: Action: Enabling...
+[02:38:19] [Server thread/INFO]: [EpicEnchants] Loaded locale "en_US"
+[02:38:20] [Server thread/INFO]: [SongodaCore] Hooked EpicEnchants.
+[02:38:20] [Server thread/INFO]: Using the master configurations because version is V1_16
+[02:38:20] [Server thread/INFO]: [EpicEnchants] Successfully loaded enchants: Obliterate, AntiGravity, IceAspect, Dodge, ObsidianDestroyer, Decapitation, Confusion, Berserk, Haste, Oxygenate, StormFall, DeathBringer, Fly, Explosive, Aquatic, Inquisitive, LifeSteal, Ragdoll, Wither, Blind, FeatherWeight, RocketEscape, FoodSteal, Enlightened, Glowing, Frozen, SelfDestruct, Shockwave, SkillSwipe, Experience, Gears, Overload, Insomnia, DeathGod, Lightning, Resist, Poison, PlagueCarrier
+[02:38:20] [Server thread/INFO]: =============================
+[02:38:20] [Server thread/INFO]:  
+[02:38:20] [Server thread/INFO]: [Towny] Enabling Towny v0.96.5.0
+[02:38:20] [Server thread/INFO]: ====================      Towny      ========================
+[02:38:20] [Server thread/INFO]: [Towny] Lang: english.yml v0.91 loaded.
+[02:38:20] [Server thread/INFO]: [Towny] Database: [Load] flatfile [Save] flatfile
+[02:38:20] [Server thread/INFO]: [Towny] Database: Loaded in 23ms.
+[02:38:20] [Server thread/INFO]: [Towny] Database: 100% of residents have stored UUIDs.
+[02:38:20] [ForkJoinPool.commonPool-worker-4/INFO]: [Towny] Cleaning up old backups...
+[02:38:20] [Server thread/INFO]: [Towny] Searching for third-party plugins...
+[02:38:20] [ForkJoinPool.commonPool-worker-4/INFO]: [Towny] Successfully cleaned backups.
+[02:38:20] [ForkJoinPool.commonPool-worker-4/INFO]: [Towny] Making backup...
+[02:38:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: townyadvanced
+[02:38:20] [Server thread/INFO]: [Towny] Plugins found: 
+[02:38:20] [Server thread/INFO]:   Permissions: TownyPerms, BukkitPermissions
+[02:38:20] [Server thread/INFO]:   Economy: CMIEconomy via Vault
+[02:38:20] [Server thread/INFO]:   Add-ons: TownyChat v0.83, PlaceholderAPI v2.10.9
+[02:38:20] [Server thread/INFO]: [Towny] Time until a New Day: 9 hours, 21 minutes, 40 seconds
+[02:38:20] [ForkJoinPool.commonPool-worker-4/INFO]: [Towny] Towny flatfiles and settings successfully backed up.
+[02:38:21] [Server thread/INFO]: =============================================================
+[02:38:21] [Server thread/INFO]: [Towny] Version: 0.96.5.0 - Plugin Enabled
+[02:38:21] [Server thread/INFO]: =============================================================
+[02:38:21] [Server thread/INFO]: [CommandPanels] Enabling CommandPanels v3.14.1.3
+[02:38:21] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.14.1.3 Plugin Loading...
+[02:38:21] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.14.1.3 Plugin Loaded!
+[02:38:21] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.4+f7ff984
+[02:38:21] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[02:38:21] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[02:38:21] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[02:38:21] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[02:38:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[02:38:21] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[02:38:21] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[02:38:21] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[02:38:21] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[02:38:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[02:38:21] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[02:38:21] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[02:38:21] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[02:38:21] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[02:38:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[02:38:21] [Server thread/INFO]: [WorldGuard] Loading region data...
+[02:38:21] [Server thread/INFO]: [NexEngine] [Hook] WorldGuard: Success!
+[02:38:21] [Server thread/INFO]: [TownyChat] Enabling TownyChat v0.83
+[02:38:21] [Server thread/INFO]: [TownyChat] Default Channel set to general
+[02:38:21] [Server thread/INFO]: [TownyChat] Towny version 0.96.5.0 found.
+[02:38:21] [Server thread/INFO]: [CustomItems] Enabling CustomItems v3.7.18
+[02:38:21] [Server thread/INFO]: 
+[02:38:21] [Server thread/INFO]:     ----===============================----    
+[02:38:21] [Server thread/INFO]:     ----====[ CustomItems v3.7.18 ]====----    
+[02:38:21] [Server thread/INFO]:     ----===============================----    
+[02:38:21] [Server thread/INFO]: 
+[02:38:21] [Server thread/INFO]: Adding Custom Items...
+[02:38:21] [Server thread/INFO]: Successfully enabled 3 / 3 custom items!
+[02:38:21] [Server thread/INFO]: [CustomItems] Successfully enabled world world for block generation
+[02:38:21] [Server thread/INFO]: [CustomItems] Successfully enabled world world_nether for block generation
+[02:38:21] [Server thread/INFO]: [CustomItems] Successfully enabled world world_the_end for block generation
+[02:38:21] [Server thread/INFO]: Successfully hooked in with WorldGuard
+[02:38:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cui
+[02:38:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: customitems
+[02:38:21] [Server thread/INFO]: Successfully hooked in with PlaceholderAPI
+[02:38:21] [Server thread/INFO]: [CustomItems] Custom Items by jojodmo enabled
+[02:38:21] [Server thread/INFO]: 
+[02:38:21] [Server thread/INFO]: 
+[02:38:21] [Server thread/INFO]: 
+[02:38:21] [Server thread/INFO]: [TownyNameUpdater] Enabling TownyNameUpdater v5.0
+[02:38:21] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.158
+[02:38:21] [Server thread/INFO]: [mcMMO] Platform String: 1.16.4-R0.1-SNAPSHOT
+[02:38:21] [Server thread/INFO]: [mcMMO] Minecraft version determined to be - 1.16.4
+[02:38:21] [Server thread/INFO]: [mcMMO] Loading compatibility layers...
+[02:38:21] [Server thread/INFO]: [mcMMO] Finished loading compatibility layers.
+[02:38:23] [Server thread/INFO]: [mcMMO] Enabling Acrobatics Skills
+[02:38:23] [Server thread/INFO]: [mcMMO] Registered subskill: Roll
+[02:38:23] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
+[02:38:23] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.16.0
+[02:38:23] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[02:38:23] [Server thread/INFO]: [GriefPrevention] 2 total claims loaded.
+[02:38:24] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[02:38:24] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[02:38:24] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[02:38:24] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[02:38:24] [Server thread/INFO]: [CMI] Enabling CMI v8.7.11.2
+[02:38:24] [Server thread/INFO]: [CMIPaperLib] Enabling CMIPaperLib v1.0.0
+[02:38:25] [Server thread/INFO]: ????? ?????? ????
+[02:38:25] [Server thread/INFO]: ????? ? ?? ? ????
+[02:38:25] [Server thread/INFO]: ?? ?? ??????  ?? 
+[02:38:25] [Server thread/INFO]: ?? ?? ??????  ?? 
+[02:38:25] [Server thread/INFO]: ????? ?????? ????
+[02:38:25] [Server thread/INFO]: ????? ?????? ????
+[02:38:25] [Server thread/INFO]: _______________________________________________________
+[02:38:25] [Server thread/INFO]:   Integrating PaperSpigot async methods
+[02:38:26] [Server thread/INFO]:   Citizens found.
+[02:38:26] [Server thread/INFO]:   54 Enabled and 0 Disabled modules
+[02:38:26] [Server thread/INFO]:   Votifier found. Enabling vote listeners
+[02:38:26] [Server thread/INFO]:   Permission plugin: Vault
+[02:38:26] [Server thread/INFO]:   Initialized Cipher128 AES
+[02:38:26] [Server thread/INFO]:   Loaded (52) regular alias into memory. Took 19ms
+[02:38:26] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 1ms
+[02:38:26] [Server thread/INFO]:   3.32.3 data base type detected
+[02:38:26] [Server thread/INFO]:   Started SqLite data base. Took 129ms
+[02:38:26] [Server thread/INFO]:   Enabled Towny support
+[02:38:26] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
+[02:38:26] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 0ms
+[02:38:26] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
+[02:38:26] [Server thread/INFO]:   Loaded (131) custom mob heads into memory. Took 8ms
+[02:38:26] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 15ms
+[02:38:26] [Server thread/INFO]:   Initializing BungeeCord
+[02:38:26] [Server thread/INFO]:   Loaded (5) kits into memory. Took 6ms
+[02:38:26] [Server thread/INFO]:   Loaded (7) ranks into memory. Took 9ms
+[02:38:26] [Server thread/INFO]:   Loaded (8) playtime rewards into memory. Took 1ms
+[02:38:26] [Server thread/INFO]:   Loaded (2) player data into memory. Took 7ms
+[02:38:26] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
+[02:38:26] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
+[02:38:26] [Server thread/INFO]:   Loaded (10) custom alias into memory. Took 3ms
+[02:38:27] [Server thread/INFO]:   Loaded (1) interactive commands into memory. Took 2ms
+[02:38:27] [Server thread/INFO]:   Registered events. Took 348ms
+[02:38:27] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 4ms
+[02:38:27] [Server thread/INFO]:   Updated (EN) language file. Took 99ms
+[02:38:27] [Server thread/INFO]:   Loaded (245) worth values into memory. Took 10ms
+[02:38:27] [Server thread/INFO]:   Loaded (1) warps into memory. Took 1ms
+[02:38:27] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
+[02:38:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cmi
+[02:38:27] [Server thread/INFO]:   PlaceholderAPI hooked.
+[02:38:27] [Server thread/INFO]:   PlaceholderAPI was found - Enabling capabilities.
+[02:38:27] [Server thread/INFO]:   McMMO was found - Enabling capabilities.
+[02:38:27] [Server thread/INFO]:   Starting world timer.
+[02:38:27] [Server thread/INFO]:   Initializing world manager.
+[02:38:27] [Server thread/INFO]:   Loaded (5) schedules into memory. Took 6ms
+[02:38:27] [Server thread/INFO]:   Loaded GeoIP
+[02:38:27] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 1ms
+[02:38:27] [Server thread/INFO]:   Version 8.7.11.2 has been enabled
+[02:38:27] [Server thread/INFO]: ???????????????????????????????????????????????????????
+[02:38:27] [Server thread/INFO]: [CMIEInjector][Economy] CMI Economy hooked.
+[02:38:27] [Server thread/INFO]: [QuantumShop] Enabling QuantumShop v3.10.1
+[02:38:27] [Server thread/WARN]: [QuantumShop] ============== DISCLAIMER ==============
+[02:38:27] [Server thread/WARN]: [QuantumShop] > You're running an unknown Spigot fork.
+[02:38:27] [Server thread/WARN]: [QuantumShop] > This plugin is designed to work on Spigot (spigotmc.org) only!
+[02:38:27] [Server thread/WARN]: [QuantumShop] > You won't get any support for any issues unless they persist on regular Spigot.
+[02:38:27] [Server thread/WARN]: [QuantumShop] ========================================
+[02:38:27] [Server thread/INFO]: [QuantumShop] Powered by: NexEngine
+[02:38:27] [Server thread/INFO]: [QuantumShop] [Hook] Citizens: Success!
+[02:38:27] [Server thread/INFO]: [QuantumShop] Registered new currency: exp
+[02:38:27] [Server thread/INFO]: [QuantumShop] Registered new currency: vault
+[02:38:27] [Server thread/INFO]: [QuantumShop] Registered new currency: emeralds
+[02:38:27] [Server thread/INFO]: [QuantumShop] Registered new currency: custom-gold
+[02:38:27] [Server thread/INFO]: [QuantumShop] [Gui] Shops Loaded: 7
+[02:38:27] [Server thread/INFO]: [QuantumShop] Loaded module: Gui v1.70 in 68 ms.
+[02:38:27] [Server thread/WARN]: [NexEngine] Loaded class su.nightexpress.quantumshop.modules.list.chestshop.nms.V1_16_R3 from QuantumShop v3.10.1 which is not a depend, softdepend or loadbefore of this plugin.
+[02:38:27] [Server thread/INFO]: [QuantumShop] [Chest Shop] Shops Loaded: 23
+[02:38:27] [Server thread/INFO]: [QuantumShop] Loaded module: Chest Shop v1.12 in 243 ms.
+[02:38:27] [Server thread/INFO]: [QuantumShop] Loaded module: Auction v1.04 in 12 ms.
+[02:38:27] [Server thread/INFO]: [QuantumShop] Plugin loaded in 371 ms!
+[02:38:27] [Server thread/INFO]: [EpicSpawners] Enabling EpicSpawners v6.4.10
+[02:38:27] [Server thread/INFO]:  
+[02:38:27] [Server thread/INFO]: =============================
+[02:38:27] [Server thread/INFO]: EpicSpawners 6.4.10 by Songoda <3!
+[02:38:27] [Server thread/INFO]: Action: Enabling...
+[02:38:27] [Server thread/INFO]: [EpicSpawners] Loaded locale "en_US"
+[02:38:27] [Server thread/INFO]: [SongodaCore] Hooked EpicSpawners.
+[02:38:28] [Server thread/INFO]: [EpicSpawners] Data handler connected using SQLite.
+[02:38:28] [Server thread/INFO]: =============================
+[02:38:28] [Server thread/INFO]:  
+[02:38:28] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[02:38:28] [Server thread/INFO]: Running delayed init tasks
+[02:38:28] [Craft Scheduler Thread - 9/INFO]: [QuantumShop] Auto-save: Saved 0 online users | 0 offline users.
+[02:38:28] [Server thread/INFO]: No expansions were registered!
+[02:38:28] [Server thread/INFO]: [Citizens] Loaded 3 NPCs.
+[02:38:28] [Server thread/INFO]: [TownyChat] -******* TownyChat enabled *******-
+[02:38:28] [Server thread/INFO]: Done (14.941s)! For help, type "help"
+[02:38:28] [Server thread/INFO]: Timings Reset
+[02:38:28] [Craft Scheduler Thread - 11/INFO]: [Vault] Checking for Updates ... 
+[02:38:28] [Craft Scheduler Thread - 3/INFO]: [MySkin] You are running up to date version 3.3
+[02:38:29] [Craft Scheduler Thread - 1/INFO]: LagAssist » You are up to date with LagAssist.
+[02:38:29] [Server thread/INFO]: [EpicSpawners] Loading Crafting Recipes
+[02:38:29] [Craft Scheduler Thread - 11/INFO]: [Vault] No new version available
+[02:38:30] [Server thread/INFO]: [Custom Items] Support Custom Items by purchasing it on SpigotMC here: http://customitems.page.link/get
+[02:38:30] [Server thread/INFO]: [Custom Items] it looks like you're using a cracked version of Custom Items!
+[02:38:30] [Server thread/INFO]: [Custom Items] when you purchase the plugin on Spigot, you're not only supporting the plugin's continued development, but you also get awesome perks like Amazing support, quick bug fixes, and the ability to make feature suggestions! You'll also get updates much, much faster!
+[02:38:30] [Server thread/INFO]: 
+
+[02:38:30] [Server thread/INFO]: NOTHING has been disabled. You can still use ALL of Custom Item's features.
+[02:38:30] [Server thread/INFO]: [Custom Items] Support Custom Items by purchasing it on SpigotMC here: http://customitems.page.link/get
+[02:40:29] [User Authenticator #1/INFO]: UUID of player JonasBroder is db951439-4ea6-3caf-b329-52673f399661
+[02:40:29] [Server thread/WARN]: [MinecraftServerManager] Loaded class com.jojodmo.customitems.util.classes.MHandler from CustomItems v3.7.18 which is not a depend, softdepend or loadbefore of this plugin.
+[02:40:29] [Server thread/INFO]: JonasBroder joined the game
+[02:40:29] [Server thread/INFO]: JonasBroder[/0:0:0:0:0:0:0:1:52457] logged in with entity id 2020 at ([world]4965.412449692475, 73.0, 4951.62880139373)
+[02:40:46] [Server thread/INFO]: JonasBroder issued server command: /npc create Cenoulinha
+[02:40:50] [Server thread/INFO]: JonasBroder issued server command: /npc look
+[02:41:04] [Server thread/INFO]: JonasBroder issued server command: /npc skin --url https://www.minecraftskins.com/uploads/skins/2020/11/28/fisherman-15879993.png?v292
+[02:41:23] [User Authenticator #1/INFO]: UUID of player Arthop is 8edc9157-418f-342b-9eb1-38df10bf8234
+[02:41:23] [Server thread/INFO]: Arthop joined the game
+[02:41:23] [Server thread/INFO]: Arthop[/127.0.0.1:52471] logged in with entity id 13957 at ([world]4961.690537114062, 72.5, 4974.888667012165)
+[02:41:24] [Server thread/INFO]: JonasBroder issued server command: /npc skin --url https://www.minecraftskins.com/uploads/skins/2020/11/29/cooler-carrot-15896668.png?v292
+[02:41:28] [Server thread/INFO]: Arthop issued server command: /vote
+[02:41:31] [Server thread/INFO]: Arthop issued server command: /voteedit
+[02:42:34] [Server thread/INFO]: Arthop issued server command: /provotes
+[02:42:45] [Server thread/INFO]: Arthop issued server command: /provotes infot
+[02:42:47] [Server thread/INFO]: Arthop issued server command: /provotes info
+[02:43:16] [Server thread/INFO]: JonasBroder issued server command: /votes
+[02:43:20] [Server thread/INFO]: JonasBroder issued server command: /voteedit
+[02:43:49] [Server thread/INFO]: Arthop issued server command: /lagassist
+[02:47:23] [Async Chat Thread - #0/INFO]: [g] [world]  Arthop: https://pt.namemc.com/texture/9dd9a4996008db06.png
+[02:48:10] [Server thread/INFO]: JonasBroder issued server command: /chestshop create 50 - true
+[02:48:21] [Server thread/WARN]: [NexEngine] Loaded class me.clip.placeholderapi.PlaceholderAPI from PlaceholderAPI v2.10.9 which is not a depend, softdepend or loadbefore of this plugin.
+[02:48:57] [Server thread/INFO]: JonasBroder issued server command: /npc list
+[02:49:02] [Server thread/INFO]: JonasBroder issued server command: /npc select 4
+[02:49:07] [Server thread/INFO]: JonasBroder issued server command: /npc skin --url https://pt.namemc.com/texture/9dd9a4996008db06.png
+[02:49:25] [Server thread/INFO]: JonasBroder issued server command: /npc skin --url pt.namemc.com/texture/9dd9a4996008db06.png
+[02:49:31] [Server thread/INFO]: JonasBroder issued server command: /npc skin --url namemc.com/texture/9dd9a4996008db06.png
+[02:49:39] [Async Chat Thread - #2/INFO]: [g] [world]  Arthop: argentima
+[02:49:48] [Server thread/INFO]: JonasBroder issued server command: /npc sskin argentima
+[02:49:52] [Server thread/INFO]: JonasBroder issued server command: /npc skin argentima
+[02:50:38] [Server thread/INFO]: JonasBroder issued server command: /chestshop create 50 0 true
+[02:50:42] [Server thread/INFO]: JonasBroder issued server command: /chestshop create 50 0 true
+[02:50:45] [Server thread/INFO]: JonasBroder issued server command: /chestshop create 50 0 true
+[02:50:48] [Server thread/INFO]: JonasBroder issued server command: /chestshop create 50 0 true
+[02:50:51] [Server thread/INFO]: JonasBroder issued server command: /chestshop create 50 0 true
+[02:50:56] [Server thread/INFO]: JonasBroder issued server command: /chestshop create 50 0 true
+[02:52:13] [Async Chat Thread - #3/INFO]: [g] [world]  Arthop: http://textures.minecraft.net/texture/1dc8f6867bb66dc3d5b687373617478cff90257b22ac64b24299c9dc46b9ae11
+[02:53:28] [Craft Scheduler Thread - 26/INFO]: [QuantumShop] Auto-save: Saved 2 online users | 0 offline users.
+[02:53:29] [Async Chat Thread - #4/INFO]: [g] [world]  Arthop: http://textures.minecraft.net/texture/3defb71e3f96ecc0b24d37391885b3aafeb397ba665c670a38f73cbe37a78874
+[02:53:48] [Server thread/INFO]: JonasBroder issued server command: /npc skin --url http://textures.minecraft.net/texture/1dc8f6867bb66dc3d5b687373617478cff90257b22ac64b24299c9dc46b9ae11
+[02:54:51] [Server thread/INFO]: JonasBroder issued server command: /npc select 3
+[02:55:05] [Server thread/INFO]: JonasBroder issued server command: /npc skin --url http://textures.minecraft.net/texture/3defb71e3f96ecc0b24d37391885b3aafeb397ba665c670a38f73cbe37a78874
+[02:56:16] [Server thread/INFO]: Arthop issued server command: /epicenchants
+[02:56:34] [Server thread/INFO]: Arthop issued server command: /ee
+[02:56:36] [Server thread/INFO]: JonasBroder issued server command: /ee
+[02:56:38] [Server thread/INFO]: Arthop issued server command: /ee tinkerer
+[02:56:45] [Server thread/INFO]: JonasBroder issued server command: /ee alchemist
+[02:56:55] [Server thread/INFO]: Arthop issued server command: /ee alchemist
+[02:57:07] [Server thread/INFO]: JonasBroder issued server command: /ee list
+[02:57:07] [Server thread/INFO]: Arthop issued server command: /ee list
+[02:57:50] [Server thread/INFO]: JonasBroder issued server command: /ee list
+[02:58:22] [Server thread/INFO]: JonasBroder issued server command: /ee list
+[02:58:30] [Server thread/INFO]: JonasBroder issued server command: /ee list
+[02:59:36] [Server thread/INFO]: JonasBroder issued server command: /mcmmo
+[02:59:50] [Server thread/INFO]: JonasBroder issued server command: /mcmmo:jumping
+[02:59:56] [Server thread/INFO]: JonasBroder issued server command: /mcmmo:herbalism
+[03:00:02] [Server thread/INFO]: JonasBroder issued server command: /herbalism
+[03:00:04] [Server thread/INFO]: JonasBroder issued server command: /herbalism ?
+[03:00:10] [Server thread/INFO]: Arthop issued server command: /es
+[03:00:15] [Server thread/INFO]: JonasBroder issued server command: /herbalism ? 2
+[03:00:18] [Server thread/INFO]: JonasBroder issued server command: /herbalism ? 3
+[03:00:28] [Server thread/INFO]: JonasBroder issued server command: /herbalism ? 4
+[03:00:35] [Server thread/INFO]: JonasBroder issued server command: /herbalism ? 5
+[03:00:41] [Server thread/INFO]: JonasBroder issued server command: /herbalism ? 6
+[03:00:48] [Server thread/INFO]: JonasBroder issued server command: /herbalism ? 7
+[03:00:53] [Server thread/INFO]: Arthop issued server command: /es give Arthop random 1
+[03:00:56] [Server thread/INFO]: JonasBroder issued server command: /herbalism ? 8
+[03:01:54] [Server thread/INFO]: JonasBroder issued gui command: /cmi spawner HUSK
+[03:02:03] [Server thread/INFO]: JonasBroder issued gui command: /cmi spawner RABBIT
+[03:02:06] [Server thread/INFO]: JonasBroder issued gui command: /cmi spawner PHANTOM
+[03:02:08] [Server thread/INFO]: JonasBroder issued gui command: /cmi spawner SALMON
+[03:02:10] [Server thread/INFO]: JonasBroder issued gui command: /cmi spawner EVOKER
+[03:02:12] [Server thread/INFO]: JonasBroder issued gui command: /cmi spawner CREEPER
+[03:02:14] [Server thread/INFO]: JonasBroder issued gui command: /cmi spawner PANDA
+[03:02:35] [Server thread/INFO]: JonasBroder issued gui command: /cmi spawner PUFFERFISH
+[03:03:40] [Server thread/INFO]: Arthop issued gui command: /cmi spawner ENDERMAN
+[03:03:41] [Server thread/INFO]: Arthop issued gui command: /cmi spawner ENDERMITE
+[03:04:14] [Server thread/INFO]: JonasBroder issued server command: /kill
+[03:04:14] [Server thread/INFO]: JonasBroder fell out of the world
+[03:04:14] [Server thread/INFO]: [JonasBroder: Killed JonasBroder]
+[03:04:47] [Server thread/INFO]: JonasBroder issued server command: /cmi setwarp spawn
+[03:05:04] [Server thread/INFO]: JonasBroder issued gui command: /cmi warp -p:1
+[03:05:08] [Server thread/INFO]: JonasBroder issued gui command: /cmi warp spawn
+[03:05:34] [Server thread/INFO]: JonasBroder issued server command: /cmi aliaseditor new spawn-cmi warp spawn
+[03:05:36] [Server thread/INFO]: JonasBroder issued server command: /spawn
+[03:05:57] [Server thread/INFO]: JonasBroder issued server command: /cmi aliaseditor new warp spawn-cmi warp spawn
+[03:06:03] [Server thread/INFO]: JonasBroder issued server command: /spawn
+[03:06:11] [Server thread/INFO]: JonasBroder issued server command: /warp spawn
+[03:06:23] [Server thread/INFO]: JonasBroder issued server command: /kit
+[03:06:32] [Server thread/INFO]: JonasBroder issued server command: /gamemode survival
+[03:06:32] [Server thread/INFO]: [JonasBroder: Set own game mode to Survival Mode]
+[03:08:14] [Server thread/INFO]: Arthop issued server command: /mcstats
+[03:08:28] [Craft Scheduler Thread - 47/INFO]: [QuantumShop] Auto-save: Saved 2 online users | 0 offline users.
+[03:12:09] [Server thread/INFO]: JonasBroder issued server command: /cmi sethome
+[03:12:43] [Server thread/INFO]: JonasBroder issued server command: /cmi aliaseditor new sethome-cmi sethome
+[03:12:47] [Server thread/INFO]: JonasBroder issued server command: /sethome
+[03:12:51] [Server thread/INFO]: JonasBroder issued server command: /home
+[03:12:56] [Server thread/INFO]: JonasBroder issued server command: /cmi home
+[03:13:08] [Server thread/INFO]: JonasBroder issued server command: /cmi aliaseditor new home-cmi home
+[03:16:53] [Server thread/INFO]: JonasBroder issued server command: /home
+[03:17:11] [Server thread/INFO]: JonasBroder issued server command: /sethome 2
+[03:17:18] [Server thread/INFO]: JonasBroder issued server command: /home
+[03:17:23] [Server thread/INFO]: JonasBroder issued server command: /home
+[03:17:31] [Server thread/INFO]: JonasBroder issued server command: /cmi home list
+[03:20:52] [Server thread/INFO]: JonasBroder issued server command: /cmi aliaseditor
+[03:20:57] [Server thread/INFO]: JonasBroder issued server command: /cmi aliaseditor home remove
+[03:20:58] [Server thread/INFO]: JonasBroder issued server command: /cmi aliaseditor sethome remove
+[03:21:42] [Server thread/INFO]: JonasBroder issued server command: /cmi aliaseditor new home $1-cmi home
+[03:21:54] [Server thread/INFO]: JonasBroder issued server command: /cmi sethome 1
+[03:22:03] [Server thread/INFO]: JonasBroder issued server command: /cmi sethome 2
+[03:22:11] [Server thread/INFO]: JonasBroder issued server command: /home 1
+[03:22:12] [Server thread/INFO]: JonasBroder issued server command: /home 2
+[03:22:16] [Server thread/INFO]: JonasBroder issued server command: /home
+[03:22:28] [Server thread/INFO]: JonasBroder lost connection: Disconnected
+[03:22:28] [Server thread/INFO]: JonasBroder left the game
+[03:22:29] [Netty Server IO #3/INFO]: [LagAssist] Received ping from 0:0:0:0:0:0:0:1
+[03:22:31] [Server thread/INFO]: Stopping the server
+[03:22:31] [Server thread/INFO]: Stopping server
+[03:22:31] [Server thread/INFO]: [CMIPaperLib] Disabling CMIPaperLib v1.0.0
+[03:22:31] [Server thread/INFO]: [EpicSpawners] Disabling EpicSpawners v6.4.10
+[03:22:31] [Server thread/INFO]:  
+[03:22:31] [Server thread/INFO]: =============================
+[03:22:31] [Server thread/INFO]: EpicSpawners 6.4.10 by Songoda <3!
+[03:22:31] [Server thread/INFO]: Action: Disabling...
+[03:22:31] [Server thread/INFO]: =============================
+[03:22:31] [Server thread/INFO]:  
+[03:22:31] [Server thread/INFO]: [CMIEInjector] Disabling CMIEInjector v1.0.2.3
+[03:22:31] [Server thread/INFO]: [QuantumShop] Disabling QuantumShop v3.10.1
+[03:22:31] [Server thread/INFO]: [QuantumShop] Unloaded module: Gui v1.70
+[03:22:31] [Server thread/INFO]: [QuantumShop] Unloaded module: Chest Shop v1.12
+[03:22:31] [Server thread/INFO]: [QuantumShop] Unloaded module: Auction v1.04
+[03:22:31] [Server thread/INFO]: [QuantumShop] [Citizens Hook] Unregistered listeners
+[03:22:31] [Server thread/INFO]: [QuantumShop] Auto-save: Saved 1 online users | 1 offline users.
+[03:22:31] [Server thread/INFO]: [CMI] Disabling CMI v8.7.11.2
+[03:22:31] [Server thread/INFO]: [CMI] Closed db connections
+[03:22:31] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.16.0
+[03:22:31] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[03:22:31] [Server thread/INFO]: [NexEngine] Disabling NexEngine v2.0.2
+[03:22:31] [Server thread/INFO]: [NexEngine] [Citizens Hook] Unregistered listeners
+[03:22:31] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.158
+[03:22:31] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (1)
+[03:22:31] [Server thread/INFO]: [mcMMO] Saving data for player: Arthop
+[03:22:31] [Server thread/INFO]: [mcMMO] Finished save operation for 1 players!
+[03:22:31] [Server thread/INFO]: [TownyNameUpdater] Disabling TownyNameUpdater v5.0
+[03:22:31] [Server thread/INFO]: [CustomItems] Disabling CustomItems v3.7.18
+[03:22:31] [Server thread/INFO]: [CustomItems] Custom Items by jojodmo disabled
+[03:22:31] [Server thread/INFO]: [TownyChat] Disabling TownyChat v0.83
+[03:22:31] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.4+f7ff984
+[03:22:31] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[03:22:31] [Server thread/INFO]: [CommandPanels] Disabling CommandPanels v3.14.1.3
+[03:22:31] [Server thread/INFO]: RockyHawk's CommandPanels Plugin Disabled, aww man.
+[03:22:31] [Server thread/INFO]: [Towny] Disabling Towny v0.96.5.0
+[03:22:31] [Server thread/INFO]: ==============================================================
+[03:22:31] [Server thread/INFO]: [Towny] Finishing File IO Tasks...
+[03:22:31] [Server thread/INFO]: [Towny] Version: 0.96.5.0 - Plugin Disabled
+[03:22:31] [Server thread/INFO]: =============================================================
+[03:22:31] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0+a51fa43
+[03:22:31] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[03:22:31] [Server thread/INFO]: [EpicEnchants] Disabling EpicEnchants v1.1.9
+[03:22:31] [Server thread/INFO]:  
+[03:22:31] [Server thread/INFO]: =============================
+[03:22:31] [Server thread/INFO]: EpicEnchants 1.1.9 by Songoda <3!
+[03:22:31] [Server thread/INFO]: Action: Disabling...
+[03:22:31] [Server thread/INFO]: =============================
+[03:22:31] [Server thread/INFO]:  
+[03:22:31] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.27-SNAPSHOT (build 2184)
+[03:22:32] [Server thread/INFO]: [LagAssist] Disabling LagAssist v2.23.0
+[03:22:32] [Server thread/INFO]: [MinecraftServerManager] Disabling MinecraftServerManager v1.0.3
+[03:22:32] [Server thread/INFO]: [Votifier] [Votifier] Disabling Votifier v1.9
+[03:22:32] [Server thread/INFO]: [Votifier] [Votifier] Votifier disabled.
+[03:22:32] [Thread-16/WARN]: [Votifier] [Votifier] Protocol error. Ignoring packet - socket closed
+[03:22:32] [Server thread/INFO]: [MySkin] Disabling MySkin v3.3
+[03:22:32] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[03:22:32] [Server thread/INFO]: [BkShop] Disabling BkShop v2.4
+[03:22:32] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.9
+[03:22:32] [Server thread/INFO]: Saving players
+[03:22:32] [Server thread/INFO]: Arthop lost connection: Server closed
+[03:22:32] [Server thread/INFO]: Arthop left the game
+[03:22:32] [Server thread/INFO]: Saving worlds
+[03:22:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:22:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:22:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:22:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:22:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:22:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:22:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:22:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:22:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:22:32] [Server thread/INFO]: Flushing Chunk IO
+[03:22:32] [Server thread/INFO]: Closing Thread Pool
+[03:22:32] [Server thread/INFO]: Closing Server

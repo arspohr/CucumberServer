@@ -1,0 +1,88 @@
+command-aliases: shop,guishop
+
+general:
+  main-menu:
+    enabled: true
+  disable-buying-for-full-inventory: true
+  fix-max-item-stack-size: true
+  stack-button-set-amount-to-max: true
+  ignore-item-meta-on-sell: false
+  disabled-in-gm:
+  - CREATIVE
+  - SPECTATOR
+  disabled-in-worlds:
+  - world2
+  - some_world
+
+globals:
+  happy-hours:
+    sample:
+      discount: 10.0
+      days:
+      - Monday
+      times:
+      - '12:00-14:00'
+      - '16:00-18:00'
+    sunday:
+      discount: 15.0
+      days:
+      - Sunday
+      times:
+      - '10:00-15:00'
+
+gui:
+  click-sounds:
+    BUY_SUCCESS: ENTITY_EXPERIENCE_ORB_PICKUP
+    BUY_FAILURE: BLOCK_ANVIL_PLACE
+    SELL_SUCCESS: ENTITY_EXPERIENCE_ORB_PICKUP
+    SELL_FAILURE: BLOCK_ANVIL_PLACE
+    CLICK: UI_BUTTON_CLICK
+  click-actions:
+    BUY_SELECTION: LEFT
+    SELL_SELECTION: RIGHT
+    SELL_ALL: MIDDLE
+    BUY_SINGLE: SHIFT_LEFT
+    SELL_SINGLE: SHIFT_RIGHT
+  product-format:
+    lore:
+      text:
+      - '%lore%'
+      - '&7'
+      - '%quantity-buy%'
+      - '%quantity-sell%'
+      - '%price-buy%'
+      - '%price-sell%'
+      - '%happy-hours%'
+      prices:
+        BUY:
+        - '&6(Shift) Left-Click: &e(Quick) Buy for &c%price%%currency%'
+        SELL:
+        - '&6(Shift) Right-Click: &e(Quick) Sell for &a%price%%currency%'
+        - '&6Middle-Click: &eSell All for &a%price-all%%currency%'
+      quantity:
+        BUY:
+        - '&bBuy Quantity: &e%min-buy%-%max-buy%'
+        - '&bRestock in: &c%restock-buy%'
+        - '&bYou can buy &a%left-buy% &bmore of this.'
+        SELL:
+        - '&7'
+        - '&bSell Quantity: &e%min-sell%-%max-sell%'
+        - '&bRestock in: &c%restock-sell%'
+        - '&bYou can sell &a%left-sell% &bmore of this.'
+        - '&7'
+      happy-hours:
+        'true':
+        - '&7'
+        - '&aThis product is affected by Happy Hours!'
+        'false':
+        - '&7'
+        - '&cThis product is not affected by Happy Hours!'
+
+logs:
+  output:
+    file: true
+    console: true
+  format:
+    date: dd/MM/yyyy HH:mm:ss
+    buy: '%player% bought x%amount% of %item% for %price%%currency% in %shop% shop'
+    sell: '%player% sold x%amount% of %item% for %price%%currency% in %shop% shop'

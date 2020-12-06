@@ -1,0 +1,90 @@
+command-aliases: chestshop
+currency:
+  type: vault
+  format:
+    price:
+      normal: '%price%%name%'
+      disabled: '&cDisabled'
+shops:
+  cost-create: 0
+  cost-remove: 0
+  group-limits:
+    default: 10
+    vip: 20
+    gold: 30
+    admin: -1
+  world-blacklist:
+  - someworld
+  - anotherworld
+  material-blacklist:
+  - BEDROCK
+  - BARRIER
+  lore-blacklist:
+  - sample lore
+  name-blacklist:
+  - sample item name
+  inside-player-area-only:
+    world-guard: false
+    plot-squared: false
+    lands: false
+  creation:
+    by-command:
+      enabled: true
+    by-chest-click:
+      enabled: true
+      sneak-only: false
+display:
+  showcase:
+    material: GLASS
+    enchanted: false
+  title:
+    slide-interval: 3
+    values:
+    - '&7x%amount%'
+    - '&cBuy &e%buy%'
+    - '&bSell &a%sell%'
+sounds-and-effects:
+  create:
+    sound: BLOCK_NOTE_BLOCK_BELL
+    effect: VILLAGER_HAPPY
+  remove:
+    sound: ENTITY_GENERIC_EXPLODE
+    effect: LAVA
+  deal-success:
+    sound: ENTITY_ITEM_PICKUP
+    effect: NONE
+  deal-failure:
+    sound: BLOCK_ANVIL_PLACE
+    effect: none
+logs:
+  output:
+    file: true
+    console: true
+  format:
+    date: dd/MM/yyyy HH:mm:ss
+    buy: '%player% bought x%amount% of %item% for %price%%currency% in %shop% shop'
+    sell: '%player% sold x%amount% of %item% for %price%%currency% in %shop% shop'
+shop-list:
+  title: Shops
+  size: 54
+  shop-icon:
+    slots: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44
+    name: '&6Shop #%count%'
+    lore:
+    - '&7Location: &6%x%&7, &6%y%&7, &6%z% &7in &6%world%'
+    - '&7Product: &6x%amount% %item%'
+    - '&7Buy Price: &c%buy% &7| Sell Price: &a%sell%'
+    - '&7'
+    - '&6Left Click: &eTeleport'
+    - '&6Right Click: &eOpen editor'
+  content:
+    next:
+      material: LIME_STAINED_GLASS
+      name: '&aNext Page'
+      slots: 53
+      type: NEXT
+    back:
+      material: REDSTONE
+      name: '&cExit'
+      slots: 49
+      type: EXIT

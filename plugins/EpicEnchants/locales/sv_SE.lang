@@ -1,0 +1,64 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6EpicEnchants&8]'
+# Command Messages
+command:
+  book:
+    received: '&7Du har fått en &6{enchant}&r &7bok.'
+    gave: '&7Du gav &6{player} &7en &6{enchant}&r &7bok.'
+    maxlevel: '&cDen högsta nivån på &4{enchant}&r &cär &4{max_level}&c.'
+    minlevel: '&cDen lägsta nivån på &4{enchant}&r &cär &41&c.'
+  randombook:
+    received: '&7Du har fått en slumpmässig bok.'
+    gave: '&7Du gav &6{player} &7en slumpmässig bok.'
+  whitescroll:
+    received: '&7Du har fått en whitescroll.'
+    gave: '&7Du gav &6{player} &7en whitescroll.'
+  apply:
+    invaliditem: '&cKan inte sätta på &4{enchant}&r &ctill denna sak.'
+  reload: '&7Konfigurationsfiler laddade om.'
+  giveunknown: '&cOkänd sak att ge &4{unknown}&c.'
+  dust:
+    gave: '&7Gav &6{group} DAMM &7till &6{player}&7.'
+    received: '&7Du har fått &6{group} DAMM&7.'
+# Event Messages
+blackscroll:
+  success: '&7Succé blackscrolled &6{group_color}{enchant}&r&6 {level}&7.'
+  noenchants: '&cInga enchants att blackscrolla.'
+whitescroll:
+  alreadyapplied: '&cDen här saken är redan skyddad!'
+  applied: '&7Den här saken är nu skyddad!'
+enchanter:
+  cannotafford: '&cDu har inte råd att köpa.'
+  success: '&7Köppte &6{group_color}{group_name} &7bok för &6{exp_cost} exp&7.'
+tinkerer:
+  open: '&7Handla med tinkerer.'
+  cancelled: '&cAvbruten.'
+  accepted: '&7Accepterad.'
+  noitems: '&cTinkerer är inte intreserad i några av dina saker...'
+  depositedall: '&7Satte in {amount} saker.'
+alchemist:
+  maxtwoitems: '&cDu får bara kombinera &42 &csaker samtidigt...'
+  notinterested: '&cAlkemisten är inte intresserad av några av dina föremål...'
+  maxlevelbook: '&cAlchemisten kan inte kombinera böcker med maxnivå...'
+  maxpercentagedust: '&cAlchemisten kan inte kombinera 100% succe damm...'
+  highestgroupdust: '&cAlkemisten kan inte acceptera damm från högsta nivå.'
+  differentenchantment: '&cAlkemisten kan bara kombinera böcker med samma enchants...'
+  differentlevels: '&cAlkemisten kan bara kombinera böcker på samma nivå...'
+  differentgroups: '&cAlkemisten kan bara kombinera damm från samma grupp...'
+  cannotafford: '&cDu har inte råd med det här utbytet...'
+  success: '&7Byt ut för &6{exp_cost} &7exp.'
+enchants:
+  invalidmaterial: '&cDu kan inte aplicera &4{enchant}&r &cop den saken...'
+  failure: '&4{enchant}&r &cmisslyckades med att aplicera...'
+  brokenfailure: '&4{enchant}&r &cmisslyckades att aplicera och förstörde din sak...'
+  conflict: '&cDu kan inte applicera denna enchant eftersom det strider mot en annan enchant...'
+  maxedout: '&cDu har redan maximerat enchanten på den här saken...'
+  alreadyapplied: '&cDu har redan den här enchanten aplicerad på den här saken.'
+  protected: '&7Den här boken skulle förstörd din sak, tur att den var skyddad!'
+  success: '&7Du har successivt applicerat &6{enchant}&r&7.'
+  maxallowed: '&cDu kan inte applicera mer än &4{max_enchants} &cenchants!'
+book:
+  discover: '&7Du undersöker &6{group_color}{group_name} &7Enchantment Bok, och hittar &6{enchant_format}&7!'

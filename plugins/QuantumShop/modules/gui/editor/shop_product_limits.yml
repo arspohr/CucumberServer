@@ -1,0 +1,53 @@
+title: Product Limits Editor
+size: 27
+content:
+  return:
+    material: BARRIER
+    name: '&cReturn'
+    lore: []
+    type: RETURN
+    slots: 22
+
+editor:
+  buy-lim:
+    material: CHEST
+    name: '&eBuy Limits'
+    lore:
+    - '&bMin Amount: &a%buy-min%'
+    - '&bMax Amount: &a%buy-max%'
+    - '&bReset Time: &a%buy-reset%'
+    - '&7'
+    - '&7Defines how much of the product player'
+    - '&7can buy at once and in total.'
+    - '&7And how many time player must wait'
+    - '&7before he can buy this product again.'
+    - '&7'
+    - '&6Left-Click: &eChange Min Amount'
+    - '&6Right-Click: &eChange Max Amount'
+    - '&6Shift+Left-Click: &eSet Min to Unlimited'
+    - '&6Shift+Right-Click: &eSet Max to Unlimited'
+    - '&6Middle-Click: &eChange Reset Time'
+    type: PRODUCT_CHANGE_LIMIT_BUY
+    slots: 11
+
+
+  sell-lim:
+    material: ENDER_CHEST
+    name: '&eSell Limits'
+    lore:
+    - '&bMin Amount: &a%sell-min%'
+    - '&bMax Amount: &a%sell-max%'
+    - '&bReset Time: &a%sell-reset%'
+    - '&7'
+    - '&7Defines how much of the product player'
+    - '&7can buy at once and in total.'
+    - '&7And how many time player must wait'
+    - '&7before he can buy this product again.'
+    - '&7'
+    - '&6Left-Click: &eChange Min Amount'
+    - '&6Right-Click: &eChange Max Amount'
+    - '&6Shift+Left-Click: &eSet Min to Unlimited'
+    - '&6Shift+Right-Click: &eSet Max to Unlimited'
+    - '&6Middle-Click: &eChange Reset Time'
+    type: PRODUCT_CHANGE_LIMIT_SELL
+    slots: 15

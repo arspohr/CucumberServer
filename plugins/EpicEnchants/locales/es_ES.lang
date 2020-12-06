@@ -1,0 +1,65 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6EpicEnchants&8]'
+command:
+  book:
+
+    # Command Messages
+    received: '&7Se te ha dado un libro de &6{enchant}&r&7.'
+    gave: '&7Has dado a &6{player} &7un libro de &6{enchant}&r&7.'
+    maxlevel: '&cEl nivel máximo para &4{enchant}&r &ces &4{max_level}&c.'
+    minlevel: '&cEl nivel mínimo para &4{enchant}&r &ces &41&c.'
+  randombook:
+    received: '&7Se te ha dado un libro aleatorio.'
+    gave: '&7Has dado a &6{player} &7un libro aleatorio.'
+  whitescroll:
+    received: '&7Se te ha dado un pergamino blanco.'
+    gave: '&7Has dado a &6{player} &7un pergamino blanco.'
+  apply:
+    invaliditem: '&cNo puedes aplicar &4{enchant}&r &ca este objeto.'
+  reload: '&7Archivos de configuración recargados.'
+  giveunknown: '&cItem desconocido para dar &4{unknown}&c.'
+  dust:
+    gave: '&7Se ha dado &6POLVO DE {group} &7a &6{player}&7.'
+    received: '&7Has recibido &6POLVO DE {group}&7.'
+blackscroll:
+
+  # Event Messages
+  success: '&7Se ha aplicado el pergamino negro con éxito a &6{group_color}{enchant}&r&6 {level}&7.'
+  noenchants: '&cNo hay encantamientos para aplicar el pergamino negro.'
+whitescroll:
+  alreadyapplied: '&c¡Este objeto ya esta protegido!'
+  applied: '&7¡Este objeto ahora esta protegido|!'
+enchanter:
+  cannotafford: '&cNo puedes permitirte esta compra.'
+  success: '&7Has comprado un libro de &6{group_color}{group_name} &7por &6{exp_cost} experiencia&7.'
+tinkerer:
+  open: '&7Intercambiando con el manipulador.'
+  cancelled: '&cCancelado.'
+  accepted: '&7Aceptado.'
+  noitems: '&cEl manipulador no esta interesado en ninguno de tus objetos...'
+  depositedall: '&7Has depositado {amount} objetos.'
+alchemist:
+  maxtwoitems: '&cSolo puedes combinar &42 &cobjetos al mismo tiempo...'
+  notinterested: '&cEl alquimista no esta interesado en ninguno de tus objetos...'
+  maxlevelbook: '&cEl alquimista no puede combinar libros de maximo nivel...'
+  maxpercentagedust: '&cEl alquimista no puede combinar polvo con 100% de tasa de éxito...'
+  highestgroupdust: '&cEl alquimista no puede aceptar polvo del nivel más alto.'
+  differentenchantment: '&cEl alquimista solo puede combinar libros con los mismos encantamientos...'
+  differentlevels: '&cEl alquimista solo puede combinar libros del mismo nivel...'
+  differentgroups: '&cEl alquimista solo puede combinar polvos del mismo grupo...'
+  cannotafford: '&cNo puedes permitirte este intercambio...'
+  success: '&7Intercambiado por &6{exp_cost} &7experiencia.'
+enchants:
+  invalidmaterial: '&cNo puedes aplicar &4{enchant}&r &ca ese objeto...'
+  failure: '&4{enchant}&r &cno se pudo aplicar...'
+  brokenfailure: '&4{enchant}&r &cno se pudo aplicar y rompió tu objeto...'
+  conflict: '&cNo puedes aplicar este encantamiento ya que entra en conflicto con otro encantamiento...'
+  maxedout: '&cYa tienes ese encantamiento al maximo en este objeto...'
+  alreadyapplied: '&cYa tienes ese encantamiento aplicado en tu objeto.'
+  protected: '&7¡Este libro hubiera destruido tu objeto, pero por fortuna estaba protegido!'
+  success: '&7Has aplicado con éxito &6{enchant}&r&7.'
+book:
+  discover: '&7Examinas el Libro de Encantamientos &6{group_color}{group_name}&7, ¡y descubres &6{enchant_format}&7!'

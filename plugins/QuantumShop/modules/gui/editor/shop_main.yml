@@ -1,0 +1,109 @@
+title: GUI Shop Editor
+size: 54
+content:
+  return:
+    material: BARRIER
+    name: '&cReturn'
+    lore: []
+    type: RETURN
+    slots: 49
+
+editor:
+  title:
+    material: NAME_TAG
+    name: '&eShop Title'
+    lore:
+    - '&bCurrent: &a%title%'
+    - '&7'
+    - '&7Defines shop GUI title.'
+    - '&7'
+    - '&6Left-Click: &eChange'
+    type: CHANGE_TITLE
+    slots: 4
+
+  permission:
+    material: REDSTONE
+    name: '&ePermission'
+    lore:
+    - '&bRequired: &a%permission-required%'
+    - '&bNode: &a%permission-node%'
+    - '&7'
+    - '&7Defines if player must have'
+    - '&7the permission to open this shop.'
+    - '&7'
+    - '&6Left-Click: &eToggle'
+    type: CHANGE_PERMISSION
+    slots: 11
+
+  size:
+    material: WRITABLE_BOOK
+    name: '&eShop Size'
+    lore:
+    - '&bPages: &a%pages%'
+    - '&bPage Size: &a%size%'
+    - '&7'
+    - '&7Shop size settings.'
+    - '&7'
+    - '&6Left-Click: &e+1 Page'
+    - '&6Right-Click: &e-1 Page'
+    - '&6Shift+Left-Click: &e+ Size'
+    - '&6Shift+Right-Click: &e- Size'
+    type: CHANGE_SIZE
+    slots: 15
+
+  currency:
+    material: EMERALD
+    name: '&eCurrency Manager'
+    lore:
+    - '&bCurrency: &a%currency-type%'
+    - '&bName: &a%currency-name%'
+    - '&bItem: &a%currency-item%'
+    - '&7'
+    - '&7Currency settings.'
+    - '&7'
+    - '&6Left-Click: &eChange Currency'
+    type: CHANGE_CURRENCY
+    slots: 34
+
+  operations:
+    material: GOLD_INGOT
+    name: '&eTransaction Manager'
+    lore:
+    - '&bSelling: &a%selling%'
+    - '&bBuying: &a%buying%'
+    - '&7'
+    - '&7Currency settings.'
+    - '&7'
+    - '&6Left-Click: &eToggle Selling'
+    - '&6Right-Click: &eToggle Buying'
+    type: CHANGE_TRANSACTIONS
+    slots: 28
+
+  products:
+    material: CHEST
+    name: '&eProduct Manager'
+    lore:
+    - '&7Manage shop products here.'
+    - '&7'
+    - '&6Left-Click: &eNavigate'
+    type: CHANGE_PRODUCTS
+    slots: 31
+
+  citizens:
+    material: PLAYER_HEAD
+    name: '&eAttached NPCs'
+    lore:
+    - '&bThe following NPCs will'
+    - '&bopen this shop on click:'
+    - '&a- %npc-id% (%npc-name%&a)'
+    - '&7'
+    - '&6Left-Click: &eAdd NPC'
+    - '&6Right-Click: &eClear List'
+    type: CHANGE_NPC
+    slots: 8
+
+
+
+
+
+

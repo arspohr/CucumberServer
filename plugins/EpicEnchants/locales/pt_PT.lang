@@ -1,0 +1,64 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6EpicEnchants&8]'
+# Command Messages
+command:
+  book:
+    received: '&7Foi-lhe dado um livro de &6{enchant}&r &7.'
+    gave: '&7Você deu um livro de &6{enchant}&r ao jogador &6{player}&r&7.'
+    maxlevel: '&cO Nível máximo do encantamento &4{enchant}&r &cé &4{max_level}&c.'
+    minlevel: '&cO Nível mínimo do encantamento &4{enchant}&r &cé &41&c.'
+  randombook:
+    received: '&7Foi-lhe dado um livro aleatório.'
+    gave: '&7Você deu um livro aleatório ao jogador &6{player}&7.'
+  whitescroll:
+    received: '&7Foi-lhe dado um whitescroll&7.'
+    gave: '&7Você deu um whitescroll ao jogador &6{player}&7.'
+  apply:
+    invaliditem: '&cVocê não pode aplicar o encantamento &4{enchant}&r &cneste item!'
+  reload: '&7Ficheiros de configuração recarregados!'
+  giveunknown: '&cItem desconhecido para dar &4{unknown}&c.'
+  dust:
+    gave: '&7Dado &6{group} DUST &7para &6{player}&7.'
+    received: '&7Foi-lhe dado &6{group} DUST&7.'
+# Event Messages
+blackscroll:
+  success: '&7Corretamente laminado Encantamento &6{group_color}{enchant}&r&7 do nível &6level}&7.'
+  noenchants: '&cSem encantamentos para laminar!'
+whitescroll:
+  alreadyapplied: '&cEste item já está protegido!'
+  applied: '&7Este item agora está protegido!'
+enchanter:
+  cannotafford: '&cVocê não consegue pagar isto!'
+  success: '&7Comprado Livro &6{group_color}{group_name} &7por &6{exp_cost} de experiência&7.'
+tinkerer:
+  open: '&7Trocando com o funileiro.'
+  cancelled: '&cCancelado.'
+  accepted: '&7Aceitado.'
+  noitems: '&cO Funileiro não esta interessado em nenhum dos seus itens...'
+  depositedall: '&7Depositado {amount} de itens.'
+alchemist:
+  maxtwoitems: '&Você só pode combinar &42 &citens por vez...'
+  notinterested: '&co Alquimista não está interessado em nenhum dos seus itens...'
+  maxlevelbook: '&cO Alquimista não consegue combinar Livros maximizados...'
+  maxpercentagedust: '&cO Alquimista não consegue combinar 100% sucesso do dust...'
+  highestgroupdust: '&cO Alquimista não pode aceitar dust do nivel mais elevado.'
+  differentenchantment: '&cO Alquimista só pode combinar livros com o mesmo encantamento...'
+  differentlevels: '&cO Alquimista só pode combinar livros com o mesmo nível...'
+  differentgroups: '&cO Alquimista só pode combinar dust com o mesmo grupo...'
+  cannotafford: '&cVocê não consegue pagar esta troca!'
+  success: '&7Trocado por &6{exp_cost} &7experiência:'
+enchants:
+  invalidmaterial: '&cVocê não pode aplicar &4{enchant}&r &cneste item...'
+  failure: '&4{enchant}&r &cfracassou ao aplicar...'
+  brokenfailure: '&4{enchant}&r &cfracassou ao aplicar e partiu o teu item...'
+  conflict: '&cVocê não pode aplicar este encantamento pois ele conflite com outros encantamentos...'
+  maxedout: '&cVocê já tem esse encantamento maximizado neste item...'
+  alreadyapplied: '&cVocê já tem esse encatamento aplicado neste item.'
+  protected: '&7Este livro ia partir o teu item!, mas ele estava protegido!'
+  success: '&7Você aplicou corretamente &6{enchant}&r&7:'
+  maxallowed: '&cVocê não pode aplicar mais de &4{max_enchants} &cencantamentos!'
+book:
+  discover: '&7Você examinou o livro de encantamento &6{group_color}{group_name}, e descobriu &6{enchant_format}&7!'

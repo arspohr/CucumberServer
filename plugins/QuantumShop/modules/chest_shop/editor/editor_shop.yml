@@ -1,0 +1,87 @@
+title: Shop Editor
+size: 9
+content:
+  return:
+    material: ARROW
+    name: '&eReturn'
+    type: RETURN
+    slots: 7
+editor:
+  product:
+    material: EMERALD
+    name: '&eProduct'
+    lore:
+    - '&bCurrent: &a%product%'
+    - '&7'
+    - '&7Defines the product this'
+    - '&7shop will trade.'
+    - '&7'
+    - '&6Drag and Drop: &eReplace'
+    type: CHANGE_PRODUCT
+    slots: 0
+
+  price-buy:
+    material: GOLD_INGOT
+    name: '&eBuy Price'
+    lore:
+    - '&bCurrent: &a%buy-price%$'
+    - '&7'
+    - '&7How much do players have to pay'
+    - '&7to buy an item in this shop?'
+    - '&c&lUNIT PRICE!'
+    - '&7'
+    - '&6Left-Click: &eChange'
+    - '&6Right-Click: &eDisable'
+    type: CHANGE_BUY
+    slots: 1
+
+  price-sell:
+    material: IRON_INGOT
+    name: '&eSell Price'
+    lore:
+    - '&bCurrent: &a%sell-price%$'
+    - '&7'
+    - '&7How much do you have to pay to'
+    - '&7players who sells an item to this shop?'
+    - '&c&lUNIT PRICE!'
+    - '&7'
+    - '&6Left-Click: &eChange'
+    - '&6Right-Click: &eDisable'
+    type: CHANGE_SELL
+    slots: 2
+
+  amount:
+    material: COMPARATOR
+    name: '&eBuy/Sell Amount'
+    lore:
+    - '&bCurrent: &a%amount%'
+    - '&7'
+    - '&7How much items will be traded'
+    - '&7for ONE transaction?'
+    - '&7'
+    - '&6Left-Click: &eChange'
+    type: CHANGE_AMOUNT
+    slots: 3
+
+  admin:
+    material: REDSTONE
+    name: '&eAdmin Shop'
+    lore:
+    - '&bAdmin Shop: &a%admin%'
+    - '&7'
+    - '&7Toggles admin state of this shop.'
+    - '&eAdmin Shops have unlimited items'
+    - '&eand money.'
+    - '&7'
+    - '&6Left-Click: &eToggle'
+    type: CHANGE_ADMIN
+    slots: 6
+
+  delete:
+    material: BARRIER
+    name: '&cDelete Shop'
+    lore:
+    - '&7This shop will be deleted.'
+    - '&c&lThis action can not be cancelled.'
+    type: DELETE
+    slots: 8

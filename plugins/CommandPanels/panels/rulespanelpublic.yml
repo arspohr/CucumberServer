@@ -1,0 +1,48 @@
+panels:
+  rulespublic:
+    perm: default
+    rows: '6'
+    title: '&9&lYourServer &b&lRules'
+    command: rules
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '23':
+        material: CREEPER_HEAD
+        stack: 1
+        name: §f§lSeja respeitoso!
+        lore:
+        - §x§F§F§0§0§0§0Não ofenda nenhum membro do servidor
+      '24':
+        material: CAMPFIRE
+        stack: 1
+        name: §lProibido Scams!
+        lore:
+        - §x§F§F§0§0§0§0São ilegais ações com intenção de roubar outros jogadores
+      '20':
+        material: TNT
+        stack: 1
+        name: §lNada de Griefing!
+        lore:
+        - §x§F§F§0§0§0§0É contra nossas regras e resultará em ban, ok?
+      '22':
+        material: WRITABLE_BOOK
+        stack: 1
+        name: §lSem spam!
+        lore:
+        - §x§F§F§0§0§0§0Não envie mensagens em rápida sucessão no chat global
+      '4':
+        material: BARRIER
+        stack: 1
+        name: §lRegras
+      '21':
+        material: DIAMOND_SWORD
+        stack: 1
+        name: §lSem Cheats!
+        lore:
+        - §x§F§F§0§0§0§0O banimento vem forte
+      '31':
+        material: PAPER
+        stack: 1
+        name: §lNão Anunciar
+        lore:
+        - §x§F§F§0§0§0§0Não faça anúncios não relacionados ao servidor
