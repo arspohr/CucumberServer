@@ -53,8 +53,8 @@ npc:
         pitch: '-12.0839'
       skintrait:
         fetchDefaultSkin: true
-        signature: xG7qmc/CJ4rZzI4gcIcyzy918I3+OYk91nL6k5JoDQDFYHmJeeFvWEhP83iOONJdqY7Bb+nvRI44idCWcnLm/fXcsOofS78bemB3PGoMl0m6y6E0f6iphm6POqmg/WTTyAQTSMDvdMfZ/NeweSEtIYkuF9gAt8ODCVVJXufQC3KKNQQUk4BPr0+1F6kIOlAWjbWTL+ajzH+5ci1HEaRrU/dsYKEq/77sUpJHFhljCMJF+NnNi1xPLMdyAWbc6Em4FR8u6322Cz+JUx6bdWW6+/+GWoz4kB/pcw7WplKgC+WytIH9ijYS01p4QCUFAkdZIu4PFxk48hkT66PNpvcnF0E2Sng68UjfbX1uWkNCsaBdAQ6RZS8qyLxwImHnh9W20sHSZWZ/+5Ac4YGE4DzKERQHGqK6nF8juqkHExI2xo/NN/eOGalU8sFt8SFcL6AmfQmUv5798RPqM3E0z7JZIQ1HsPhSngg6uYHc26tuy8i7GzqYgpdqEbzU9hutwvH5W15/cnIa9cGxahEH75hl59ZI+pJi/sfzVHvqJvYIQ8MDobKU+NOaniXm/sNKteMMO2VHx2eUVGBXKriVqA+TgNlI38Jly2C/lo0ctwSGc9kmbVUF1sbJsea3+Dckzr+mSw150Xl0RPUoFuE+wXYIRIUldc9m04Ug4iScP5a6GmQ=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwNzIyOTUwMDMzMCwKICAicHJvZmlsZUlkIiA6ICIwYmFiNmM5MTAyMGY0YzdiOGQyZDVmN2ZlMWZhODc3ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ2ZWxvcmlvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI4OGU0ZmI2MGQ4NWI2MmZhMDEzZGViNjJkMWI3ZWQ4YWRmMzY4NTNiYjRkZDJlZGVmNThkMzYzMDliMzc4ZDUiCiAgICB9CiAgfQp9
+        signature: e3ZNogf2DVKuEfIUANhP7zjsr6qexaDpwaYqjgWbONDfeGq7kzRG0yrb3TBhIWiuJObQPc2aHRfzRTkhpjwu/8NhUkJpEWmgcOtGdx5lK8IwS5QBeOE+V+Z8tgYdxy8AHaUpG62lIaCb4vYODp6DOMB9PtU7D3WmhIKlIGwgaUoL1L3uzKuhmtmc+f02kH9S6M77t3ztg2jrlD9GTI4+ZjSi2Bw1u7oWS4Oxo9wJFGoS1tuIUbiPkJ9knoILUOfbkPdDTC3Ls5gSoUm1BIsQ1F0JnrJEgMiue4h8nwcP/RvLlSg/4422qswiFT4wqI9cm6mByHakVR7GpfWO3Rfhn9ZKClmoiRmOphiUqaDlXS+CEgxnLAEmC1qrbZKCH20+SJW8HvqpKAO4dw8kj0FaYIecmJH9OV66O1dY+/ujIgKaQc5DlrYCF9Yl6LVNOq8FatPuDoMDWekBMngMBGitkfADoG9cAhoiWfjD+Iqr0fzRr9ORcpx1D4qihiNUAzKTa50e2hzUMChkROopt+SgtH/Wr+l2MsopdO0SEkihqOMfoAj7SCXL9CPcveBsEQvRCGSlv1MkQC5vCgTiWyYcL2x4VztIT99M8v5hE8OZCBR9uDm6N6iMs41hezdYfjXLh+1ooSeEQ28IS+dD85orkjfCU68EGktLG7NtpELiASQ=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwNzI5ODE3MTM2MCwKICAicHJvZmlsZUlkIiA6ICIwYmFiNmM5MTAyMGY0YzdiOGQyZDVmN2ZlMWZhODc3ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ2ZWxvcmlvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI4OGU0ZmI2MGQ4NWI2MmZhMDEzZGViNjJkMWI3ZWQ4YWRmMzY4NTNiYjRkZDJlZGVmNThkMzYzMDliMzc4ZDUiCiAgICB9CiAgfQp9
         updateSkins: true
         skinName: velorio
       type: PLAYER
@@ -74,7 +74,7 @@ npc:
       owner:
         owner: JonasBroder
         uuid: db951439-4ea6-3caf-b329-52673f399661
-    traitnames: lookclose,equipment,scoreboardtrait,speech,mounttrait,owner,commandtrait,spawned,type,location,skintrait,inventory
+    traitnames: location,skintrait,lookclose,speech,owner,spawned,mounttrait,scoreboardtrait,equipment,commandtrait,type,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -134,7 +134,7 @@ npc:
       owner:
         owner: JonasBroder
         uuid: db951439-4ea6-3caf-b329-52673f399661
-    traitnames: lookclose,equipment,scoreboardtrait,mounttrait,owner,spawned,commandtrait,type,location,skintrait,inventory
+    traitnames: location,skintrait,lookclose,owner,spawned,mounttrait,equipment,scoreboardtrait,commandtrait,type,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -191,7 +191,7 @@ npc:
       owner:
         owner: JonasBroder
         uuid: db951439-4ea6-3caf-b329-52673f399661
-    traitnames: lookclose,equipment,scoreboardtrait,mounttrait,owner,commandtrait,spawned,type,hologramtrait,skintrait,location,inventory
+    traitnames: location,skintrait,lookclose,owner,spawned,mounttrait,equipment,scoreboardtrait,commandtrait,type,hologramtrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -208,16 +208,13 @@ npc:
         enabled: true
         enableRandomLook: false
         randomLookDelay: 60
+        realisticlooking: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
         randomYawRange:
           '0': 0.0
           '1': 360.0
-        realisticlooking: false
-      owner:
-        owner: JonasBroder
-        uuid: db951439-4ea6-3caf-b329-52673f399661
       spawned: true
       type: PLAYER
       location:
@@ -234,7 +231,10 @@ npc:
         skinName: af2570a2-b6d8-4302-b330-bc8e0149b95c
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwNzIzMDQzODU4OSwKICAicHJvZmlsZUlkIiA6ICI2ZmU4OTUxZDVhY2M0NDc3OWI2ZmYxMmU3YzFlOTQ2MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJlcGhlbXJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFkYzhmNjg2N2JiNjZkYzNkNWI2ODczNzM2MTc0NzhjZmY5MDI1N2IyMmFjNjRiMjQyOTljOWRjNDZiOWFlMTEiCiAgICB9CiAgfQp9
         updateSkins: false
-    traitnames: lookclose,equipment,scoreboardtrait,mounttrait,owner,spawned,type,location,skintrait,inventory
+      owner:
+        owner: JonasBroder
+        uuid: db951439-4ea6-3caf-b329-52673f399661
+    traitnames: location,skintrait,lookclose,owner,spawned,mounttrait,equipment,scoreboardtrait,type,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

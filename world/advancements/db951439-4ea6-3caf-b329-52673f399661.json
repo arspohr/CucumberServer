@@ -343,6 +343,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2020-12-06 21:50:21 -0200",
       "cooked_beef": "2020-12-06 03:16:19 -0200",
       "bread": "2020-12-06 03:10:04 -0200"
     },
@@ -922,6 +923,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/magenta_carpet_from_white_carpet": {
+    "criteria": {
+      "has_magenta_dye": "2020-12-06 02:42:58 -0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_carpet_from_white_carpet": {
     "criteria": {
       "has_lime_dye": "2020-12-06 02:45:33 -0200"
@@ -931,12 +938,6 @@
   "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_black_dye": "2020-12-06 02:45:35 -0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/magenta_carpet_from_white_carpet": {
-    "criteria": {
-      "has_magenta_dye": "2020-12-06 02:42:58 -0200"
     },
     "done": true
   },
@@ -1363,6 +1364,12 @@
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_gravel": "2020-12-06 02:14:22 -0200"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2020-12-06 21:53:23 -0200"
     },
     "done": true
   },
