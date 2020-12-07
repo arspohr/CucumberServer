@@ -1,0 +1,22 @@
+#
+# Fetching EcoEnchant
+#
+
+name: "Fetching"
+description: Drops and xp from wolf kills go directly into your inventory.
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: rare
+
+general-config:
+  targets:
+    - helmet
+  grindstoneable: true
+  conflicts: []
+
+config:
+  not-on-players: false

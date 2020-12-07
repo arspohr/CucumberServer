@@ -13,7 +13,7 @@ General:
         # This change is purely cosmetic, it retains the old feel of mcMMO where you could level up thousands of times
     RetroMode:
         Enabled: true
-    Locale: en_US
+    Locale: pt_BR
     AprilFoolsEvent: true
     MOTD_Enabled: true
     EventBroadcasts: true

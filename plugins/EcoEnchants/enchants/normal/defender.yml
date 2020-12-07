@@ -1,0 +1,23 @@
+#
+# Defender EcoEnchant
+#
+
+name: "Defender"
+description: Prevents damaging your own pets.
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: uncommon
+
+general-config:
+  targets:
+    - bow
+    - crossbow
+  grindstoneable: true
+  conflicts: []
+
+config:
+  # No config available for this enchantment

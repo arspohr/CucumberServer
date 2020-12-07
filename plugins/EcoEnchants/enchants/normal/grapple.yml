@@ -1,0 +1,27 @@
+#
+# Grapple EcoEnchant
+#
+
+name: "Grapple"
+description: Pulls entities towards you.
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: epic
+
+general-config:
+  targets:
+    - sword
+    - axe
+  grindstoneable: true
+  conflicts:
+    - knockback
+    - tornado
+    - annihilate
+  maximum-level: 2
+
+config:
+  velocity-multiplier: 0.75

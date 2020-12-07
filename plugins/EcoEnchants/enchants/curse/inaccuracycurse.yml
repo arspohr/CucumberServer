@@ -1,0 +1,22 @@
+#
+# Curse of Inaccuracy EcoEnchant
+#
+
+name: "Curse of Inaccuracy"
+description: Arrows fire incorrectly.
+enabled: true
+
+obtaining:
+  table: false
+  villager: true
+  loot: true
+  rarity: legendary
+
+general-config:
+  targets:
+    - bow
+  grindstoneable: true
+  conflicts: []
+
+config:
+  spread: 0.2

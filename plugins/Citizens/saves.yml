@@ -44,17 +44,17 @@ npc:
           durability: 0
           mdata: 0
       location:
-        bodyYaw: 31.455116
+        bodyYaw: 72.50519
         world: world
         x: '-2.7'
         y: '68.0'
         z: '-50.2927'
-        yaw: '31.4551'
-        pitch: '-12.0839'
+        yaw: '72.5052'
+        pitch: '-7.6689'
       skintrait:
         fetchDefaultSkin: true
-        signature: e3ZNogf2DVKuEfIUANhP7zjsr6qexaDpwaYqjgWbONDfeGq7kzRG0yrb3TBhIWiuJObQPc2aHRfzRTkhpjwu/8NhUkJpEWmgcOtGdx5lK8IwS5QBeOE+V+Z8tgYdxy8AHaUpG62lIaCb4vYODp6DOMB9PtU7D3WmhIKlIGwgaUoL1L3uzKuhmtmc+f02kH9S6M77t3ztg2jrlD9GTI4+ZjSi2Bw1u7oWS4Oxo9wJFGoS1tuIUbiPkJ9knoILUOfbkPdDTC3Ls5gSoUm1BIsQ1F0JnrJEgMiue4h8nwcP/RvLlSg/4422qswiFT4wqI9cm6mByHakVR7GpfWO3Rfhn9ZKClmoiRmOphiUqaDlXS+CEgxnLAEmC1qrbZKCH20+SJW8HvqpKAO4dw8kj0FaYIecmJH9OV66O1dY+/ujIgKaQc5DlrYCF9Yl6LVNOq8FatPuDoMDWekBMngMBGitkfADoG9cAhoiWfjD+Iqr0fzRr9ORcpx1D4qihiNUAzKTa50e2hzUMChkROopt+SgtH/Wr+l2MsopdO0SEkihqOMfoAj7SCXL9CPcveBsEQvRCGSlv1MkQC5vCgTiWyYcL2x4VztIT99M8v5hE8OZCBR9uDm6N6iMs41hezdYfjXLh+1ooSeEQ28IS+dD85orkjfCU68EGktLG7NtpELiASQ=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwNzI5ODE3MTM2MCwKICAicHJvZmlsZUlkIiA6ICIwYmFiNmM5MTAyMGY0YzdiOGQyZDVmN2ZlMWZhODc3ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ2ZWxvcmlvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI4OGU0ZmI2MGQ4NWI2MmZhMDEzZGViNjJkMWI3ZWQ4YWRmMzY4NTNiYjRkZDJlZGVmNThkMzYzMDliMzc4ZDUiCiAgICB9CiAgfQp9
+        signature: OB9Q0etnkUhdKwypj+aFslBQY6rGb5Gd1CtIWJYJDuMBj/yb5dsYyzUI8qb49FK+hApFXUMWPEUoKi8xmHn3ajgudlBLtvHheQj3qd/OKg1i0033WFQ+5gujykCb6zZltZ19jU2TpM/T0hX06VpKJwXLzDEIgQPU2+XusizUxh+0LGzjShjHJmMJQ8tTN3E0PAHh1n2TJ92C2lV4LQ9m5YrWDTklVUj6FgkeaSyBPmXUVJnIj3tuZW6ddNz0hiaQRjhPDZtO+yz2nO+XU6nikKp19kSSSGGVGq5v1HaMrQLxP5qrMyZzYS7V4C8nSZg1J0P0ITuSUmwFViUtHvb1jLq2hPWfSAqChBP5fWduuMLPoDRedGLYIovXUfAK/26Ekzmo/yJOXxAV1QzuJeW4ZdJ8AN45XMR5yRbJVbeImTdfNQO05ta1xjEMvUAZeW4rmcOwQtn9PcYa6LJQjyL/YfskJwxf1byNCOHZk9o6rSqwrZl1uGIIYy1ZeRh0hDb8CGsSqgmWbFfcKFVSG85xaSlf4/p89THa7wzWwGFhX0EFY0JfqCWpF4JgPeELDwh2w1lJb1B1e1R2v5jSRQrnrRXO5JgROtrFOv5e6wRlUCTmxO8T/sXqLOzNCfLhkB4XMbV8mI32LxtaxhAv7v/Kk+tRBn4DLZ6xS5twyItG7C0=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwNzMxMDg4MTcyOSwKICAicHJvZmlsZUlkIiA6ICIwYmFiNmM5MTAyMGY0YzdiOGQyZDVmN2ZlMWZhODc3ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ2ZWxvcmlvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI4OGU0ZmI2MGQ4NWI2MmZhMDEzZGViNjJkMWI3ZWQ4YWRmMzY4NTNiYjRkZDJlZGVmNThkMzYzMDliMzc4ZDUiCiAgICB9CiAgfQp9
         updateSkins: true
         skinName: velorio
       type: PLAYER
@@ -74,7 +74,7 @@ npc:
       owner:
         owner: JonasBroder
         uuid: db951439-4ea6-3caf-b329-52673f399661
-    traitnames: location,skintrait,lookclose,speech,owner,spawned,mounttrait,scoreboardtrait,equipment,commandtrait,type,inventory
+    traitnames: spawned,lookclose,commandtrait,owner,equipment,scoreboardtrait,location,type,mounttrait,skintrait,inventory,speech
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -112,13 +112,13 @@ npc:
         cost: -1.0
         executionMode: LINEAR
       location:
-        bodyYaw: -30.606949
+        bodyYaw: -35.19886
         world: world
         x: '4961.3'
         y: '73.0'
         z: '4947.4508'
-        yaw: '-30.6069'
-        pitch: '0.0'
+        yaw: '-35.1989'
+        pitch: '-6.9967'
       lookclose:
         range: '5.0'
         enabled: true
@@ -134,7 +134,7 @@ npc:
       owner:
         owner: JonasBroder
         uuid: db951439-4ea6-3caf-b329-52673f399661
-    traitnames: location,skintrait,lookclose,owner,spawned,mounttrait,equipment,scoreboardtrait,commandtrait,type,inventory
+    traitnames: spawned,lookclose,owner,commandtrait,equipment,scoreboardtrait,location,type,mounttrait,skintrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -169,13 +169,13 @@ npc:
         direction: BOTTOM_UP
         lineHeight: -1.0
       location:
-        bodyYaw: 20.309158
+        bodyYaw: -155.10327
         world: world
         x: '-12.5174'
         y: '68.0'
         z: '-43.4479'
-        yaw: '20.3092'
-        pitch: '-7.7737'
+        yaw: '-155.1033'
+        pitch: '-38.746'
       lookclose:
         range: '5.0'
         enabled: true
@@ -191,7 +191,7 @@ npc:
       owner:
         owner: JonasBroder
         uuid: db951439-4ea6-3caf-b329-52673f399661
-    traitnames: location,skintrait,lookclose,owner,spawned,mounttrait,equipment,scoreboardtrait,commandtrait,type,hologramtrait,inventory
+    traitnames: spawned,hologramtrait,lookclose,commandtrait,owner,equipment,scoreboardtrait,location,type,mounttrait,skintrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -218,13 +218,13 @@ npc:
       spawned: true
       type: PLAYER
       location:
-        bodyYaw: 16.206894
+        bodyYaw: 98.067444
         world: world
         x: '4968.7'
         y: '73.0'
         z: '4965.3605'
-        yaw: '16.2069'
-        pitch: '-45.3298'
+        yaw: '98.0674'
+        pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
         signature: O6i2UslLpxN94ulyGEvHW6+GvpiGjcECSq5rTpg2w01qFz/y8HF7/yTK4V6BDgqxRJ06ThDciaXcMhk6Vj1tAOfTEBOyqN7X5zlKsTNd53/xaQOjJqBLwBIg8LxL0KBJQdH+jkXwdjgTT/PtOO9E1xuJCaG3MSH2JLRO7NTLa+OzzhFreuIitsk/+oGxhgDEgn/QVN4AtlAFjYe5u7COlVYHe9v+fPZV8THfRys+ztDGjIpTdL8MoTPsJ1QF02vvPUlz1/dFwSgxdPzhm7en7CFO7BLY5OUNSoxjX8BBuPgfmPyJOAKjs3E5vi/iMT+uGZ3HetWV1dpBTYXPiygc19laLwFSASWm5YuyOxuqlhvzLeWYkwBjitA/wsApwM0PEtWsiisgHhuDDkzKGMMhWgvg+EcQKwrQLAzPLwaiWgNb8unuY7zRSvYGjd3qauPNZHLuE698n/8IxdohEPQkusBrgE2bGcx2PWnT5q6dtvupgQr4pXEpObmb3q9NdBmcmLTG9l/O3kN1sSIMKj7kH5OK0EJtfq4A4srkzMNQf5QXZL37QIGE6rT+dUuSZCNV6+NhwUHFPG5Audvs8LVGSREoOUYlHslUqn9xLe66bvBPEt9yVwAuHHU8wXOi/OXXgOCd6x9HE0TTPSKAACorU1yDtlnDbdNF1LTarVe7p/I=
@@ -234,7 +234,7 @@ npc:
       owner:
         owner: JonasBroder
         uuid: db951439-4ea6-3caf-b329-52673f399661
-    traitnames: location,skintrait,lookclose,owner,spawned,mounttrait,equipment,scoreboardtrait,type,inventory
+    traitnames: spawned,lookclose,owner,equipment,scoreboardtrait,location,type,mounttrait,skintrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

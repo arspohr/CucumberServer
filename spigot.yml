@@ -50,6 +50,7 @@ commands:
   log: true
   spam-exclusions:
   - /skill
+  - /gd:callback
   replace-commands:
   - setblock
   - summon

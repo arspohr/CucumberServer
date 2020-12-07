@@ -1,0 +1,26 @@
+#
+# Rejuvenation EcoEnchant
+#
+
+name: "Rejuvenation"
+description: Increases natural regeneration speed.
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: legendary
+
+general-config:
+  targets:
+    - helmet
+    - chestplate
+    - leggings
+    - boots
+  grindstoneable: true
+  conflicts: []
+  maximum-level: 2
+
+config:
+  per-point-multiplier: 0.1 # 8 points * multiplier +1 = 1.8x natural regen

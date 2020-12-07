@@ -1,0 +1,81 @@
+#
+# EcoEnchants
+# by Auxilor
+#
+
+commands:
+  enchantinfo:
+    show-target-group: true # Show name of target group rather than individual items
+
+anvil:
+  rework-cost: false # Use vanilla rework penalty
+  allow-unsafe-levels: false # Allow unsafe enchantments like Sharpness 6 by combining 2 Sharp 5.
+  allow-combining-unsafe: true # Allow further combining unsafe levels, eg Sharp 6 + Sharp 6 = Sharp 7.
+  allow-existing-unsafe-levels: true # Allow combining existing unsafe enchantments like Sharpness 6
+
+  cost-exponent: # Increase value of each extra level by the exponent^levels
+    enabled: true # Use exponent
+    exponent: 0.95 # Exponent. Beware that slight changes to this value may cause huge changes in cost.
+
+  hard-cap: # Completely limit the amount of enchantments that can be placed on an item
+    enabled: false # Enable a hard cap
+    cap: 10 # Most enchantments allowed on an item
+
+lore:
+  use-numerals: true
+  use-numbers-above-threshold: 10 #After level 10, enchantments will display as Name Number, eg: Sharpness 25 instead of Sharpness XXV
+  sort-by-type: false # Sort enchantments by type
+
+  describe: # Describe enchantments in lore
+    enabled: false
+    before-lines: 5 # Describe before or equal to number of enchantments
+    wrap: 30 # Word wrap after number of characters
+
+  # Ensure that describe and shrink have no overlap as this may cause errors
+
+  shrink: # Collapse large amount of enchantments
+    enabled: true
+    after-lines: 9 # Collapse after number of enchantments
+    maximum-per-line: 2 # Maximum number of enchantments to have in 1 line
+
+enchanting-table:
+  enabled: true #Enable EcoEnchants through an enchanting table
+  book-times-less-likely: 2 #Times less likely to get an EcoEnchant on a book to balance them out. Don't recommend editing.
+  maximum-obtainable-level: 30 #Max level for enchanting table. Vanilla default is 30, change if you have a plugin that edits this.
+  special-bias: 0.7 # Value between 0-1 dictating rarity of high-level special enchantments. 0 is no extra bias, 1 is only level 1.
+  notify-on-special: true # Tell player in chat when they get a special enchantment
+
+  cap-amount: # Prevent getting above a certain amount of enchantments
+    enabled: true # Enable capping
+    limit: 5 # Cap at amount
+
+  reduce-probability: # Reduce probability of adding new enchantment by factor after each enchantment added
+    enabled: true # Enable reduction
+    factor: 2.2 # Factor to reduce probability by. Done as compound, so second pass is (factor) times less likely than first, third less likely than second, etc
+
+villager:
+  enabled: true #Enable EcoEnchants through villagers
+  book-times-less-likely: 7 # Times less likely to get an enchantment from a book with a villager. Recommended to be higher as books can only have one enchantment on them.
+
+  reduce-probability: # Reduce probability of adding new enchantment by factor after each enchantment added. Does not apply to books as they only ever contain one enchantment.
+    enabled: true # Enable reduction
+    factor: 5 # Factor to reduce probability by. Done as compound, so second pass is (factor) times less likely than first, third less likely than second, etc
+
+loot:
+  enabled: true #Enable EcoEnchants through loot chests
+  book-times-less-likely: 2
+
+  reduce-probability: # Reduce probability of adding new enchantment by factor after each enchantment added. Does not apply to books as they only ever contain one enchantment.
+    enabled: true # Enable reduction
+    factor: 7.5 # Factor to reduce probability by. Done as compound, so second pass is (factor) times less likely than first, third less likely than second, etc
+
+types:
+  special:
+    allow-multiple: false # Allow multiple special enchantments on a single item
+  artifact:
+    allow-multiple: false # Allow multiple artifacts on a single item (can cause lag!)
+
+#
+# Enchantment-specific config has now been moved to their own files.
+# Check the /enchants directory.
+#

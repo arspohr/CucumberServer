@@ -1864,3 +1864,223 @@ Enchantment:
   feather_falling: Feather Falling
   power: Power
   infinity: Infinity
+  heart_artifact: Heart Artifact
+  optics: Optics
+  hunger_curse: Hunger Curse
+  settle: Settle
+  wound: Wound
+  criticals: Criticals
+  magic_artifact: Magic Artifact
+  paladin: Paladin
+  quake: Quake
+  vein: Vein
+  reel: Reel
+  parry: Parry
+  disable: Disable
+  cleave: Cleave
+  spring: Spring
+  dragon_artifact: Dragon Artifact
+  forcefield: Forcefield
+  invigoration: Invigoration
+  fragility_curse: Fragility Curse
+  parasitic: Parasitic
+  telekinesis: Telekinesis
+  farmhand: Farmhand
+  stab: Stab
+  witch_artifact: Witch Artifact
+  aerial: Aerial
+  incandescence: Incandescence
+  zap_artifact: Zap Artifact
+  atmospheric: Atmospheric
+  magma_walker: Magma Walker
+  succession: Succession
+  sparkle_artifact: Sparkle Artifact
+  tornado: Tornado
+  infernal_touch: Infernal Touch
+  lumberjack: Lumberjack
+  proximity: Proximity
+  breaklessness_curse: Breaklessness Curse
+  kinetic: Kinetic
+  nether_artifact: Nether Artifact
+  water_artifact: Water Artifact
+  vitalize: Vitalize
+  boss_hunter: Boss Hunter
+  warped_artifact: Warped Artifact
+  economical: Economical
+  rapid: Rapid
+  stamina: Stamina
+  music_artifact: Music Artifact
+  soul_artifact: Soul Artifact
+  end_infusion: End Infusion
+  defender: Defender
+  intellect: Intellect
+  aiming: Aiming
+  liquid_shot: Liquid Shot
+  cubism: Cubism
+  abrasion: Abrasion
+  chopless: Chopless
+  pentashot: Pentashot
+  arachnid: Arachnid
+  snow_artifact: Snow Artifact
+  lava_artifact: Lava Artifact
+  evasion: Evasion
+  energizing: Energizing
+  serrated: Serrated
+  goliath: Goliath
+  reinforcement: Reinforcement
+  levitate: Levitate
+  quadrilateralism: Quadrilateralism
+  stone_switcher: Stone Switcher
+  finality: Finality
+  clouds_artifact: Clouds Artifact
+  illusion_aspect: Illusion Aspect
+  bolt: Bolt
+  weakening: Weakening
+  dullness: Dullness
+  blast_mining: Blast Mining
+  emerald_artifact: Emerald Artifact
+  diverse: Diverse
+  end_artifact: End Artifact
+  infuriate: Infuriate
+  lesion: Lesion
+  soulbound: Soulbound
+  slaughter: Slaughter
+  carve: Carve
+  defusion: Defusion
+  tripleshot: Tripleshot
+  grapple: Grapple
+  spiked: Spiked
+  dweller: Dweller
+  tectonic: Tectonic
+  force: Force
+  ink_artifact: Ink Artifact
+  inaccuracy_curse: Inaccuracy Curse
+  decay_curse: Decay Curse
+  indestructibility: Indestructibility
+  bleed: Bleed
+  sycophant: Sycophant
+  fire_affinity: Fire Affinity
+  paralyze: Paralyze
+  harpoon: Harpoon
+  freerunner: Freerunner
+  beheading: Beheading
+  netheric: Netheric
+  blind: Blind
+  life_steal: Life Steal
+  redstone_artifact: Redstone Artifact
+  respirator: Respirator
+  charge: Charge
+  stray_aspect: Stray Aspect
+  repairing: Repairing
+  marking: Marking
+  launch: Launch
+  volatile: Volatile
+  marksman: Marksman
+  identify: Identify
+  damage_artifact: Damage Artifact
+  shockwave: Shockwave
+  ender_slayer: Ender Slayer
+  fetching: Fetching
+  honey_artifact: Honey Artifact
+  puncture: Puncture
+  stalwart: Stalwart
+  phantasm: Phantasm
+  thrive: Thrive
+  finishing: Finishing
+  insecticide: Insecticide
+  zeus: Zeus
+  extract: Extract
+  nether_infusion: Nether Infusion
+  instantaneous: Instantaneous
+  water_aspect: Water Aspect
+  sickening: Sickening
+  preservation: Preservation
+  block_breather: Block Breather
+  rejuvenation: Rejuvenation
+  calling_curse: Calling Curse
+  prosperity: Prosperity
+  diurnal: Diurnal
+  frozen: Frozen
+  ice_shot: Ice Shot
+  totem_artifact: Totem Artifact
+  void_affinity: Void Affinity
+  enchantment_artifact: Enchantment Artifact
+  cerebral: Cerebral
+  misfortune_curse: Misfortune Curse
+  hellish: Hellish
+  annihilate: Annihilate
+  pacify: Pacify
+  inferno: Inferno
+  slicing: Slicing
+  collateral: Collateral
+  tear_artifact: Tear Artifact
+  rage: Rage
+  thor: Thor
+  famine: Famine
+  grit: Grit
+  fury: Fury
+  disappear: Disappear
+  leeching: Leeching
+  crimson_artifact: Crimson Artifact
+  hook: Hook
+  green_thumb: Green Thumb
+  vampire_aspect: Vampire Aspect
+  supercritical: Supercritical
+  sating: Sating
+  venom: Venom
+  abattoir: Abattoir
+  splash: Splash
+  electroshock: Electroshock
+  frenzy: Frenzy
+  replenish: Replenish
+  cranial: Cranial
+  wisdom: Wisdom
+  radiance: Radiance
+  conclude: Conclude
+  nocturnal: Nocturnal
+  extraction: Extraction
+  backstab: Backstab
+  necrotic: Necrotic
+  razor: Razor
+  impact: Impact
+  shot_assist: Shot Assist
+  water_affinity: Water Affinity
+  flinch: Flinch
+  arcanic: Arcanic
+  permanence_curse: Permanence Curse
+  ash_artifact: Ash Artifact
+  dust_artifact: Dust Artifact
+  extinguishing: Extinguishing
+  soul_fire_artifact: Soul Fire Artifact
+  first_strike: First Strike
+  toxic: Toxic
+  corrosive: Corrosive
+  deflection: Deflection
+  buckshot: Buckshot
+  horde: Horde
+  graceful: Graceful
+  drill: Drill
+  confusion: Confusion
+  butchering: Butchering
+  smoke_artifact: Smoke Artifact
+  fire_artifact: Fire Artifact
+  oxygenate: Oxygenate
+  magnetic: Magnetic
+  bladed: Bladed
+  dynamite: Dynamite
+  aquatic: Aquatic
+  voltage: Voltage
+  transfuse: Transfuse
+  magma_artifact: Magma Artifact
+  ignite: Ignite
+  streamlining: Streamlining
+  enderism: Enderism
+  dexterous: Dexterous
+  harmlessness_curse: Harmlessness Curse
+  revenant: Revenant
+  missile: Missile
+  spearfishing: Spearfishing
+  plasmic: Plasmic
+  instability: Instability
+  lime_artifact: Lime Artifact
+  protector: Protector

@@ -1,0 +1,22 @@
+#
+# Infernal EcoEnchant
+#
+
+name: "Inferno"
+description: Flaming tridents.
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: uncommon
+
+general-config:
+  targets:
+    - trident
+  grindstoneable: true
+  conflicts: []
+
+config:
+  # No config available for this enchantment

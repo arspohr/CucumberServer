@@ -1261,11 +1261,11 @@ Spawn:
   # RespawnLocation will indicate if you want to use this location as possible respawn point for player after death
   Main:
     World: world
-    X: 1.152997480541332
+    X: 1.3999243133824453
     Y: 68.0
-    Z: -49.713839580140274
-    Pitch: 0.45017114
-    Yaw: 88.52155
+    Z: -49.44190665009197
+    Pitch: 0.45003262
+    Yaw: -272.5601
     RespawnLocation: false
     Rng: 0
   # Defines players first spawn point when he logs into server for the first time
@@ -1753,44 +1753,264 @@ Enchanting:
     # This only applies for enchant command not for natural enchanting
     Enabled: true
     MaxLevel:
+      heart artifact: 1
+      arrow_knockback: 2
+      optics: 5
+      loyalty: 3
+      curse of hunger: 1
+      settle: 5
+      wound: 7
+      criticals: 3
+      magic artifact: 1
+      dig_speed: 5
+      paladin: 3
+      quake: 3
+      vein: 5
+      reel: 2
+      parry: 4
+      disable: 3
+      frost_walker: 2
+      cleave: 8
+      channeling: 1
+      spring: 3
+      thorns: 3
+      dragon artifact: 1
+      silk_touch: 1
+      forcefield: 2
+      invigoration: 3
+      protection_projectile: 4
+      arrow_damage: 5
+      curse of fragility: 1
+      parasitic: 3
+      telekinesis: 1
+      farmhand: 2
+      stab: 5
+      witch artifact: 1
+      aerial: 3
+      incandescence: 2
+      zap artifact: 1
+      atmospheric: 3
+      magma walker: 2
+      succession: 1
+      sparkle artifact: 1
+      tornado: 2
+      infernal touch: 1
+      lumberjack: 6
+      piercing: 4
+      proximity: 5
+      curse of breaklessness: 1
+      kinetic: 6
+      nether artifact: 1
+      protection_explosions: 4
+      water artifact: 1
+      vitalize: 1
+      boss hunter: 8
+      warped artifact: 1
+      sweeping_edge: 3
+      economical: 4
+      rapid: 6
+      stamina: 4
+      music artifact: 1
+      oxygen: 3
+      soul artifact: 1
+      end infusion: 6
+      defender: 1
+      intellect: 3
+      aiming: 5
+      liquid shot: 5
+      cubism: 7
+      abrasion: 2
+      chopless: 6
+      pentashot: 1
+      arachnid: 5
+      snow artifact: 1
+      lava artifact: 1
+      evasion: 3
+      energizing: 3
+      binding_curse: 1
+      serrated: 5
+      goliath: 8
+      reinforcement: 4
+      levitate: 2
+      quadrilateralism: 7
+      stone switcher: 6
+      damage_undead: 5
+      finality: 5
+      clouds artifact: 1
+      fire_aspect: 2
+      illusion aspect: 2
+      bolt: 4
+      weakening: 4
+      dullness: 3
+      blast mining: 1
+      emerald artifact: 1
+      diverse: 6
+      end artifact: 1
+      infuriate: 7
+      lesion: 7
+      soulbound: 1
+      slaughter: 5
+      carve: 8
+      defusion: 5
+      tripleshot: 1
+      grapple: 2
+      spiked: 3
+      dweller: 3
+      tectonic: 2
+      force: 8
+      ink artifact: 1
+      curse of inaccuracy: 1
+      curse of decay: 1
+      indestructibility: 3
+      bleed: 7
+      vanishing_curse: 1
+      sycophant: 3
+      fire affinity: 7
+      paralyze: 6
+      harpoon: 3
+      freerunner: 6
+      mending: 1
+      beheading: 3
+      netheric: 6
+      blind: 6
+      life steal: 3
+      redstone artifact: 1
+      respirator: 6
+      charge: 6
+      stray aspect: 6
+      repairing: 3
+      marking: 4
+      launch: 8
+      volatile: 2
+      marksman: 1
+      identify: 2
+      riptide: 3
+      damage artifact: 1
+      shockwave: 3
+      ender slayer: 5
+      fetching: 1
+      honey artifact: 1
+      puncture: 6
+      stalwart: 3
+      phantasm: 5
+      thrive: 2
+      finishing: 5
+      insecticide: 5
+      zeus: 6
+      soul_speed: 3
+      extract: 3
+      nether infusion: 6
+      instantaneous: 7
+      water aspect: 2
+      sickening: 2
+      preservation: 4
+      block breather: 3
+      rejuvenation: 2
+      curse of calling: 1
+      prosperity: 3
+      diurnal: 6
+      frozen: 6
+      ice shot: 3
+      damage_arthropods: 5
+      totem artifact: 1
+      void affinity: 5
+      enchantment artifact: 1
+      cerebral: 8
+      impaling: 5
+      curse of misfortune: 1
+      hellish: 6
+      annihilate: 2
+      arrow_fire: 1
+      pacify: 5
+      water_worker: 1
+      inferno: 1
+      slicing: 8
+      collateral: 4
+      tear artifact: 1
+      rage: 5
+      depth_strider: 3
+      thor: 6
+      famine: 8
+      grit: 3
+      fury: 7
+      disappear: 6
+      leeching: 3
+      lure: 3
+      crimson artifact: 1
+      hook: 2
+      green thumb: 1
+      vampire aspect: 2
+      supercritical: 3
+      sating: 6
+      venom: 6
+      abattoir: 5
+      splash: 4
+      protection_fall: 4
+      electroshock: 3
+      frenzy: 3
       protection_fire: 4
       damage_all: 5
-      arrow_fire: 1
-      soul_speed: 3
-      water_worker: 1
-      arrow_knockback: 2
-      loyalty: 3
-      depth_strider: 3
-      vanishing_curse: 1
+      replenish: 1
+      cranial: 8
       durability: 3
-      knockback: 2
       luck: 3
-      binding_curse: 1
+      wisdom: 3
+      radiance: 4
       loot_bonus_blocks: 3
-      protection_environmental: 4
-      dig_speed: 5
-      mending: 1
-      frost_walker: 2
-      lure: 3
-      loot_bonus_mobs: 3
-      piercing: 4
-      protection_explosions: 4
-      damage_undead: 5
+      conclude: 5
+      nocturnal: 6
+      extraction: 6
+      backstab: 3
+      necrotic: 4
+      razor: 8
+      impact: 3
+      shot assist: 6
+      water affinity: 7
       multishot: 1
-      fire_aspect: 2
-      channeling: 1
-      sweeping_edge: 3
-      thorns: 3
-      damage_arthropods: 5
-      oxygen: 3
-      riptide: 3
-      silk_touch: 1
+      flinch: 6
+      arcanic: 6
+      curse of permanence: 1
+      ash artifact: 1
+      dust artifact: 1
       quick_charge: 3
-      protection_projectile: 4
-      impaling: 5
-      protection_fall: 4
-      arrow_damage: 5
+      extinguishing: 3
+      soul fire artifact: 1
+      first strike: 5
       arrow_infinite: 1
+      toxic: 2
+      corrosive: 2
+      deflection: 6
+      buckshot: 2
+      horde: 4
+      graceful: 6
+      drill: 5
+      confusion: 4
+      butchering: 5
+      smoke artifact: 1
+      fire artifact: 1
+      oxygenate: 8
+      knockback: 2
+      magnetic: 4
+      bladed: 5
+      dynamite: 2
+      aquatic: 8
+      voltage: 5
+      protection_environmental: 4
+      transfuse: 7
+      magma artifact: 1
+      ignite: 8
+      streamlining: 8
+      enderism: 6
+      loot_bonus_mobs: 3
+      dexterous: 2
+      curse of harmlessness: 1
+      revenant: 5
+      missile: 3
+      spearfishing: 6
+      plasmic: 5
+      instability: 3
+      lime artifact: 1
+      protector: 1
   # When set to true, players will be required to have cmi.enchantments.[enchantname] permission node
   RequireSpecificPermission: false
   # When set to true, players will be required to have cmi.enchantments.[enchantname].[maxlevel] permission node to be abble to enchant item to defined max level

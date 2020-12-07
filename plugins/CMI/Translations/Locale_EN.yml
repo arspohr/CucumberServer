@@ -518,83 +518,523 @@ info:
     zombie_villager: Zombie villager
     zombified_piglin: Zombified piglin
   EnchantAliases:
+    heart artifact:
+    - Heart Artifact
+    arrow_knockback:
+    - Punch
+    optics:
+    - Optics
+    loyalty:
+    - Loyalty
+    curse of hunger:
+    - Curse of Hunger
+    settle:
+    - Settle
+    wound:
+    - Wound
+    criticals:
+    - Criticals
+    magic artifact:
+    - Magic Artifact
+    dig_speed:
+    - Efficiency
+    paladin:
+    - Paladin
+    quake:
+    - Quake
+    vein:
+    - Vein
+    reel:
+    - Reel
+    parry:
+    - Parry
+    disable:
+    - Disable
+    frost_walker:
+    - FrostWalker
+    cleave:
+    - Cleave
+    channeling:
+    - Channeling
+    spring:
+    - Spring
+    thorns:
+    - Thorns
+    dragon artifact:
+    - Dragon Artifact
+    silk_touch:
+    - SilkTouch
+    forcefield:
+    - Forcefield
+    invigoration:
+    - Invigoration
+    protection_projectile:
+    - ProjectileProtection
+    arrow_damage:
+    - Power
+    curse of fragility:
+    - Curse of Fragility
+    parasitic:
+    - Parasitic
+    telekinesis:
+    - Telekinesis
+    farmhand:
+    - Farmhand
+    stab:
+    - Stab
+    witch artifact:
+    - Witch Artifact
+    aerial:
+    - Aerial
+    incandescence:
+    - Incandescence
+    zap artifact:
+    - Zap Artifact
+    atmospheric:
+    - Atmospheric
+    magma walker:
+    - Magma Walker
+    succession:
+    - Succession
+    sparkle artifact:
+    - Sparkle Artifact
+    tornado:
+    - Tornado
+    infernal touch:
+    - Infernal Touch
+    lumberjack:
+    - Lumberjack
+    piercing:
+    - Piercing
+    proximity:
+    - Proximity
+    curse of breaklessness:
+    - Curse of Breaklessness
+    kinetic:
+    - Kinetic
+    nether artifact:
+    - Nether Artifact
+    protection_explosions:
+    - BlastProtection
+    water artifact:
+    - Water Artifact
+    vitalize:
+    - Vitalize
+    boss hunter:
+    - Boss Hunter
+    warped artifact:
+    - Warped Artifact
+    sweeping_edge:
+    - SweepingEdge
+    economical:
+    - Economical
+    rapid:
+    - Rapid
+    stamina:
+    - Stamina
+    music artifact:
+    - Music Artifact
+    oxygen:
+    - Respiration
+    soul artifact:
+    - Soul Artifact
+    end infusion:
+    - End Infusion
+    defender:
+    - Defender
+    intellect:
+    - Intellect
+    aiming:
+    - Aiming
+    liquid shot:
+    - Liquid Shot
+    cubism:
+    - Cubism
+    abrasion:
+    - Abrasion
+    chopless:
+    - Chopless
+    pentashot:
+    - Pentashot
+    arachnid:
+    - Arachnid
+    snow artifact:
+    - Snow Artifact
+    lava artifact:
+    - Lava Artifact
+    evasion:
+    - Evasion
+    energizing:
+    - Energizing
+    binding_curse:
+    - BindingCurse
+    serrated:
+    - Serrated
+    goliath:
+    - Goliath
+    reinforcement:
+    - Reinforcement
+    levitate:
+    - Levitate
+    quadrilateralism:
+    - Quadrilateralism
+    stone switcher:
+    - Stone Switcher
+    damage_undead:
+    - Smite
+    finality:
+    - Finality
+    clouds artifact:
+    - Clouds Artifact
+    fire_aspect:
+    - FireAspect
+    illusion aspect:
+    - Illusion Aspect
+    bolt:
+    - Bolt
+    weakening:
+    - Weakening
+    dullness:
+    - Dullness
+    blast mining:
+    - Blast Mining
+    emerald artifact:
+    - Emerald Artifact
+    diverse:
+    - Diverse
+    end artifact:
+    - End Artifact
+    infuriate:
+    - Infuriate
+    lesion:
+    - Lesion
+    soulbound:
+    - Soulbound
+    slaughter:
+    - Slaughter
+    carve:
+    - Carve
+    defusion:
+    - Defusion
+    tripleshot:
+    - Tripleshot
+    grapple:
+    - Grapple
+    spiked:
+    - Spiked
+    dweller:
+    - Dweller
+    tectonic:
+    - Tectonic
+    force:
+    - Force
+    ink artifact:
+    - Ink Artifact
+    curse of inaccuracy:
+    - Curse of Inaccuracy
+    curse of decay:
+    - Curse of Decay
+    indestructibility:
+    - Indestructibility
+    bleed:
+    - Bleed
+    vanishing_curse:
+    - VanishingCurse
+    sycophant:
+    - Sycophant
+    fire affinity:
+    - Fire Affinity
+    paralyze:
+    - Paralyze
+    harpoon:
+    - Harpoon
+    freerunner:
+    - Freerunner
+    mending:
+    - Mending
+    beheading:
+    - Beheading
+    netheric:
+    - Netheric
+    blind:
+    - Blind
+    life steal:
+    - Life Steal
+    redstone artifact:
+    - Redstone Artifact
+    respirator:
+    - Respirator
+    charge:
+    - Charge
+    stray aspect:
+    - Stray Aspect
+    repairing:
+    - Repairing
+    marking:
+    - Marking
+    launch:
+    - Launch
+    volatile:
+    - Volatile
+    marksman:
+    - Marksman
+    identify:
+    - Identify
+    riptide:
+    - Riptide
+    damage artifact:
+    - Damage Artifact
+    shockwave:
+    - Shockwave
+    ender slayer:
+    - Ender Slayer
+    fetching:
+    - Fetching
+    honey artifact:
+    - Honey Artifact
+    puncture:
+    - Puncture
+    stalwart:
+    - Stalwart
+    phantasm:
+    - Phantasm
+    thrive:
+    - Thrive
+    finishing:
+    - Finishing
+    insecticide:
+    - Insecticide
+    zeus:
+    - Zeus
+    soul_speed:
+    - SOULSPEED
+    extract:
+    - Extract
+    nether infusion:
+    - Nether Infusion
+    instantaneous:
+    - Instantaneous
+    water aspect:
+    - Water Aspect
+    sickening:
+    - Sickening
+    preservation:
+    - Preservation
+    block breather:
+    - Block Breather
+    rejuvenation:
+    - Rejuvenation
+    curse of calling:
+    - Curse of Calling
+    prosperity:
+    - Prosperity
+    diurnal:
+    - Diurnal
+    frozen:
+    - Frozen
+    ice shot:
+    - Ice Shot
+    damage_arthropods:
+    - BaneOfArthropods
+    totem artifact:
+    - Totem Artifact
+    void affinity:
+    - Void Affinity
+    enchantment artifact:
+    - Enchantment Artifact
+    cerebral:
+    - Cerebral
+    impaling:
+    - Impaling
+    curse of misfortune:
+    - Curse of Misfortune
+    hellish:
+    - Hellish
+    annihilate:
+    - Annihilate
+    arrow_fire:
+    - Flame
+    pacify:
+    - Pacify
+    water_worker:
+    - AquaAffinity
+    inferno:
+    - Inferno
+    slicing:
+    - Slicing
+    collateral:
+    - Collateral
+    tear artifact:
+    - Tear Artifact
+    rage:
+    - Rage
+    depth_strider:
+    - DepthStrider
+    thor:
+    - Thor
+    famine:
+    - Famine
+    grit:
+    - Grit
+    fury:
+    - Fury
+    disappear:
+    - Disappear
+    leeching:
+    - Leeching
+    lure:
+    - Lure
+    crimson artifact:
+    - Crimson Artifact
+    hook:
+    - Hook
+    green thumb:
+    - Green Thumb
+    vampire aspect:
+    - Vampire Aspect
+    supercritical:
+    - Supercritical
+    sating:
+    - Sating
+    venom:
+    - Venom
+    abattoir:
+    - Abattoir
+    splash:
+    - Splash
+    protection_fall:
+    - FallProtection
+    - FeatherFalling
+    electroshock:
+    - Electroshock
+    frenzy:
+    - Frenzy
     protection_fire:
     - FireProtection
     damage_all:
     - Sharpness
-    arrow_fire:
-    - Flame
-    soul_speed:
-    - SOULSPEED
-    water_worker:
-    - AquaAffinity
-    arrow_knockback:
-    - Punch
-    loyalty:
-    - Loyalty
-    depth_strider:
-    - DepthStrider
-    vanishing_curse:
-    - VanishingCurse
+    replenish:
+    - Replenish
+    cranial:
+    - Cranial
     durability:
     - Unbreaking
-    knockback:
-    - Knockback
     luck:
     - Luck
-    binding_curse:
-    - BindingCurse
+    wisdom:
+    - Wisdom
+    radiance:
+    - Radiance
     loot_bonus_blocks:
     - Fortune
-    protection_environmental:
-    - Protection
-    dig_speed:
-    - Efficiency
-    mending:
-    - Mending
-    frost_walker:
-    - FrostWalker
-    lure:
-    - Lure
-    loot_bonus_mobs:
-    - Looting
-    piercing:
-    - Piercing
-    protection_explosions:
-    - BlastProtection
-    damage_undead:
-    - Smite
+    conclude:
+    - Conclude
+    nocturnal:
+    - Nocturnal
+    extraction:
+    - Extraction
+    backstab:
+    - Backstab
+    necrotic:
+    - Necrotic
+    razor:
+    - Razor
+    impact:
+    - Impact
+    shot assist:
+    - Shot Assist
+    water affinity:
+    - Water Affinity
     multishot:
     - Multishot
-    fire_aspect:
-    - FireAspect
-    channeling:
-    - Channeling
-    sweeping_edge:
-    - SweepingEdge
-    thorns:
-    - Thorns
-    damage_arthropods:
-    - BaneOfArthropods
-    oxygen:
-    - Respiration
-    riptide:
-    - Riptide
-    silk_touch:
-    - SilkTouch
+    flinch:
+    - Flinch
+    arcanic:
+    - Arcanic
+    curse of permanence:
+    - Curse of Permanence
+    ash artifact:
+    - Ash Artifact
+    dust artifact:
+    - Dust Artifact
     quick_charge:
     - QUICKCHARGE
-    protection_projectile:
-    - ProjectileProtection
-    impaling:
-    - Impaling
-    protection_fall:
-    - FallProtection
-    - FeatherFalling
-    arrow_damage:
-    - Power
+    extinguishing:
+    - Extinguishing
+    soul fire artifact:
+    - Soul Fire Artifact
+    first strike:
+    - First Strike
     arrow_infinite:
     - Infinity
+    toxic:
+    - Toxic
+    corrosive:
+    - Corrosive
+    deflection:
+    - Deflection
+    buckshot:
+    - Buckshot
+    horde:
+    - Horde
+    graceful:
+    - Graceful
+    drill:
+    - Drill
+    confusion:
+    - Confusion
+    butchering:
+    - Butchering
+    smoke artifact:
+    - Smoke Artifact
+    fire artifact:
+    - Fire Artifact
+    oxygenate:
+    - Oxygenate
+    knockback:
+    - Knockback
+    magnetic:
+    - Magnetic
+    bladed:
+    - Bladed
+    dynamite:
+    - Dynamite
+    aquatic:
+    - Aquatic
+    voltage:
+    - Voltage
+    protection_environmental:
+    - Protection
+    transfuse:
+    - Transfuse
+    magma artifact:
+    - Magma Artifact
+    ignite:
+    - Ignite
+    streamlining:
+    - Streamlining
+    enderism:
+    - Enderism
+    loot_bonus_mobs:
+    - Looting
+    dexterous:
+    - Dexterous
+    curse of harmlessness:
+    - Curse of Harmlessness
+    revenant:
+    - Revenant
+    missile:
+    - Missile
+    spearfishing:
+    - Spearfishing
+    plasmic:
+    - Plasmic
+    instability:
+    - Instability
+    lime artifact:
+    - Lime Artifact
+    protector:
+    - Protector
   PotionEffectAliases:
     speed:
     - Speed

@@ -1,0 +1,54 @@
+Item:
+  material: CHEST
+  data: 0
+  name: '&cExample Lootbox'
+  lore:
+  - '&7This is an example lootbox'
+Animation:
+  type: 1
+  settings:
+    title: '&cexample lootbox'
+    rewards-slots:
+    - 2
+    - 3
+    - 4
+    bonus-rewards-slots:
+    - 5
+    - 6
+    timer-slots:
+    - 0
+    - 8
+    time: 5
+    broadcast:
+      enabled: true
+      header: '&e&l(!) &e{PLAYER} has just open the &c&lExample Lootbox &eand has
+        gotten'
+      message: '&6&l* &e&l{AMOUNT}x {ITEM}'
+    sound:
+      start: UI_BUTTON_CLICK:5
+      prize: ENTITY_PLAYER_LEVELUP:5
+skippable: true
+rewards:
+- "50.0@;;rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGph\r\
+  \ndmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAk\r\
+  \nU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAG\r\
+  \ndmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9\r\
+  \nPXQAAXZ0AAR0eXBldAAEbWV0YXVxAH4ABgAAAAR0AB5vcmcuYnVra2l0LmludmVudG9yeS5JdGVt\r\
+  \nU3RhY2tzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFu\r\
+  \nZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAKGHQAB1NQQVdORVJzcQB+AABzcQB+AAN1cQB+AAYAAAAF\r\
+  \ncQB+AAh0AAltZXRhLXR5cGV0AAxkaXNwbGF5LW5hbWV0AAhpbnRlcm5hbHQADWJsb2NrTWF0ZXJp\r\
+  \nYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AAtUSUxFX0VOVElUWXQAGMKnZUlyb24gR29sZW0gwqdm\r\
+  \nU3Bhd25lcnQASEg0c0lBQUFBQUFBQUFPTmlZR0JtWUNuT3JFcGxZR0JnNUdCZ0tha3NTR1hnOGl6\r\
+  \nS3oxTnd6ODlKeldVQUFEckJmSDhpQUFBQXEAfgAR\r\n@;;1@;;true@;;none"
+- "50.0@;;rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGph\r\
+  \ndmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAk\r\
+  \nU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAG\r\
+  \ndmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9\r\
+  \nPXQAAXZ0AAR0eXBldAAEbWV0YXVxAH4ABgAAAAR0AB5vcmcuYnVra2l0LmludmVudG9yeS5JdGVt\r\
+  \nU3RhY2tzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFu\r\
+  \nZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAKGHQAB1NQQVdORVJzcQB+AABzcQB+AAN1cQB+AAYAAAAF\r\
+  \ncQB+AAh0AAltZXRhLXR5cGV0AAxkaXNwbGF5LW5hbWV0AAhpbnRlcm5hbHQADWJsb2NrTWF0ZXJp\r\
+  \nYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AAtUSUxFX0VOVElUWXQAGMKnZUlyb24gR29sZW0gwqdm\r\
+  \nU3Bhd25lcnQASEg0c0lBQUFBQUFBQUFPTmlZR0JtWUNuT3JFcGxZR0JnNUdCZ0tha3NTR1hnOGl6\r\
+  \nS3oxTnd6ODlKeldVQUFEckJmSDhpQUFBQXEAfgAR\r\n@;;1@;;false@;;https://ecoenchants.willfp.com/enchantments/all-enchantments"
+bonus-rewards: []

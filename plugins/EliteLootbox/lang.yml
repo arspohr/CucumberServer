@@ -1,0 +1,38 @@
+CONFIGURATION_RELOAD: '&f&l(&3&lElite&b&lLootbox&f&l)&7: &bConfiguration Files have
+  been reloaded!'
+LOOTBOX:
+  CREATE: '&f&l(&3&lElite&b&lLootbox&f&l)&7: &bYou have successfully created &3{NAME}
+    &blootbox!'
+  DELETE: '&f&l(&3&lElite&b&lLootbox&f&l)&7: &bYou have successfully deleted &3{NAME}
+    &blootbox!'
+ERROR:
+  INVALID_LOOTBOX: '&f&l(&3&lElite&b&lLootbox&f&l)&7: &bInvalid Lootbox Type!'
+  INVENTORY_FULL: '&f&l(&3&lElite&b&lLootbox&f&l)&7: &bThat players inventory is full!!'
+  CANNOT_ADD_AIR: '&f&l(&3&lElite&b&lLootbox&f&l)&7: &bYou cannot add air to a lootbox!'
+  INVALID_SLOT: '&f&l(&3&lElite&b&lLootbox&f&l)&7: &bThat is an invalid slot!'
+  NO_REWARDS: '&f&l(&3&lElite&b&lLootbox&f&l)&7: &bYou do not have any rewards set
+    for this crate!'
+  LOOTBOX_ALREADY_EXISTS: '&f&l(&3&lElite&b&lLootbox&f&l)&7: &bThis is already a lootbox,
+    please select another name!'
+  LOOTBOX_FAILED_DELETE: '&f&l(&3&lElite&b&lLootbox&f&l)&7: &bFailed to delete this
+    lootbox, it either doesn''t exist or something went wrong!'
+REWARD:
+  ITEM_REMOVE: '&f&l(&3&lElite&b&lLootbox&f&l)&7: &bReward Removed!'
+  ITEM_ADDED: '&f&l(&3&lElite&b&lLootbox&f&l)&7: &bSuccessfully added reward to {LOOTBOX}
+    lootbox'
+  COMMAND_INSTRUCTION: |2
+
+    &f&l(&3&lElite&b&lLootbox&f&l)&7: &bType the command you would like to add to the lootbox
+    &7Type &ccancel &7to cancel this
+  SAVED_REWARDS: '&f&l(&3&lElite&b&lLootbox&f&l)&7: &bSuccessfully saved all rewards
+    in this lootbox'
+  COMMAND_CANCELLED: '&f&l(&3&lElite&b&lLootbox&f&l)&7: &bCancelled the process of
+    adding a reward!'
+GIVE_ALL:
+  MESSAGE: '&f&l(&3&lElite&b&lLootbox&f&l)&7: &bEveryone has received a {LOOTBOX}
+    lootbox!'
+  INVENTORY_FULL: '&f&l(&3&lElite&b&lLootbox&f&l)&7: &bYour inventory was full so
+    the item was dropped onto the floor!'
+TOGGLE_LOOTBOX:
+  'ON': '&a&l(!) &aYou have successfully enabled lootbox animations'
+  'OFF': '&c&l(!) &cYou have successfully disabled lootbox animations'
